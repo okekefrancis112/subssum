@@ -209,26 +209,6 @@ export async function Register(
 
             // if the wallet was created, send a discord notification
             if (wallet) {
-                const walletDiscordMessage = `
-        Wallet ID:- ${wallet?.wallet_account_number!},
-        First Name:- ${user?.first_name!},
-        Last Name:- ${user?.last_name!},
-        Email:- ${email}
-        Message:- Wallet generated and funded with ${
-            WALLET_CONSTANT.WALLET_REGISTRATION_AMOUNT
-        } dollar(s)
-      `;
-                await DiscordTaskJob({
-                    name: "Wallet Generation",
-                    data: {
-                        title: `Wallet Generated | ${process.env.NODE_ENV} environment `,
-                        message: walletDiscordMessage,
-                        channel_link: env.isDev
-                            ? WALLET_GENERATION_DISCORD_CHANNEL_DEVELOPMENT
-                            : WALLET_GENERATION_DISCORD_CHANNEL_PRODUCTION,
-                    },
-                });
-
                 // generate a one-time-password for email verification
                 const otp = await UtilFunctions.generateOtp({ user_id });
 
@@ -238,7 +218,7 @@ export async function Register(
                 // send a verification email to the user
                 await UtilFunctions.sendEmail2("verify.hbs", {
                     to: email,
-                    subject: "Keble account verification OTP",
+                    subject: "subssum account verification OTP",
                     props: {
                         email,
                         otp: otp?.otp,
@@ -250,26 +230,9 @@ export async function Register(
                 // send a welcome email to the user
                 await UtilFunctions.sendEmail2("welcome.hbs", {
                     to: email,
-                    subject: "Welcome to Keble",
+                    subject: "Welcome to subssum",
                     props: {
                         name: first_name,
-                    },
-                });
-
-                // send user registration notification to discord
-                const discordMessage = `
-        First Name:- ${user?.first_name!},
-        Last Name:- ${user?.last_name!},
-        Email:- ${email}
-      `;
-                await DiscordTaskJob({
-                    name: "Registration",
-                    data: {
-                        title: `New user registration | ${process.env.NODE_ENV} environment `,
-                        message: discordMessage,
-                        channel_link: env.isDev
-                            ? USER_REGISTRATION_DISCORD_CHANNEL_DEVELOPMENT
-                            : USER_REGISTRATION_DISCORD_CHANNEL_PRODUCTION,
                     },
                 });
 
@@ -301,255 +264,6 @@ export async function Register(
     }
 }
 
-/***
- *
- *
- * Register User Mobile (Without Captcha)
- */
-export async function RegisterMobile(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    const {
-        first_name,
-        last_name,
-        middle_name,
-        email,
-        phone_number,
-        password,
-        confirm_password,
-        is_diaspora,
-        where_how,
-        referral_code,
-        ip_address,
-    }: {
-        first_name: string;
-        middle_name: string;
-        last_name: string;
-        email: string;
-        phone_number: string;
-        password: string;
-        confirm_password: string;
-        is_diaspora?: boolean;
-        where_how: string;
-        referral_code: string;
-        ip_address: string;
-    } = req.body;
-
-    try {
-        const session = await startSession(); //Start a session to perform DB operations in transaction
-        session.startTransaction(); //Start the transaction on the DB
-
-        const ip =
-            req.headers["x-real-ip"] ||
-            req.headers["x-forwarded-for"] ||
-            req.connection.remoteAddress;
-
-        // try to get an existing user by their email address
-        const existingUser = await UserRepository.getByEmail({
-            email: email.toLowerCase(),
-        });
-
-        if (existingUser && existingUser.is_deleted) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.NOT_FOUND,
-                error: `This email address belongs to a deleted account. Please contact support for assistance.`,
-            });
-        }
-
-        // if a matching user exists, return a conflict response
-        if (existingUser) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.CONFLICT,
-                error: `This email is already taken`,
-            });
-        }
-
-        // check if the passwords match
-        if (password !== confirm_password) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: "Your passwords do not match",
-            });
-        }
-
-        // try to get a user with valid referral code
-        const getReferralUser = await UserRepository.getByReferralCode({
-            referral_code,
-        });
-
-        // if a valid referral code isn't provided, send an error response
-        if (!getReferralUser && referral_code) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: `Seems like you typed the wrong referral code.`,
-            });
-        }
-
-        // generate a referral code for the new user
-        const user_ref_code = UtilFunctions.generateReferralCode();
-        // generate a wallet account number for the user
-        const wallet_account_number =
-            await UtilFunctions.generateWalletAccountNumber();
-
-        // create the user in the database
-        const user = await UserRepository.create({
-            first_name,
-            middle_name,
-            last_name,
-            email,
-            phone_number,
-            password,
-            confirm_password,
-            is_diaspora,
-            where_how,
-            referred_by: getReferralUser ? getReferralUser._id : null,
-            user_ref_code: user_ref_code,
-            ip_address: String(ip),
-        });
-
-        // if the user was referred, update the referrer's count
-        if (getReferralUser) {
-            await UserRepository.updateByReferralCode({ referral_code });
-        }
-
-        // Create a mongoose object reference
-        const user_id = new Types.ObjectId(String(user._id));
-
-        // create user's wallet
-        const walletPayload = {
-            user_id: user_id,
-            user: {
-                first_name: first_name ? first_name.trim() : "",
-                email: email ? email.trim() : "",
-                last_name: last_name ? last_name.trim() : "",
-            },
-            wallet_account_number: wallet_account_number,
-            total_credit_transactions: Number(
-                WALLET_CONSTANT.WALLET_REGISTRATION_AMOUNT
-            ),
-            currency: WALLET_CURRENCIES.USD,
-            balance: 0,
-        };
-        const wallet = await walletRepository.create(walletPayload);
-
-        const result = await Promise.all([
-            // create a refer wallet for the user
-            await walletRepository.createReferWallet({
-                user_id: user_id,
-                user: {
-                    first_name: first_name ? first_name.trim() : "",
-                    email: email ? email.trim() : "",
-                    last_name: last_name ? last_name.trim() : "",
-                },
-                balance: 0,
-                session: session,
-            }),
-        ]);
-
-        const failedTxns = result.filter((r) => r.success !== true);
-
-        const error = failedTxns.map((r) => r.message);
-
-        if (error.length > 0) {
-            await session.abortTransaction();
-            session.endSession();
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: error[0],
-            });
-        }
-
-        // if the wallet was created, send a discord notification
-        if (wallet) {
-            const walletDiscordMessage = `
-        Wallet ID:- ${wallet?.wallet_account_number!},
-        First Name:- ${user?.first_name!},
-        Last Name:- ${user?.last_name!},
-        Email:- ${email}
-        Message:- Wallet generated and funded with ${
-            WALLET_CONSTANT.WALLET_REGISTRATION_AMOUNT
-        } dollar(s)
-      `;
-            await DiscordTaskJob({
-                name: "Wallet Generation",
-                data: {
-                    title: `Wallet Generated | ${process.env.NODE_ENV} environment `,
-                    message: walletDiscordMessage,
-                    channel_link: env.isDev
-                        ? WALLET_GENERATION_DISCORD_CHANNEL_DEVELOPMENT
-                        : WALLET_GENERATION_DISCORD_CHANNEL_PRODUCTION,
-                },
-            });
-
-            // generate a one-time-password for email verification
-            const otp = await UtilFunctions.generateOtp({ user_id });
-
-            // create an instance of current date/time
-            let createdAt = new Date();
-
-            // send a verification email to the user
-            await UtilFunctions.sendEmail2("verify.hbs", {
-                to: email,
-                subject: "Keble account verification OTP",
-                props: {
-                    email,
-                    otp: otp?.otp,
-                    name: first_name,
-                    createdAt,
-                },
-            });
-
-            // send a welcome email to the user
-            await UtilFunctions.sendEmail2("welcome.hbs", {
-                to: email,
-                subject: "Welcome to Keble",
-                props: {
-                    name: first_name,
-                },
-            });
-
-            // send user registration notification to discord
-            const discordMessage = `
-        First Name:- ${user?.first_name!},
-        Last Name:- ${user?.last_name!},
-        Email:- ${email}
-      `;
-            await DiscordTaskJob({
-                name: "Registration",
-                data: {
-                    title: `New user registration | ${process.env.NODE_ENV} environment `,
-                    message: discordMessage,
-                    channel_link: env.isDev
-                        ? USER_REGISTRATION_DISCORD_CHANNEL_DEVELOPMENT
-                        : USER_REGISTRATION_DISCORD_CHANNEL_PRODUCTION,
-                },
-            });
-
-            await session.commitTransaction();
-            session.endSession();
-
-            // return success response after successful user creation
-            return ResponseHandler.sendSuccessResponse({
-                message: `Verification email sent! Please check your inbox`,
-                code: HTTP_CODES.CREATED,
-                res,
-            });
-        }
-    } catch (error) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: HTTP_CODES.INTERNAL_SERVER_ERROR,
-            error: `${error}`,
-        });
-    }
-}
-
 /******
  *
  *
@@ -570,7 +284,7 @@ export async function VerifyEmail(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -707,7 +421,7 @@ export async function resendVerification(
 
         await UtilFunctions.sendEmail2("verify.hbs", {
             to: email,
-            subject: "Keble account verification OTP",
+            subject: "subssum account verification OTP",
             props: {
                 email,
                 otp: otp?.otp,
@@ -754,7 +468,7 @@ export async function Login(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -783,7 +497,7 @@ export async function Login(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -908,7 +622,7 @@ export async function LoginMobile(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -937,7 +651,7 @@ export async function LoginMobile(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -1051,7 +765,7 @@ export async function secretPasswordAuthenticate(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -1080,7 +794,7 @@ export async function secretPasswordAuthenticate(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -1192,7 +906,7 @@ export async function pinLogin(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -1219,7 +933,7 @@ export async function pinLogin(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -1335,7 +1049,7 @@ export async function recover(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -1359,7 +1073,7 @@ export async function recover(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -1370,7 +1084,7 @@ export async function recover(
 
         await UtilFunctions.sendEmail("recover.pug", {
             to: email,
-            subject: "Keble Password Recovery",
+            subject: "subssum Password Recovery",
             props: {
                 email,
                 otp: otp?.otp,
@@ -1418,7 +1132,7 @@ export async function resetPin(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -1442,7 +1156,7 @@ export async function resetPin(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -1508,7 +1222,7 @@ export async function recoverPin(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -1532,7 +1246,7 @@ export async function recoverPin(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -1543,7 +1257,7 @@ export async function recoverPin(
 
         await UtilFunctions.sendEmail("recover.pug", {
             to: email,
-            subject: "Keble Password Recovery",
+            subject: "subssum Password Recovery",
             props: {
                 email,
                 otp: otp?.otp,
@@ -1597,7 +1311,7 @@ export async function verifyOtp(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -1621,7 +1335,7 @@ export async function verifyOtp(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -1705,7 +1419,7 @@ export async function resetPassword(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 
@@ -1729,7 +1443,7 @@ export async function resetPassword(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.FORBIDDEN,
-                error: "Account blocked, Contact admin: hello@keble.co",
+                error: "Account blocked, Contact admin: hello@subssum.co",
             });
         }
 
@@ -1836,7 +1550,7 @@ export async function setupSecretPassword(
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.NOT_FOUND,
-                error: "This email address is not registered on Keble.",
+                error: "This email address is not registered on subssum.",
             });
         }
 

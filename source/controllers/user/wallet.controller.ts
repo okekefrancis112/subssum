@@ -18,7 +18,7 @@ import walletRepository from "../../repositories/wallet.repository";
 import { Wallet } from "../../models/";
 import {
     IChargeType,
-    IKebleTransactionType,
+    IsubssumTransactionType,
     IPaymentGateway,
     ITransactionTo,
     ITransactionType,
@@ -371,8 +371,8 @@ export async function fundWallet(
                     email: user.email,
                 },
                 customizations: {
-                    title: "Keble Wallet Funding",
-                    logo: "https://staging.keble.co/svgs/keble-logo-black.svg",
+                    title: "subssum Wallet Funding",
+                    logo: "https://staging.subssum.co/svgs/subssum-logo-black.svg",
                 },
             };
 
@@ -557,8 +557,8 @@ export async function fundWallet(
                     user_id: user._id,
                 },
                 customizations: {
-                    title: "Keble Wallet Top up",
-                    logo: "https://staging.keble.co/svgs/keble-logo-black.svg",
+                    title: "subssum Wallet Top up",
+                    logo: "https://staging.subssum.co/svgs/subssum-logo-black.svg",
                 },
             };
 
@@ -644,7 +644,7 @@ export async function fundWallet(
             const payload = {
                 amount: String(monoAmount),
                 type: "onetime-debit",
-                description: "Keble Wallet Funding",
+                description: "subssum Wallet Funding",
                 reference: reference,
                 account: user.account_id,
                 redirect_url: APP_CONSTANTS.REDIRECTS.WALLET,
@@ -747,7 +747,7 @@ export async function fundWallet(
                     // send a top up email to the user
                     // await UtilFunctions.sendEmail2("fund-wallet.hbs", {
                     //     to: user.email,
-                    //     subject: "Keble Wallet Top Up",
+                    //     subject: "subssum Wallet Top Up",
                     //     props: {
                     //         email: user.email,
                     //         name: user.first_name,
@@ -1421,7 +1421,7 @@ export async function getUserWallet(
 
         const withdrawal_transactions = await transactionRepository.find({
             transaction_type: ITransactionType.WITHDRAWAL,
-            keble_transaction_type: IKebleTransactionType.WALLET_DEBIT,
+            subssum_transaction_type: IsubssumTransactionType.WALLET_DEBIT,
             wallet_transaction_type: IWalletTransactionType.WITHDRAWAL,
             user_id: getUser._id,
         });

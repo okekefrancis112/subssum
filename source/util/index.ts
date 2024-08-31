@@ -45,7 +45,7 @@ import {
 // environment
 import { env } from "../config/env.config";
 import {
-    IKebleTransactionType,
+    IsubssumTransactionType,
     IPaymentGateway,
     ITransactionMedium,
 } from "../interfaces/transaction.interface";
@@ -121,7 +121,7 @@ class UtilFunctions {
 
     // This function is used to generate a Transaction Reference with upper case characters
     public static generateTXRef() {
-        const key = `KEBLE_TX_REF${this.generateRef({
+        const key = `subssum_TX_REF${this.generateRef({
             length: 12,
         })}`.toUpperCase();
         return key;
@@ -131,7 +131,7 @@ class UtilFunctions {
 
     // This function is used to generate a Transaction Hash with upper case characters
     public static generateTXHash() {
-        return `KEBLE_TX_HASH_REF${this.generateRef({
+        return `subssum_TX_HASH_REF${this.generateRef({
             length: 12,
         })}`.toUpperCase();
     }
@@ -308,8 +308,8 @@ class UtilFunctions {
             to: to,
             from: {
                 // Details of sender
-                name: "Keble",
-                email: "no-reply@keble.co",
+                name: "subssum",
+                email: "no-reply@subssum.co",
             },
             subject: subject,
             attachment,
@@ -359,7 +359,7 @@ class UtilFunctions {
         // Send the email
         mg.messages().send(
             {
-                from: `Keble <no-reply@keble.co>`,
+                from: `subssum <no-reply@subssum.co>`,
                 to,
                 subject: subject,
                 attachment: attachment,
@@ -389,7 +389,7 @@ class UtilFunctions {
         return new Promise((resolve, _reject) => {
             const signOptions: any = {
                 issuer: `${SERVER_TOKEN_ISSUER}`,
-                subject: "Keble. [Author: Valentine Offiah.]",
+                subject: "subssum. [Author: Valentine Offiah.]",
                 algorithm: "HS256",
                 audience: ["Nigerians & Diaspora"],
             };
@@ -512,7 +512,7 @@ export function throwIfAdminUserUndefined<T>(
 // =====================================================================================================
 
 export const generateTXRef = () => {
-    const prefix = "KEBLE_TX_REF";
+    const prefix = "subssum_TX_REF";
     const key = prefix + UtilFunctions.generateRef("12");
     return key.toUpperCase();
 };
@@ -520,7 +520,7 @@ export const generateTXRef = () => {
 // =====================================================================================================
 
 export const generateTXHash = () => {
-    const prefix = "KEBLE_TX_HASH_REF";
+    const prefix = "subssum_TX_HASH_REF";
     const key = prefix + UtilFunctions.generateRef("12");
     return key.toUpperCase();
 };
@@ -903,7 +903,7 @@ export const pdfSetup = async (req: ExpressRequest, data: any, name: any) => {
     const filename = file.filename
         .replace(
             path.resolve(__dirname, "../../"),
-            env.isDev ? "https://staging.keble.co" : "https://keble.co"
+            env.isDev ? "https://staging.subssum.co" : "https://subssum.co"
             // `${req.protocol}://${req.get("host")}`
         )
         .replace(/\\/g, "/");
@@ -1057,10 +1057,10 @@ export const repoPaymentChannel = ({ channel }: { channel: string }) => {
                 "transaction.payment_gateway": IPaymentGateway.FLUTTERWAVE,
             };
             break;
-        case IPaymentGateway.KEBLE:
+        case IPaymentGateway.subssum:
             search_query = {
                 ...search_query,
-                "transaction.payment_gateway": IPaymentGateway.KEBLE,
+                "transaction.payment_gateway": IPaymentGateway.subssum,
             };
             break;
         case IPaymentGateway.FLUTTERWAVE_APPLEPAY:
@@ -1115,10 +1115,10 @@ export const repoTransactionChannels = ({ channel }: { channel: string }) => {
                 payment_gateway: IPaymentGateway.FLUTTERWAVE,
             };
             break;
-        case IPaymentGateway.KEBLE:
+        case IPaymentGateway.subssum:
             search_query = {
                 ...search_query,
-                payment_gateway: IPaymentGateway.KEBLE,
+                payment_gateway: IPaymentGateway.subssum,
             };
             break;
         case IPaymentGateway.FLUTTERWAVE_APPLEPAY:
@@ -1245,10 +1245,10 @@ export const repoTransactionPaymentChannel = ({
                 payment_gateway: IPaymentGateway.FLUTTERWAVE,
             };
             break;
-        case IPaymentGateway.KEBLE:
+        case IPaymentGateway.subssum:
             search_query = {
                 ...search_query,
-                payment_gateway: IPaymentGateway.KEBLE,
+                payment_gateway: IPaymentGateway.subssum,
             };
             break;
         default:
@@ -1269,40 +1269,40 @@ export const repoTransactionCategory = ({
     switch (transaction_category) {
         case "all":
             break;
-        case IKebleTransactionType.INTER_TRANSFER:
+        case IsubssumTransactionType.INTER_TRANSFER:
             search_query = {
                 ...search_query,
-                keble_transaction_type: IKebleTransactionType.INTER_TRANSFER,
+                subssum_transaction_type: IsubssumTransactionType.INTER_TRANSFER,
             };
             break;
-        case IKebleTransactionType.BANK_TRANSFER:
+        case IsubssumTransactionType.BANK_TRANSFER:
             search_query = {
                 ...search_query,
-                keble_transaction_type: IKebleTransactionType.BANK_TRANSFER,
+                subssum_transaction_type: IsubssumTransactionType.BANK_TRANSFER,
             };
             break;
-        case IKebleTransactionType.INVESTMENT:
+        case IsubssumTransactionType.INVESTMENT:
             search_query = {
                 ...search_query,
-                keble_transaction_type: IKebleTransactionType.INVESTMENT,
+                subssum_transaction_type: IsubssumTransactionType.INVESTMENT,
             };
             break;
-        case IKebleTransactionType.WALLET_DEBIT:
+        case IsubssumTransactionType.WALLET_DEBIT:
             search_query = {
                 ...search_query,
-                keble_transaction_type: IKebleTransactionType.WALLET_DEBIT,
+                subssum_transaction_type: IsubssumTransactionType.WALLET_DEBIT,
             };
             break;
-        case IKebleTransactionType.WALLET_FUNDING:
+        case IsubssumTransactionType.WALLET_FUNDING:
             search_query = {
                 ...search_query,
-                keble_transaction_type: IKebleTransactionType.WALLET_FUNDING,
+                subssum_transaction_type: IsubssumTransactionType.WALLET_FUNDING,
             };
             break;
-        case IKebleTransactionType.REFERRAL:
+        case IsubssumTransactionType.REFERRAL:
             search_query = {
                 ...search_query,
-                keble_transaction_type: IKebleTransactionType.REFERRAL,
+                subssum_transaction_type: IsubssumTransactionType.REFERRAL,
             };
             break;
         default:
@@ -1323,46 +1323,46 @@ export const repoTransactCategory = ({
     switch (transaction_category) {
         case "all":
             break;
-        case IKebleTransactionType.INTER_TRANSFER:
+        case IsubssumTransactionType.INTER_TRANSFER:
             search_query = {
                 ...search_query,
-                "transaction.keble_transaction_type":
-                    IKebleTransactionType.INTER_TRANSFER,
+                "transaction.subssum_transaction_type":
+                    IsubssumTransactionType.INTER_TRANSFER,
             };
             break;
-        case IKebleTransactionType.BANK_TRANSFER:
+        case IsubssumTransactionType.BANK_TRANSFER:
             search_query = {
                 ...search_query,
-                "transaction.keble_transaction_type":
-                    IKebleTransactionType.BANK_TRANSFER,
+                "transaction.subssum_transaction_type":
+                    IsubssumTransactionType.BANK_TRANSFER,
             };
             break;
-        case IKebleTransactionType.INVESTMENT:
+        case IsubssumTransactionType.INVESTMENT:
             search_query = {
                 ...search_query,
-                "transaction.keble_transaction_type":
-                    IKebleTransactionType.INVESTMENT,
+                "transaction.subssum_transaction_type":
+                    IsubssumTransactionType.INVESTMENT,
             };
             break;
-        case IKebleTransactionType.WALLET_DEBIT:
+        case IsubssumTransactionType.WALLET_DEBIT:
             search_query = {
                 ...search_query,
-                "transaction.keble_transaction_type":
-                    IKebleTransactionType.WALLET_DEBIT,
+                "transaction.subssum_transaction_type":
+                    IsubssumTransactionType.WALLET_DEBIT,
             };
             break;
-        case IKebleTransactionType.WALLET_FUNDING:
+        case IsubssumTransactionType.WALLET_FUNDING:
             search_query = {
                 ...search_query,
-                "transaction.keble_transaction_type":
-                    IKebleTransactionType.WALLET_FUNDING,
+                "transaction.subssum_transaction_type":
+                    IsubssumTransactionType.WALLET_FUNDING,
             };
             break;
-        case IKebleTransactionType.REFERRAL:
+        case IsubssumTransactionType.REFERRAL:
             search_query = {
                 ...search_query,
-                "transaction.keble_transaction_type":
-                    IKebleTransactionType.REFERRAL,
+                "transaction.subssum_transaction_type":
+                    IsubssumTransactionType.REFERRAL,
             };
             break;
         default:

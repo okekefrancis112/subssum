@@ -20,7 +20,7 @@ export interface ExpressResponse extends Response {
   attachment: any;
 }
 
-export const createApp = (name = 'Keble', bindRoutes: (app: Express) => void): Express => {
+export const createApp = (name = 'subssum', bindRoutes: (app: Express) => void): Express => {
   const app = express();
   const logger = new Logger('general', Namespaces.SERVER);
 

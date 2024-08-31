@@ -11,7 +11,7 @@ import planRepository from "../repositories/portfolio.repository";
 import investmentRepository from "../repositories/investment.repository";
 import {
     IEntityReference,
-    IKebleTransactionType,
+    IsubssumTransactionType,
     IPaymentGateway,
     ITransactionMedium,
     ITransactionStatus,
@@ -193,7 +193,7 @@ export const createInvestPortfolio = async (data: ICreateInvestPortfolio) => {
         entity_reference_id: portfolio[0]._id,
         sub_entity_reference_id: investment[0]._id,
         payment_gateway: payment_gateway,
-        keble_transaction_type: IKebleTransactionType.INVESTMENT,
+        subssum_transaction_type: IsubssumTransactionType.INVESTMENT,
         transaction_type:
             (ITransactionType.DEBIT as ITransactionType) || undefined,
         payment_reference: payment_reference,
@@ -353,7 +353,7 @@ export const topUpInvestPortfolio = async (data: ITopUpPayload) => {
             entity_reference_id: getPortfolio._id,
             sub_entity_reference_id: String(investment_id),
             payment_gateway: payment_gateway,
-            keble_transaction_type: IKebleTransactionType.INVESTMENT,
+            subssum_transaction_type: IsubssumTransactionType.INVESTMENT,
             transaction_type:
                 payment_gateway === IPaymentGateway.REINVEST
                     ? ITransactionType.REINVEST
@@ -544,7 +544,7 @@ export async function process_cash_dividends() {
                     amount: monthly_dividends,
                     user_id,
                     currency: ICurrency.USD,
-                    payment_gateway: IPaymentGateway.KEBLE,
+                    payment_gateway: IPaymentGateway.subssum,
                     reference,
                     transaction_hash,
                     description: `Dividend Top Up.`,
@@ -653,7 +653,7 @@ export async function process_cash_dividends() {
 //                     amount: monthly_dividends,
 //                     user_id,
 //                     currency: ICurrency.USD,
-//                     payment_gateway: IPaymentGateway.KEBLE,
+//                     payment_gateway: IPaymentGateway.subssum,
 //                     reference,
 //                     transaction_hash,
 //                     description: `Dividend Top Up.`,
@@ -671,7 +671,7 @@ export async function process_cash_dividends() {
 //                     amount: monthly_appreciation,
 //                     user_id,
 //                     currency: ICurrency.USD,
-//                     payment_gateway: IPaymentGateway.KEBLE,
+//                     payment_gateway: IPaymentGateway.subssum,
 //                     reference,
 //                     transaction_hash,
 //                     description: `Capital Appreciation Top Up.`,

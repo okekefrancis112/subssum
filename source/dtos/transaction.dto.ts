@@ -1,7 +1,7 @@
 import { Types, Document } from "mongoose";
 import {
     IEntityReference,
-    IKebleTransactionType,
+    IsubssumTransactionType,
     IPaymentGateway,
     ITransactionMedium,
     ITransactionStatus,
@@ -15,7 +15,7 @@ export interface CreateTransactionDto {
     amount?: number;
     transaction_medium?: ITransactionMedium;
     transaction_type?: ITransactionType;
-    keble_transaction_type?: IKebleTransactionType;
+    subssum_transaction_type?: IsubssumTransactionType;
     wallet_transaction_type?: IWalletTransactionType;
     user_id?: Types.ObjectId;
     entity_reference_id?: string;

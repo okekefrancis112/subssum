@@ -1,6 +1,6 @@
 import { Types } from "mongoose";
 import {
-    IKebleTransactionType,
+    IsubssumTransactionType,
     IPaymentGateway,
     ITransactionMedium,
     ITransactionStatus,
@@ -97,7 +97,7 @@ export const creditWallet = async ({
             amount,
             transaction_hash,
             transaction_medium: ITransactionMedium.WALLET,
-            keble_transaction_type: IKebleTransactionType.WALLET_FUNDING,
+            subssum_transaction_type: IsubssumTransactionType.WALLET_FUNDING,
             user_id: new Types.ObjectId(user_id),
             transaction_ref: transactionRef[0]._id,
             wallet: {
@@ -240,7 +240,7 @@ export const debitWallet = async ({
             amount: amount,
             transaction_hash,
             transaction_medium: ITransactionMedium.WALLET,
-            keble_transaction_type: IKebleTransactionType.WALLET_DEBIT,
+            subssum_transaction_type: IsubssumTransactionType.WALLET_DEBIT,
             user_id: new Types.ObjectId(user_id),
             transaction_ref: transactionRef[0]._id,
             payment_reference: reference,
@@ -355,7 +355,7 @@ export const debitReferralWallet = async ({
             amount: amount,
             transaction_hash,
             transaction_medium: ITransactionMedium.WALLET,
-            keble_transaction_type: IKebleTransactionType.WALLET_DEBIT,
+            subssum_transaction_type: IsubssumTransactionType.WALLET_DEBIT,
             user_id: new Types.ObjectId(user_id),
             transaction_ref: transactionRef[0]._id,
             payment_reference: reference,

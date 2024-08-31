@@ -7,14 +7,14 @@ export const APP_CONSTANTS = {
     },
     REDIRECTS: {
         WALLET: env.isDev
-            ? "https://staging.keble.co/wallet"
-            : "https://keble.co/wallet",
+            ? "https://staging.subssum.co/wallet"
+            : "https://subssum.co/wallet",
         ACCOUNT: env.isDev
-            ? "https://staging.keble.co/account"
-            : "https://keble.co/account",
+            ? "https://staging.subssum.co/account"
+            : "https://subssum.co/account",
         INVESTMENT: env.isDev
-            ? "https://staging.keble.co/invest"
-            : "https://keble.co/invest",
+            ? "https://staging.subssum.co/invest"
+            : "https://subssum.co/invest",
     },
 
     EXPORTS: {
@@ -63,11 +63,11 @@ export const ngn_rate = {
 };
 
 export const urls = {
-    dev_user: "https://staging.keble.co",
-    prod_user: "https://keble.co",
+    dev_user: "https://staging.subssum.co",
+    prod_user: "https://subssum.co",
 };
 
-export const ADMIN_INVITATION = "https://admin.keble.co";
+export const ADMIN_INVITATION = "https://admin.subssum.co";
 
 export const USER_REGISTRATION_DISCORD_CHANNEL_DEVELOPMENT =
     "https://discord.com/api/webhooks/1071696799431151627/30hyjGsd-iAEVSCupt9M_nHAXjicK5StUjhUgfB5wtD6Du8-qon8CIBIAOHS6I5UHlzX";

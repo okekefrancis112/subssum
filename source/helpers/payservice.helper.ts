@@ -216,8 +216,8 @@ export async function FlutterwavePayService({
             user_id: user._id,
         },
         customizations: {
-            title: "Keble",
-            logo: "https://staging.keble.co/svgs/keble-logo-black.svg",
+            title: "subssum",
+            logo: "https://staging.subssum.co/svgs/subssum-logo-black.svg",
         },
     };
 

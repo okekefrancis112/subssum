@@ -286,7 +286,7 @@ export async function createInvestmentPortfolioWallet(
         // send a top up email to the user
         await UtilFunctions.sendEmail2("investment.hbs", {
             to: user.email,
-            subject: "Keble Investment Deed",
+            subject: "subssum Investment Deed",
             props: {
                 email: user.email,
                 name: user.first_name,

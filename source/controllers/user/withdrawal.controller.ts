@@ -673,8 +673,8 @@ export async function requestWithdrawalForeignBank(
             email: user.email,
             token_type: APP_CONSTANTS.TOKEN_TYPE.WITHDRAWAL,
             saved_bank_details,
-            buy_fx_rate: Number(rate?.keble_buy_rate),
-            sell_fx_rate: Number(rate?.keble_sell_rate),
+            buy_fx_rate: Number(rate?.subssum_buy_rate),
+            sell_fx_rate: Number(rate?.subssum_sell_rate),
             amount,
             reason: reason_check,
         });

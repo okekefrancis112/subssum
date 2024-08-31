@@ -31,13 +31,13 @@ export interface IExchangeRate {
     // Third Party buy rate string
     third_party_sell_rate: string;
 
-    // Keble buy rate string
-    keble_buy_rate: string;
+    // subssum buy rate string
+    subssum_buy_rate: string;
 
-    // Keble sell string
-    keble_sell_rate: string;
+    // subssum sell string
+    subssum_sell_rate: string;
 
-    // Keble default rate
+    // subssum default rate
     is_default?: boolean;
 
     // ID of the user who created this Exchange rate

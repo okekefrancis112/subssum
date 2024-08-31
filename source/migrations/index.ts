@@ -3,7 +3,7 @@ import userRepository from "../repositories/user.repository";
 import UtilFunctions, { slugify } from "../util";
 import walletRepository from "../repositories/wallet.repository";
 import {
-    IKebleTransactionType,
+    IsubssumTransactionType,
     ITransactionType,
 } from "../interfaces/transaction.interface";
 import listingRepository from "../repositories/listing.repository";

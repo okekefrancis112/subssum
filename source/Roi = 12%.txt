@@ -11,7 +11,7 @@ Current Date = ???
 
 
 
-Return = roi/ 100 * Amount Invested 
+Return = roi/ 100 * Amount Invested
 
 Expected Payout = Return + Amount Invested
 
@@ -34,7 +34,7 @@ PAYLOAD {
   event: 'charge.completed',
   data: {
     id: 4605363,
-    tx_ref: 'KEBLE_TX_REFPAPJMYHLQOMS',
+    tx_ref: 'subssum_TX_REFPAPJMYHLQOMS',
     flw_ref: 'FLW-M03K-705f8cbb18cd586a76b549e5ca52b000',
     device_fingerprint: '16709b0f062ea3c97ec08a66ef2c501e',
     amount: 104,
@@ -45,7 +45,7 @@ PAYLOAD {
     processor_response: 'Approved',
     auth_model: 'noauth-saved-card',
     ip: '54.75.161.64',
-    narration: 'Keble',
+    narration: 'subssum',
     status: 'successful',
     payment_type: 'card',
     created_at: '2023-09-18T18:53:39.000Z',

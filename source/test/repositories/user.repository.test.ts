@@ -19,7 +19,7 @@ const user_payload = {
   first_name: 'Valentine',
   middle_name: 'Chinedu',
   last_name: 'Offiah',
-  email: 'valentine@keble.co',
+  email: 'valentine@subssum.co',
   password: 'password',
   confirm_password: 'password',
   where_how: IWhereHow.FACEBOOK,

@@ -2,7 +2,7 @@ import moment from "moment";
 import { FilterQuery, Types } from "mongoose";
 import { CreateTransactionDto } from "../dtos/transaction.dto";
 import {
-    IKebleTransactionType,
+    IsubssumTransactionType,
     IPaymentGateway,
     ITransactionDocument,
     ITransactionMedium,
@@ -35,7 +35,7 @@ class TransactionRepository {
         entity_reference,
         entity_reference_id,
         sub_entity_reference_id,
-        keble_transaction_type,
+        subssum_transaction_type,
         transaction_medium,
         payment_reference,
         payment_gateway,
@@ -64,7 +64,7 @@ class TransactionRepository {
             entity_reference_id,
             sub_entity_reference_id,
             wallet,
-            keble_transaction_type,
+            subssum_transaction_type,
             transaction_medium,
             payment_reference,
             payment_gateway,
@@ -137,7 +137,7 @@ class TransactionRepository {
         // Check the period and set the time filter accordingly
         const timeFilter = await repoTime({ period, dateFrom, dateTo });
 
-        // Check the user_id, timeFilter, keble_transaction_type, payment_gateway, transaction_medium, amount and add it to the filter query object
+        // Check the user_id, timeFilter, subssum_transaction_type, payment_gateway, transaction_medium, amount and add it to the filter query object
         const filterQuery = {
             ...{ user_id: user_id },
             ...timeFilter,
@@ -151,12 +151,12 @@ class TransactionRepository {
             ...{
                 $or: [
                     {
-                        keble_transaction_type:
-                            IKebleTransactionType.WALLET_DEBIT,
+                        subssum_transaction_type:
+                            IsubssumTransactionType.WALLET_DEBIT,
                     },
                     {
-                        keble_transaction_type:
-                            IKebleTransactionType.WALLET_FUNDING,
+                        subssum_transaction_type:
+                            IsubssumTransactionType.WALLET_FUNDING,
                     },
                 ],
             },
@@ -167,7 +167,7 @@ class TransactionRepository {
             { $match: filterQuery },
             {
                 $project: {
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     wallet_transaction_type: {
                         $cond: {
                             if: {
@@ -298,7 +298,7 @@ class TransactionRepository {
                     transaction_medium: 1,
                     transaction_status: 1,
                     payment_gateway: 1,
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -426,7 +426,7 @@ class TransactionRepository {
                     transaction_medium: 1,
                     transaction_status: 1,
                     payment_gateway: 1,
-                    transaction_category: "$keble_transaction_type",
+                    transaction_category: "$subssum_transaction_type",
                     amount: { $toDouble: { $round: ["$amount", 3] } },
                     wallet_before: {
                         $toDouble: {
@@ -506,7 +506,7 @@ class TransactionRepository {
                     description: 1,
                     transaction_medium: 1,
                     transaction_status: 1,
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: 1,
                     createdAt: 1,
                 },

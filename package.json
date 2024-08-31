@@ -1,5 +1,5 @@
 {
-  "name": "keble-v2",
+  "name": "subssum-v2",
   "version": "1.1.0",
   "description": "A Property Technology Codebase",
   "main": "server.js",
@@ -21,7 +21,7 @@
     "test": "SET NODE_ENV=test && jest --testTimeout=10000 --forceExit --coverage --verbose --runInBand"
   },
   "keywords": [
-    "keble",
+    "subssum",
     "proptech"
   ],
   "author": "Valentine Offiah",

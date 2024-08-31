@@ -33,7 +33,7 @@
 //     },
 //     question: 'What is Easy-Own?',
 //     answer:
-//       'Keble’s Easy-Own creates a path for sole ownership of either Landed Projects or Houses. You can start a monthly payment plan with no initial down payment to own a piece of land or apartment for life.  \n\n\n\n\n\n\n\n\n\n',
+//       'subssum’s Easy-Own creates a path for sole ownership of either Landed Projects or Houses. You can start a monthly payment plan with no initial down payment to own a piece of land or apartment for life.  \n\n\n\n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -80,7 +80,7 @@
 //     },
 //     question: 'How can I check my referrals?',
 //     answer:
-//       'To check the status of people you referred to, log in to your Keble dashboard, select Refer and Earn on the sidebar. \n\nOn the Refer and Earn page you can track your referrals.   \n\n\n\n\n\n\n',
+//       'To check the status of people you referred to, log in to your subssum dashboard, select Refer and Earn on the sidebar. \n\nOn the Refer and Earn page you can track your referrals.   \n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -126,7 +126,7 @@
 //       categoryId: '626184e3808b3d4a9e35da15',
 //       category: 'General',
 //     },
-//     question: 'I am Nigerian but I don’t reside in Nigeria; Can I still invest through Keble?',
+//     question: 'I am Nigerian but I don’t reside in Nigeria; Can I still invest through subssum?',
 //     answer:
 //       'Yes, you can invest in our projects regardless of your location. You will be required to use your international passport as a form of verification. \n\n\n',
 //     status: 'draft',
@@ -152,7 +152,7 @@
 //     },
 //     question: 'How do Referrals work?',
 //     answer:
-//       'If someone signs up to Keble using your referral link, both of you earn N1000 each. This will be paid into your wallet when the person you referred invests in any project.\n\n\n\n\n',
+//       'If someone signs up to subssum using your referral link, both of you earn N1000 each. This will be paid into your wallet when the person you referred invests in any project.\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -176,7 +176,7 @@
 //     },
 //     question: 'What is OTP?',
 //     answer:
-//       'This is a one-time password used for initiating transfers and withdrawals on your Keble account.\n\n\n\n\n\n\n\n\n\n\n\n\n',
+//       'This is a one-time password used for initiating transfers and withdrawals on your subssum account.\n\n\n\n\n\n\n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -222,9 +222,9 @@
 //       categoryId: '626184e3808b3d4a9e35da15',
 //       category: 'General',
 //     },
-//     question: 'Why should I invest through Keble?',
+//     question: 'Why should I invest through subssum?',
 //     answer:
-//       'Keble offers vetted, stable, and profitable Real Estate properties at low cost for the sole purpose of building your wealth. We are focused on providing stress-free and innovative ways of investing in the most valuable asset in the world- Real Estate.\n',
+//       'subssum offers vetted, stable, and profitable Real Estate properties at low cost for the sole purpose of building your wealth. We are focused on providing stress-free and innovative ways of investing in the most valuable asset in the world- Real Estate.\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -269,9 +269,9 @@
 //       categoryId: '6261851f808b3d4a9e35da90',
 //       category: 'Safety and Security',
 //     },
-//     question: 'How does 2FA work on Keble?',
+//     question: 'How does 2FA work on subssum?',
 //     answer:
-//       'This is an added layer of security on transfers and withdrawals on your Keble account. \n\nTo set your security question, simply log into your dashboard and click on "Name Profile" then select "Security’ Then Toggle the 2FA from the left to the right.\n\n\n\n\n\n\n\n\n\n\n\n\n\n',
+//       'This is an added layer of security on transfers and withdrawals on your subssum account. \n\nTo set your security question, simply log into your dashboard and click on "Name Profile" then select "Security’ Then Toggle the 2FA from the left to the right.\n\n\n\n\n\n\n\n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -295,7 +295,7 @@
 //     },
 //     question: 'How safe is my money?',
 //     answer:
-//       'All Real Estate investment opportunities listed on Keble are vetted for maximum safety and we partner with reputable Real Estate developers. \n\nFurthermore, our Fixed Options are collateralize for your protection.\n\n',
+//       'All Real Estate investment opportunities listed on subssum are vetted for maximum safety and we partner with reputable Real Estate developers. \n\nFurthermore, our Fixed Options are collateralize for your protection.\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -318,7 +318,7 @@
 //       category: 'General',
 //     },
 //     question: 'What valid ID is acceptable on the platform?',
-//     answer: 'Keble accepts National ID and International Passport only for now.\n\n',
+//     answer: 'subssum accepts National ID and International Passport only for now.\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -342,7 +342,7 @@
 //     },
 //     question: 'How secure is my money?',
 //     answer:
-//       '\nYour funds are in the most secure hands. We partner with a host of SEC-regulated entities for fund management and due diligence. Also, we are a registered cooperative- Progressive Keble Cooperative Multipurpose Society Limited (Registration number) \n\n',
+//       '\nYour funds are in the most secure hands. We partner with a host of SEC-regulated entities for fund management and due diligence. Also, we are a registered cooperative- Progressive subssum Cooperative Multipurpose Society Limited (Registration number) \n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -364,9 +364,9 @@
 //       categoryId: '626184e3808b3d4a9e35da15',
 //       category: 'General',
 //     },
-//     question: 'What is Keble?',
+//     question: 'What is subssum?',
 //     answer:
-//       'Keble is a platform that offers easy access to fractional shares of premium Real Estate properties across Africa.\n',
+//       'subssum is a platform that offers easy access to fractional shares of premium Real Estate properties across Africa.\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -485,7 +485,7 @@
 //     },
 //     question: 'How can I invest?',
 //     answer:
-//       'You can make payments using your debit card or through your Keble Wallet. Debit cards like Visa, Verve, and Mastercard  are fully supported by the system.\n\n\n\n\n\n\n\n\n\n\n',
+//       'You can make payments using your debit card or through your subssum Wallet. Debit cards like Visa, Verve, and Mastercard  are fully supported by the system.\n\n\n\n\n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -580,7 +580,7 @@
 //     },
 //     question: 'Is my investment insured?',
 //     answer:
-//       'Yes, we make sure that each property investment we list on Keble comes with specifically designed, case-by-case protection and coverage. \n\n\n\n\n\n\n\n\n',
+//       'Yes, we make sure that each property investment we list on subssum comes with specifically designed, case-by-case protection and coverage. \n\n\n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -652,7 +652,7 @@
 //     },
 //     question: 'What am I investing in?',
 //     answer:
-//       "You're investing in Fractional Real Estate. Keble offers access to investing in strategically-located properties in partnership with the best Real Estate developers. This way, you're diversifying your portfolio and stably maximizing your returns.\n\n",
+//       "You're investing in Fractional Real Estate. subssum offers access to investing in strategically-located properties in partnership with the best Real Estate developers. This way, you're diversifying your portfolio and stably maximizing your returns.\n\n",
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -674,7 +674,7 @@
 //       categoryId: '6261851f808b3d4a9e35da90',
 //       category: 'Safety and Security',
 //     },
-//     question: 'How safe is Keble?',
+//     question: 'How safe is subssum?',
 //     answer:
 //       'All financial information is encrypted and stored to PCI DSS Level 1 compliant standards. PCI DSS Level 1 compliance is a set of rules stated by credit card companies and audited by an independent third party. \n\nIt is the highest possible rating one can get in the electronic payment processing industry. Additionally, all transmission to our banking partner and on our site is via an encrypted 256-bit HTTPS SSL connection.\n\n\n\n\n\n\n\n\n\n\n\n',
 //     status: 'draft',
@@ -723,7 +723,7 @@
 //     },
 //     question: 'How do you pick the Real Estate Property?',
 //     answer:
-//       'Keble conducts extensive research and picks the desired property in the best location in partnership with top-tier developers. We focus on properties that yield maximum returns in the shortest amount of time.\n\n',
+//       'subssum conducts extensive research and picks the desired property in the best location in partnership with top-tier developers. We focus on properties that yield maximum returns in the shortest amount of time.\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -745,9 +745,9 @@
 //       categoryId: '6261851f808b3d4a9e35da90',
 //       category: 'Safety and Security',
 //     },
-//     question: 'Are my card details stored on Keble?',
+//     question: 'Are my card details stored on subssum?',
 //     answer:
-//       "Your security is our major priority, so we work with a PCI DSS-compliant payment processor, Paystack to handle your card details. \n\nSo your card details are not stored on Keble and we also don't have access to them \n\n\n",
+//       "Your security is our major priority, so we work with a PCI DSS-compliant payment processor, Paystack to handle your card details. \n\nSo your card details are not stored on subssum and we also don't have access to them \n\n\n",
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -769,9 +769,9 @@
 //       categoryId: '626184e3808b3d4a9e35da15',
 //       category: 'General',
 //     },
-//     question: 'What are Keble-Tokens? (KE)',
+//     question: 'What are subssum-Tokens? (KE)',
 //     answer:
-//       'Every property on our platform is divided into Tokens and these tokens give you the right to ownership or returns on the property you invest in. The Keble-Tokens are unique to our properties and it makes it easier for you to invest in properties for a fraction of the cost.\n\n\n\n',
+//       'Every property on our platform is divided into Tokens and these tokens give you the right to ownership or returns on the property you invest in. The subssum-Tokens are unique to our properties and it makes it easier for you to invest in properties for a fraction of the cost.\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -795,7 +795,7 @@
 //     },
 //     question: 'What are Co-ownership Investments?',
 //     answer:
-//       'Keble’s Co-ownership option allows you to be landlords of premium properties in partnership with the finest Real Estate developers. In this category, you earn from both capital appreciation and Rental Income.\n\n\n\n\n\n\n\n\n',
+//       'subssum’s Co-ownership option allows you to be landlords of premium properties in partnership with the finest Real Estate developers. In this category, you earn from both capital appreciation and Rental Income.\n\n\n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -817,9 +817,9 @@
 //       categoryId: '626184e3808b3d4a9e35da15',
 //       category: 'General',
 //     },
-//     question: 'Who is Keble for?',
+//     question: 'Who is subssum for?',
 //     answer:
-//       'Keble is designed for everyone; from first-time investors to Real Estate enthusiasts, and anyone interested in building wealth stably and safely. ',
+//       'subssum is designed for everyone; from first-time investors to Real Estate enthusiasts, and anyone interested in building wealth stably and safely. ',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -867,7 +867,7 @@
 //     },
 //     question: 'What happens to my account and investment, if I die?',
 //     answer:
-//       'We sincerely do not hope for that but if such a situation arises, Keble will contact your next of kin and assets will be transferred to them.\n\n\n',
+//       'We sincerely do not hope for that but if such a situation arises, subssum will contact your next of kin and assets will be transferred to them.\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -889,9 +889,9 @@
 //       categoryId: '626184fb808b3d4a9e35da20',
 //       category: 'Investment',
 //     },
-//     question: 'Can I make investments or own property alone through Keble?',
+//     question: 'Can I make investments or own property alone through subssum?',
 //     answer:
-//       'Yes, we can arrange it for you if you wish. For more info, email us at: hello@Keble.co\n\n\n\n\n\n\n',
+//       'Yes, we can arrange it for you if you wish. For more info, email us at: hello@subssum.co\n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',
@@ -913,9 +913,9 @@
 //       categoryId: '6261851f808b3d4a9e35da90',
 //       category: 'Safety and Security',
 //     },
-//     question: 'Does Keble have an office?',
+//     question: 'Does subssum have an office?',
 //     answer:
-//       'Yes! We are located at 23 Hughes Avenue Alagomeji Yaba, Last Floor, Lagos, Nigeria. Email: Hello@Keble.co\n\n\n\n\n\n\n\n',
+//       'Yes! We are located at 23 Hughes Avenue Alagomeji Yaba, Last Floor, Lagos, Nigeria. Email: Hello@subssum.co\n\n\n\n\n\n\n\n',
 //     status: 'draft',
 //     user: {
 //       userId: '6253762abe64f3a9dd239dd7',

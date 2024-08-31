@@ -30,13 +30,13 @@ export const ExchangeRateSchema: Schema = new Schema(
       type: String,
     },
 
-    // keble_buy_rate stores the buy rate of the currency from the Keble
-    keble_buy_rate: {
+    // subssum_buy_rate stores the buy rate of the currency from the subssum
+    subssum_buy_rate: {
         type: String,
     },
 
-    // keble_sell_rate stores the sell rate of the currency from the Keble
-    keble_sell_rate: {
+    // subssum_sell_rate stores the sell rate of the currency from the subssum
+    subssum_sell_rate: {
       type: String,
     },
 

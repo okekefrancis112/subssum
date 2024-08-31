@@ -45,8 +45,8 @@ export enum IWalletTransactionType {
     SECONDARY_MARKET = "secondary-market",
 }
 
-// enum of possible Keble Transaction types
-export enum IKebleTransactionType {
+// enum of possible subssum Transaction types
+export enum IsubssumTransactionType {
     INTER_TRANSFER = "inter-transfer",
     BANK_TRANSFER = "bank-transfer",
     INVESTMENT = "investment",
@@ -60,7 +60,7 @@ export enum IKebleTransactionType {
 
 //enum of possible Transaction mediums
 export enum ITransactionMedium {
-    KEBLE = "keble",
+    subssum = "subssum",
     WALLET = "wallet",
     CARD = "card",
     BANK = "bank",
@@ -76,7 +76,7 @@ export enum IPaymentGateway {
     APPLE_PAY = "apple-pay",
     WALLET = "wallet",
     REFERRAL_WALLET = "referral-wallet",
-    KEBLE = "keble",
+    subssum = "subssum",
     DIASPORA_TRANSFER = "diaspora-transfer",
     REINVEST = "reinvest",
 }
@@ -100,7 +100,7 @@ export interface ITransaction {
     amount?: number;
     transaction_medium?: ITransactionMedium;
     transaction_type?: ITransactionType;
-    keble_transaction_type?: IKebleTransactionType;
+    subssum_transaction_type?: IsubssumTransactionType;
     wallet_transaction_type?: IWalletTransactionType;
     user_id?: Types.ObjectId;
     user?: {

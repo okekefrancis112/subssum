@@ -15,7 +15,7 @@ import {
 
 const logger = new Logger('general', Namespaces.CONSUMER_SERVER);
 
-const name = 'Keble User Service';
+const name = 'subssum User Service';
 
 export const init = () => createApp(name, bindUserRoutes);
 

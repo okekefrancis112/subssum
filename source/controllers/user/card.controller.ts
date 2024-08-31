@@ -172,7 +172,7 @@ export async function addCard(
                 },
                 customizations: {
                     title: "Add Card",
-                    logo: "https://staging.keble.co/svgs/keble-logo-black.svg",
+                    logo: "https://staging.subssum.co/svgs/subssum-logo-black.svg",
                 },
             };
 
@@ -230,7 +230,7 @@ export async function addCard(
                 },
                 customizations: {
                     title: "Add Card",
-                    logo: "https://staging.keble.co/svgs/keble-logo-black.svg",
+                    logo: "https://staging.subssum.co/svgs/subssum-logo-black.svg",
                 },
             };
 

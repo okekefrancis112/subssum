@@ -5,7 +5,7 @@ import mongoose, { Schema } from "mongoose";
 import {
     IChargeType,
     IEntityReference,
-    IKebleTransactionType,
+    IsubssumTransactionType,
     IPaymentGateway,
     ITransactionMedium,
     ITransactionStatus,
@@ -32,9 +32,9 @@ export const TransactionSchema: Schema = new Schema(
             enum: Object.values(ITransactionTo),
         },
 
-        keble_transaction_type: {
+        subssum_transaction_type: {
             type: String,
-            enum: Object.values(IKebleTransactionType),
+            enum: Object.values(IsubssumTransactionType),
         },
 
         wallet_transaction_type: {

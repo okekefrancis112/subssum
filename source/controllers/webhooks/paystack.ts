@@ -277,7 +277,7 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         // send a top up email to the user
                         await UtilFunctions.sendEmail2("fund-wallet.hbs", {
                             to: user.email,
-                            subject: "Keble Wallet Top Up",
+                            subject: "subssum Wallet Top Up",
                             props: {
                                 email: user.email,
                                 name: user.first_name,

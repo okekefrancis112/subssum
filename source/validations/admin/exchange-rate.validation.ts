@@ -14,8 +14,8 @@ export async function validateCreateExchangeRate(
     currency: Joi.string().required(),
     third_party_buy_rate: Joi.string().required(),
     third_party_sell_rate: Joi.string().required(),
-    keble_buy_rate: Joi.string().required(),
-    keble_sell_rate: Joi.string().required(),
+    subssum_buy_rate: Joi.string().required(),
+    subssum_sell_rate: Joi.string().required(),
   });
 
   const validation = schema.validate(req.body);

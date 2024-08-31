@@ -5,7 +5,7 @@ import { CreateWalletDto } from "../dtos/wallet.dto";
 import { IReferWalletDocument } from "../interfaces/refer-wallet.interface";
 import { ExpressRequest } from "../server";
 import {
-    IKebleTransactionType,
+    IsubssumTransactionType,
     IPaymentGateway,
     ITransactionDocument,
     ITransactionMedium,
@@ -227,7 +227,7 @@ class WalletRepository {
                     payment_method: "$transaction_medium",
                     transaction_status: 1,
                     transaction_category: "$transaction_type",
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -405,10 +405,10 @@ class WalletRepository {
                 ...search_query,
                 payment_gateway: IPaymentGateway.MONO,
             };
-        } else if (channel === IPaymentGateway.KEBLE) {
+        } else if (channel === IPaymentGateway.subssum) {
             search_query = {
                 ...search_query,
-                payment_gateway: IPaymentGateway.KEBLE,
+                payment_gateway: IPaymentGateway.subssum,
             };
         }
 
@@ -738,7 +738,7 @@ class WalletRepository {
         const filter = {
             transaction_medium: ITransactionMedium.WALLET,
             transaction_type: ITransactionType.CREDIT,
-            keble_transaction_type: IKebleTransactionType.WALLET_FUNDING,
+            subssum_transaction_type: IsubssumTransactionType.WALLET_FUNDING,
             ...timeFilter,
             ...searching,
             ...channelFilter,
@@ -772,7 +772,7 @@ class WalletRepository {
                     description: 1,
                     channel: "$payment_gateway",
                     transaction_status: 1,
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -840,14 +840,14 @@ class WalletRepository {
         const page = Number(query.page) || 1; // Set the page number
         const skip = page * perpage - perpage; //calculate and set the page skip number
         const search = String(query.search); // Set the string for searching
-        const keble_transaction_type =
-            String(query.keble_transaction_type) || "all"; // Set the string for keble_transaction_type
+        const subssum_transaction_type =
+            String(query.subssum_transaction_type) || "all"; // Set the string for subssum_transaction_type
 
         // Set default date range if not provided
         const dateFrom = query.dateFrom || "Jan 1 2021"; // Set the dateFrom
         const dateTo = query.dateTo || `${Date()}`; // Set the dateTo
         let period = String(query.period) || "90days"; // Set the period
-        let keble_transaction_typeQuery = {};
+        let subssum_transaction_typeQuery = {};
 
         // Check the period and set the time filter accordingly
         const timeFilter = await repoTime({ period, dateFrom, dateTo });
@@ -863,20 +863,20 @@ class WalletRepository {
             ],
         });
 
-        // Check if there is a keble_transaction_type and add it to the keble_transaction_type query object
-        if (keble_transaction_type === "all") {
-            keble_transaction_typeQuery = {};
-        } else if (keble_transaction_type === "investment") {
-            keble_transaction_typeQuery = {
-                keble_transaction_type: "investment",
+        // Check if there is a subssum_transaction_type and add it to the subssum_transaction_type query object
+        if (subssum_transaction_type === "all") {
+            subssum_transaction_typeQuery = {};
+        } else if (subssum_transaction_type === "investment") {
+            subssum_transaction_typeQuery = {
+                subssum_transaction_type: "investment",
             };
-        } else if (keble_transaction_type === "bank-transfer") {
-            keble_transaction_typeQuery = {
-                keble_transaction_type: "bank-transfer",
+        } else if (subssum_transaction_type === "bank-transfer") {
+            subssum_transaction_typeQuery = {
+                subssum_transaction_type: "bank-transfer",
             };
-        } else if (keble_transaction_type === "inter-transfer") {
-            keble_transaction_typeQuery = {
-                keble_transaction_type: "inter-transfer",
+        } else if (subssum_transaction_type === "inter-transfer") {
+            subssum_transaction_typeQuery = {
+                subssum_transaction_type: "inter-transfer",
             };
         }
 
@@ -885,16 +885,16 @@ class WalletRepository {
             transaction_type: {
                 $in: [ITransactionType.DEBIT, ITransactionType.WITHDRAWAL],
             },
-            keble_transaction_type: {
+            subssum_transaction_type: {
                 $in: [
-                    IKebleTransactionType.BANK_TRANSFER,
-                    IKebleTransactionType.INTER_TRANSFER,
-                    IKebleTransactionType.INVESTMENT,
+                    IsubssumTransactionType.BANK_TRANSFER,
+                    IsubssumTransactionType.INTER_TRANSFER,
+                    IsubssumTransactionType.INVESTMENT,
                 ],
             },
             ...timeFilter,
             ...searching,
-            ...keble_transaction_typeQuery,
+            ...subssum_transaction_typeQuery,
         };
         // Get the transactions from the database
         const transactions = await transactionRepository.findAggregate([
@@ -924,7 +924,7 @@ class WalletRepository {
                     },
                     transaction_status: 1,
                     transaction_type: 1,
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -961,7 +961,7 @@ class WalletRepository {
         const page = Number(query.page) || 1; // Set the page number
         const skip = page * perpage - perpage; //calculate and set the page skip number
         const search = String(query.search); // Set the string for searching
-        const payment_method = String(query.payment_method) || "all"; // Set the string for keble_transaction_type
+        const payment_method = String(query.payment_method) || "all"; // Set the string for subssum_transaction_type
 
         // Set default date range if not provided
         const dateFrom = query.dateFrom || "Jan 1 2021"; // Set the dateFrom
@@ -982,7 +982,7 @@ class WalletRepository {
             ],
         });
 
-        // Check if there is a payment_method and add it to the keble_transaction_type query object
+        // Check if there is a payment_method and add it to the subssum_transaction_type query object
         const methodFilter = repoTransactionPaymentMethod({
             payment_method: payment_method,
         });
@@ -1022,7 +1022,7 @@ class WalletRepository {
                     transaction_status: 1,
                     transaction_type: 1,
                     payment_method: "$transaction_medium",
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -1056,7 +1056,7 @@ class WalletRepository {
     ): Promise<ITransactionDocument[] | null | any> {
         const { query } = req; // Get the query params from the request object
         const search = String(query.search); // Set the string for searching
-        const payment_method = String(query.payment_method) || "all"; // Set the string for keble_transaction_type
+        const payment_method = String(query.payment_method) || "all"; // Set the string for subssum_transaction_type
 
         // Set default date range if not provided
         const dateFrom = query.dateFrom || "Jan 1 2021"; // Set the dateFrom
@@ -1077,7 +1077,7 @@ class WalletRepository {
             ],
         });
 
-        // Check if there is a payment_method and add it to the keble_transaction_type query object
+        // Check if there is a payment_method and add it to the subssum_transaction_type query object
         const methodFilter = repoTransactionPaymentMethod({
             payment_method: payment_method,
         });
@@ -1117,7 +1117,7 @@ class WalletRepository {
                     transaction_status: 1,
                     transaction_type: 1,
                     payment_method: "$transaction_medium",
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -1142,14 +1142,14 @@ class WalletRepository {
     ): Promise<ITransactionDocument[] | null | any> {
         const { query } = req; // Get the query params from the request object
         const search = String(query.search); // Set the string for searching
-        const keble_transaction_type =
-            String(query.keble_transaction_type) || "all"; // Set the string for keble_transaction_type
+        const subssum_transaction_type =
+            String(query.subssum_transaction_type) || "all"; // Set the string for subssum_transaction_type
 
         // Set default date range if not provided
         const dateFrom = query.dateFrom || "Jan 1 2021"; // Set the dateFrom
         const dateTo = query.dateTo || `${Date()}`; // Set the dateTo
         let period = String(query.period) || "90days"; // Set the period
-        let keble_transaction_typeQuery = {};
+        let subssum_transaction_typeQuery = {};
 
         // Check the period and set the time filter accordingly
         const timeFilter = await repoTime({ period, dateFrom, dateTo });
@@ -1165,20 +1165,20 @@ class WalletRepository {
             ],
         });
 
-        // Check if there is a keble_transaction_type and add it to the keble_transaction_type query object
-        if (keble_transaction_type === "all") {
-            keble_transaction_typeQuery = {};
-        } else if (keble_transaction_type === "investment") {
-            keble_transaction_typeQuery = {
-                keble_transaction_type: "investment",
+        // Check if there is a subssum_transaction_type and add it to the subssum_transaction_type query object
+        if (subssum_transaction_type === "all") {
+            subssum_transaction_typeQuery = {};
+        } else if (subssum_transaction_type === "investment") {
+            subssum_transaction_typeQuery = {
+                subssum_transaction_type: "investment",
             };
-        } else if (keble_transaction_type === "bank-transfer") {
-            keble_transaction_typeQuery = {
-                keble_transaction_type: "bank-transfer",
+        } else if (subssum_transaction_type === "bank-transfer") {
+            subssum_transaction_typeQuery = {
+                subssum_transaction_type: "bank-transfer",
             };
-        } else if (keble_transaction_type === "inter-transfer") {
-            keble_transaction_typeQuery = {
-                keble_transaction_type: "inter-transfer",
+        } else if (subssum_transaction_type === "inter-transfer") {
+            subssum_transaction_typeQuery = {
+                subssum_transaction_type: "inter-transfer",
             };
         }
 
@@ -1187,16 +1187,16 @@ class WalletRepository {
             transaction_type: {
                 $in: [ITransactionType.DEBIT, ITransactionType.WITHDRAWAL],
             },
-            keble_transaction_type: {
+            subssum_transaction_type: {
                 $in: [
-                    IKebleTransactionType.BANK_TRANSFER,
-                    IKebleTransactionType.INTER_TRANSFER,
-                    IKebleTransactionType.INVESTMENT,
+                    IsubssumTransactionType.BANK_TRANSFER,
+                    IsubssumTransactionType.INTER_TRANSFER,
+                    IsubssumTransactionType.INVESTMENT,
                 ],
             },
             ...timeFilter,
             ...searching,
-            ...keble_transaction_typeQuery,
+            ...subssum_transaction_typeQuery,
         };
         // Get the transactions from the database
         const transactions = await transactionRepository.findAggregate([
@@ -1226,7 +1226,7 @@ class WalletRepository {
                     },
                     transaction_status: 1,
                     transaction_type: 1,
-                    category: "$keble_transaction_type",
+                    category: "$subssum_transaction_type",
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -1279,7 +1279,7 @@ class WalletRepository {
         const filter = {
             transaction_medium: ITransactionMedium.WALLET,
             transaction_type: ITransactionType.CREDIT,
-            keble_transaction_type: IKebleTransactionType.WALLET_FUNDING,
+            subssum_transaction_type: IsubssumTransactionType.WALLET_FUNDING,
             ...timeFilter,
             ...searching,
             ...channelFilter,
@@ -1313,7 +1313,7 @@ class WalletRepository {
                     description: 1,
                     payment_channel: "$payment_gateway",
                     transaction_status: 1,
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -1396,10 +1396,10 @@ class WalletRepository {
 
         const filter = {
             transaction_medium: ITransactionMedium.WALLET,
-            keble_transaction_type: {
+            subssum_transaction_type: {
                 $nin: [
-                    IKebleTransactionType.INVESTMENT,
-                    IKebleTransactionType.GROUP_INVESTMENT,
+                    IsubssumTransactionType.INVESTMENT,
+                    IsubssumTransactionType.GROUP_INVESTMENT,
                 ],
             },
             ...timeFilter,
@@ -1434,7 +1434,7 @@ class WalletRepository {
                         profile_photo: 1,
                     },
                     createdAt: 1,
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     transaction_medium: 1,
                     previous_balance: {
                         $toDouble: {
@@ -1542,7 +1542,7 @@ class WalletRepository {
         const filter = {
             ...searching,
             transaction_medium: ITransactionMedium.WALLET,
-            keble_transaction_type: IKebleTransactionType.SAVINGS,
+            subssum_transaction_type: IsubssumTransactionType.SAVINGS,
             ...timeFilter,
             ...search_query,
             ...channelFilter,
@@ -1578,7 +1578,7 @@ class WalletRepository {
                     channel: "$payment_gateway",
                     payment_method: "$transaction_medium",
                     transaction_status: 1,
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -1745,7 +1745,7 @@ class WalletRepository {
                     channel: "$payment_gateway",
                     payment_method: "$transaction_medium",
                     transaction_status: 1,
-                    purpose: "$keble_transaction_type",
+                    purpose: "$subssum_transaction_type",
                     reason: "$withdrawalrequests.reason",
                     amount: {
                         $toDouble: {
@@ -1926,8 +1926,8 @@ class WalletRepository {
                     channel: "$transactions.payment_gateway",
                     payment_method: "$transactions.transaction_medium",
                     transaction_status: "$status",
-                    keble_transaction_type:
-                        "$transactions.keble_transaction_type",
+                    subssum_transaction_type:
+                        "$transactions.subssum_transaction_type",
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -2131,10 +2131,10 @@ class WalletRepository {
                 ...search_query,
                 payment_gateway: IPaymentGateway.MONO,
             };
-        } else if (channel === IPaymentGateway.KEBLE) {
+        } else if (channel === IPaymentGateway.subssum) {
             search_query = {
                 ...search_query,
-                payment_gateway: IPaymentGateway.KEBLE,
+                payment_gateway: IPaymentGateway.subssum,
             };
         }
 
@@ -2764,8 +2764,8 @@ class WalletRepository {
                     channel: "$transactions.payment_gateway",
                     payment_method: "$transactions.transaction_medium",
                     transaction_status: "$status",
-                    keble_transaction_type:
-                        "$transactions.keble_transaction_type",
+                    subssum_transaction_type:
+                        "$transactions.subssum_transaction_type",
                     amount: {
                         $toDouble: {
                             $divide: [
@@ -2818,7 +2818,7 @@ class WalletRepository {
                     // channel: "$payment_gateway",
                     // payment_method: "$transaction_medium",
                     // transaction_status: 1,
-                    // keble_transaction_type: 1,
+                    // subssum_transaction_type: 1,
                     // amount: {
                     //     $toDouble: {
                     //         $divide: [
@@ -2971,7 +2971,7 @@ class WalletRepository {
                     channel: "$payment_gateway",
                     payment_method: "$transaction_medium",
                     transaction_status: 1,
-                    purpose: "$keble_transaction_type",
+                    purpose: "$subssum_transaction_type",
                     reason: "$withdrawalrequests.reason",
                     amount: {
                         $toDouble: {
@@ -3378,7 +3378,7 @@ class WalletRepository {
                     transaction_medium: "$transaction_medium",
                     currency: "$currency",
                     status: "$transaction_status",
-                    keble_transaction_type: 1,
+                    subssum_transaction_type: 1,
                 },
             },
         ]);

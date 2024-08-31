@@ -13,7 +13,7 @@ import { PayoutCronJob, RecurringCronJob } from "../jobs";
 
 const logger = new Logger("general", Namespaces.USER_SERVER);
 
-const name = "Keble User Service";
+const name = "subssum User Service";
 
 export const init = () => createApp(name, bindUserRoutes);
 

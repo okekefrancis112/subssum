@@ -4,7 +4,7 @@ import {
     IWithdrawalRequestsDocument,
 } from "../interfaces/withdrawal-requests.interface";
 import { WithdrawalRequest } from "../models";
-import { ITransactionDocument, ITransactionType, ITransactionStatus, ITransactionMedium, IKebleTransactionType } from "../interfaces/transaction.interface";
+import { ITransactionDocument, ITransactionType, ITransactionStatus, ITransactionMedium, IsubssumTransactionType } from "../interfaces/transaction.interface";
 import { ExpressRequest } from "../server";
 import { repoPagination, repoSearch, repoTime } from "../util";
 

@@ -8,7 +8,7 @@
 
 // const event = new EventClass();
 
-// const kebleEvents = () => {
+// const subssumEvents = () => {
 //   console.log('@listening to all events');
 //   event.on('discord-task-job', async (msg: string, data: any) => {
 //     try {
@@ -38,4 +38,4 @@
 //   });
 // };
 
-// export { event, kebleEvents };
+// export { event, subssumEvents };

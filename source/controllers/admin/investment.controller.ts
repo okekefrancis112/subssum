@@ -292,7 +292,7 @@ export async function createPlanAdmin(
             investment_category,
             investment_form: IInvestmentForm.NEW_INVESTMENT,
             transaction_medium: ITransactionMedium.WALLET,
-            payment_gateway: IPaymentGateway.KEBLE,
+            payment_gateway: IPaymentGateway.subssum,
             entity_reference: IEntityReference.INVESTMENTS,
             intervals: IPortfolioIntervals.MONTHLY,
             total_amount: Number(amount),
@@ -329,7 +329,7 @@ export async function createPlanAdmin(
         // send a top up email to the user
         await UtilFunctions.sendEmail2("investment.hbs", {
             to: user.email,
-            subject: "Keble Investment Deed",
+            subject: "subssum Investment Deed",
             props: {
                 email: user.email,
                 name: user.first_name,
@@ -476,7 +476,7 @@ export async function createPlanAdminBySelectedListing(
             amount: Number(amount),
             listing_id: listing._id,
             transaction_medium: ITransactionMedium.WALLET,
-            payment_gateway: IPaymentGateway.KEBLE,
+            payment_gateway: IPaymentGateway.subssum,
             entity_reference: IEntityReference.INVESTMENTS,
             intervals: IPortfolioIntervals.MONTHLY,
             total_amount: Number(amount),
@@ -671,8 +671,8 @@ export async function topUpInvestment(
             listing_id: listing._id,
             payment_reference: reference,
             transaction_hash,
-            payment_gateway: IPaymentGateway.KEBLE,
-            transaction_medium: ITransactionMedium.KEBLE,
+            payment_gateway: IPaymentGateway.subssum,
+            transaction_medium: ITransactionMedium.subssum,
             entity_reference: IEntityReference.INVESTMENTS,
         };
 
@@ -805,7 +805,7 @@ export async function getListingByOnHoldingPeriod(
                     status: IListingStatus.ACTIVE,
                     holding_period: listing.holding_period,
                     ...filterQuery,
-                    // ! This is used to filter out listings that were in Keble 1.0
+                    // ! This is used to filter out listings that were in subssum 1.0
                     createdAt: { $gte: new Date("2023-06-13") },
                 },
             },

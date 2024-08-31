@@ -16,11 +16,11 @@ export const DiscordTaskConsumer = () => {
             const hook = new Webhook(channel_link);
             const embed = new MessageBuilder()
                 .setTitle(`${title}`)
-                .setAuthor("Keble 2.0", "", "")
+                .setAuthor("subssum 2.0", "", "")
                 .setDescription(`${message}`)
                 .setColor(27478)
                 .setThumbnail(
-                    "https://staging.keble.co/svgs/keble-logo-black.svg"
+                    "https://staging.subssum.co/svgs/subssum-logo-black.svg"
                 )
                 .setTimestamp();
             hook.send(embed);

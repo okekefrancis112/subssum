@@ -90,7 +90,7 @@ class ExchangeRateRepository {
     const searching = repoSearch({
       search: search,
       searchArray: [
-        'third_party_buy_rate', 'third_party_sell_rate', 'keble_buy_rate', 'keble_sell_rate',
+        'third_party_buy_rate', 'third_party_sell_rate', 'subssum_buy_rate', 'subssum_sell_rate',
         'ngn_usd_buy_rate', 'ngn_usd_sell_rate', 'eur_usd_buy_rate', 'eur_usd_sell_rate',
         'gbp_usd_buy_rate', 'gbp_usd_sell_rate', 'cad_usd_buy_rate', 'cad_usd_sell_rate'
       ],
@@ -110,14 +110,14 @@ class ExchangeRateRepository {
             ngn_usd_buy_rate: {
               $cond: {
                 if: { $eq: ["$ngn_usd_buy_rate", 0] }, // Check if ngn_usd_buy_rate is 0
-                then: "$keble_buy_rate", // Use keble_buy_rate if it's 0
+                then: "$subssum_buy_rate", // Use subssum_buy_rate if it's 0
                 else: "$ngn_usd_buy_rate", // Use ngn_usd_buy_rate if it's not 0
               }
             },
             ngn_usd_sell_rate: {
               $cond: {
                 if: { $eq: ["$ngn_usd_sell_rate", 0] }, // Check if ngn_usd_sell_rate is 0
-                then: "$keble_sell_rate", // Use keble_sell_rate if it's 0
+                then: "$subssum_sell_rate", // Use subssum_sell_rate if it's 0
                 else: "$ngn_usd_sell_rate", // Use ngn_usd_sell_rate if it's not 0
               }
             },
@@ -185,8 +185,8 @@ class ExchangeRateRepository {
         $or: [
           { third_party_buy_rate: new RegExp(search, 'i') },
           { third_party_sell_rate: new RegExp(search, 'i') },
-          { keble_buy_rate: new RegExp(search, 'i') },
-          { keble_sell_rate: new RegExp(search, 'i') },
+          { subssum_buy_rate: new RegExp(search, 'i') },
+          { subssum_sell_rate: new RegExp(search, 'i') },
         ],
       };
     }
@@ -224,8 +224,8 @@ class ExchangeRateRepository {
           currency: 1,
           third_party_buy_rate: 1,
           third_party_sell_rate: 1,
-          keble_buy_rate: 1,
-          keble_sell_rate: 1,
+          subssum_buy_rate: 1,
+          subssum_sell_rate: 1,
           is_default: 1,
           created_date: {
             $dateToString: {
@@ -291,14 +291,14 @@ class ExchangeRateRepository {
           ngn_usd_buy_rate: {
             $cond: {
               if: { $eq: ["$ngn_usd_buy_rate", 0] }, // Check if ngn_usd_buy_rate is 0
-              then: "$keble_buy_rate", // Use keble_buy_rate if it's 0
+              then: "$subssum_buy_rate", // Use subssum_buy_rate if it's 0
               else: "$ngn_usd_buy_rate", // Use ngn_usd_buy_rate if it's not 0
             }
           },
           ngn_usd_sell_rate: {
             $cond: {
               if: { $eq: ["$ngn_usd_sell_rate", 0] }, // Check if ngn_usd_sell_rate is 0
-              then: "$keble_sell_rate", // Use keble_sell_rate if it's 0
+              then: "$subssum_sell_rate", // Use subssum_sell_rate if it's 0
               else: "$ngn_usd_sell_rate", // Use ngn_usd_sell_rate if it's not 0
             }
           },

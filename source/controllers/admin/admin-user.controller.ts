@@ -183,7 +183,7 @@ export async function Create(req: ExpressRequest, res: Response): Promise<Respon
     // Send Email
     await UtilFunctions.sendEmail('admin-invitation.pug', {
       to: email,
-      subject: 'Keble Admin Invitation Link',
+      subject: 'subssum Admin Invitation Link',
       props: {
         email,
         link,
@@ -321,7 +321,7 @@ export async function recover(req: ExpressRequest, res: Response): Promise<Respo
 
     await UtilFunctions.sendEmail('recover.pug', {
       to: email,
-      subject: 'Keble Password Recovery',
+      subject: 'subssum Password Recovery',
       props: {
         email,
         otp: otp?.otp,

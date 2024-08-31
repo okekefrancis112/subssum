@@ -23,7 +23,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -120,11 +120,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1816,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -635,7 +635,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -675,10 +675,10 @@ const plans = [
       favourite: [],
       availableTokens: 1945,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -979,7 +979,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -1031,11 +1031,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 976,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -1091,7 +1091,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -1158,10 +1158,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1203,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -1357,7 +1357,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -1433,11 +1433,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 844,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -1598,7 +1598,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -1680,10 +1680,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1156,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -1879,7 +1879,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -1928,11 +1928,11 @@ const plans = [
       favourite: [],
       availableTokens: 979,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -1988,7 +1988,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -2025,11 +2025,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1980,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -2085,7 +2085,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -2173,11 +2173,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 822,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -2233,7 +2233,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -2312,11 +2312,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1865,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -2372,7 +2372,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -2409,10 +2409,10 @@ const plans = [
       favourite: [],
       availableTokens: 1494,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -2503,7 +2503,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -2567,11 +2567,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1912,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -2697,7 +2697,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -2761,10 +2761,10 @@ const plans = [
       favourite: [],
       availableTokens: 1215,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -3132,7 +3132,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -3217,10 +3217,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 878,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -3311,7 +3311,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -3378,11 +3378,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 956,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -3505,7 +3505,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -3584,10 +3584,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 880,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -3643,7 +3643,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -3689,11 +3689,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1950,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -3886,7 +3886,7 @@ const plans = [
       },
       nameOfProject: 'Nova KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973483/keble-uploads/NOVA_KFA_mw4lid.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973483/subssum-uploads/NOVA_KFA_mw4lid.jpg',
       description:
         'A mixed-use ultra-modern urban lifestyle development, NoVA comes in studios, 1, 2, and 3 bedroom apartments complimented with the convenience and living essentials tenants require; as well as the luxury and freedom they deserve. Whether it’s a relaxing day at the spa, lounging at the bar with friends, or spending time with the kids at the play center, NoVA promises the freedom and choice to do these things and much more. There’s something for every lifestyle.',
       investmentPurpose: 'Construction',
@@ -3923,10 +3923,10 @@ const plans = [
       favourite: ['601e7d924bb7064e0f7c6618'],
       availableTokens: 1798,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973491/keble-uploads/Nova_KFA_Legal_aaxwnr.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973491/subssum-uploads/Nova_KFA_Legal_aaxwnr.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973748/keble-uploads/Nova_KFA_1_kogcm0.pdf',
-      partiesInvolved: 'Keble & Devtraco Plus',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973748/subssum-uploads/Nova_KFA_1_kogcm0.pdf',
+      partiesInvolved: 'subssum & Devtraco Plus',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:23:07.639Z',
@@ -3982,7 +3982,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -4040,11 +4040,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 974,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -4170,7 +4170,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -4252,11 +4252,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 824,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -4382,7 +4382,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -4425,11 +4425,11 @@ const plans = [
       favourite: [],
       availableTokens: 990,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -4555,7 +4555,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -4652,11 +4652,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 789,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -4712,7 +4712,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -4812,11 +4812,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 784,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -4904,7 +4904,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -4971,10 +4971,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1684,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -5030,7 +5030,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -5073,10 +5073,10 @@ const plans = [
       favourite: [],
       availableTokens: 1478,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -5132,7 +5132,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -5208,11 +5208,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1885,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -5268,7 +5268,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -5356,11 +5356,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1858,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -5416,7 +5416,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -5489,10 +5489,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1159,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -5548,7 +5548,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -5603,10 +5603,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1909,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -5729,7 +5729,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -5799,10 +5799,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 884,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -5963,7 +5963,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -6024,11 +6024,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1922,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -6119,7 +6119,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -6213,11 +6213,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1818,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -6308,7 +6308,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -6341,10 +6341,10 @@ const plans = [
       favourite: [],
       availableTokens: 1500,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -6435,7 +6435,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -6520,10 +6520,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1155,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -6576,7 +6576,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -6640,11 +6640,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 959,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -6697,7 +6697,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -6773,10 +6773,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 881,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -6902,7 +6902,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -6939,11 +6939,11 @@ const plans = [
       favourite: [],
       availableTokens: 993,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -7034,7 +7034,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -7074,11 +7074,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1956,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -7169,7 +7169,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -7218,10 +7218,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1912,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -7277,7 +7277,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -7344,11 +7344,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1908,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -7474,7 +7474,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -7592,10 +7592,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1064,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -7721,7 +7721,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -7764,11 +7764,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1954,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -7824,7 +7824,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -7873,11 +7873,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1947,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -7933,7 +7933,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -8021,10 +8021,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1130,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -8115,7 +8115,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -8152,11 +8152,11 @@ const plans = [
       favourite: [],
       availableTokens: 999,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -8209,7 +8209,7 @@ const plans = [
       },
       nameOfProject: 'Wight House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662212811/keble-uploads/Wight_House_KFE_1_wouhge.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662212811/subssum-uploads/Wight_House_KFE_1_wouhge.jpg',
       description:
         'Refurbishment and Development of an existing open plan commercial building into 40 segregated offices. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -8242,11 +8242,11 @@ const plans = [
       favourite: ['630fcb1bc3088ba10d7aa7e6'],
       availableTokens: 25,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662212903/keble-uploads/Wight_House_Legal.docx_1_gfdcrz.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662212903/subssum-uploads/Wight_House_Legal.docx_1_gfdcrz.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662212937/keble-uploads/Wight_House_KFE_compressed_psrlab.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662212937/subssum-uploads/Wight_House_KFE_compressed_psrlab.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:49:05.060Z',
@@ -8334,7 +8334,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -8398,10 +8398,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1885,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -8492,7 +8492,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -8529,10 +8529,10 @@ const plans = [
       favourite: [],
       availableTokens: 1947,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -8588,7 +8588,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -8634,10 +8634,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1916,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -8693,7 +8693,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -8763,11 +8763,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1907,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -8823,7 +8823,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -8941,10 +8941,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1070,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -8997,7 +8997,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -9079,10 +9079,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 879,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -9173,7 +9173,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -9225,11 +9225,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1937,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -9320,7 +9320,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -9366,10 +9366,10 @@ const plans = [
       favourite: [],
       availableTokens: 1477,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -9425,7 +9425,7 @@ const plans = [
       },
       nameOfProject: 'Nova KFA1',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973921/keble-uploads/Nova_KFA_1_oxciyb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973921/subssum-uploads/Nova_KFA_1_oxciyb.jpg',
       description:
         'A mixed-use ultra-modern urban lifestyle development, NoVA comes in studios, 1, 2, and 3 bedroom apartments complimented with the convenience and living essentials tenants require; as well as the luxury and freedom they deserve. Whether it’s a relaxing day at the spa, lounging at the bar with friends, or spending time with the kids at the play center, NoVA promises the freedom and choice to do these things and much more. There’s something for every lifestyle.',
       investmentPurpose: 'Construction',
@@ -9462,10 +9462,10 @@ const plans = [
       favourite: [],
       availableTokens: 17996,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973962/keble-uploads/Nova_KFA_1_Legal_olkm4j.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973962/subssum-uploads/Nova_KFA_1_Legal_olkm4j.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973996/keble-uploads/Nova_KFA_1_lctncq.pdf',
-      partiesInvolved: 'Keble & Devtraco Plus',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973996/subssum-uploads/Nova_KFA_1_lctncq.pdf',
+      partiesInvolved: 'subssum & Devtraco Plus',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:27:51.718Z',
@@ -9521,7 +9521,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -9606,11 +9606,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1862,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -9768,7 +9768,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -9841,10 +9841,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 882,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -9900,7 +9900,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -9946,11 +9946,11 @@ const plans = [
       favourite: [],
       availableTokens: 986,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -10041,7 +10041,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -10081,10 +10081,10 @@ const plans = [
       favourite: [],
       availableTokens: 1479,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -10161,7 +10161,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -10198,10 +10198,10 @@ const plans = [
       favourite: [],
       availableTokens: 1948,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -10236,7 +10236,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -10330,11 +10330,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 809,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -10390,7 +10390,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -10442,10 +10442,10 @@ const plans = [
       favourite: [],
       availableTokens: 1256,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -10536,7 +10536,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -10594,11 +10594,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1925,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -10829,7 +10829,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -10902,11 +10902,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 914,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -11102,7 +11102,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -11154,10 +11154,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1911,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -11283,7 +11283,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -11377,11 +11377,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 817,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -11434,7 +11434,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFA Extension',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656930165/keble-uploads/Hilton_City_KFL_c3chv6.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656930165/subssum-uploads/Hilton_City_KFL_c3chv6.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -11467,11 +11467,11 @@ const plans = [
       favourite: ['62b822d7e82f788e9b3879c2'],
       availableTokens: 1135,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656930180/keble-uploads/Hilton_City_KFL_Legal_cofaam.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656930180/subssum-uploads/Hilton_City_KFL_Legal_cofaam.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656930195/keble-uploads/Keble_Brochure_Hilton_City_KFL_xa4szd.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656930195/subssum-uploads/subssum_Brochure_Hilton_City_KFL_xa4szd.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-06-24T11:53:55.112Z',
@@ -11527,7 +11527,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -11603,10 +11603,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1158,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -11718,7 +11718,7 @@ const plans = [
       },
       nameOfProject: 'Nova KFA1',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973921/keble-uploads/Nova_KFA_1_oxciyb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973921/subssum-uploads/Nova_KFA_1_oxciyb.jpg',
       description:
         'A mixed-use ultra-modern urban lifestyle development, NoVA comes in studios, 1, 2, and 3 bedroom apartments complimented with the convenience and living essentials tenants require; as well as the luxury and freedom they deserve. Whether it’s a relaxing day at the spa, lounging at the bar with friends, or spending time with the kids at the play center, NoVA promises the freedom and choice to do these things and much more. There’s something for every lifestyle.',
       investmentPurpose: 'Construction',
@@ -11755,10 +11755,10 @@ const plans = [
       favourite: [],
       availableTokens: 17997,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973962/keble-uploads/Nova_KFA_1_Legal_olkm4j.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973962/subssum-uploads/Nova_KFA_1_Legal_olkm4j.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973996/keble-uploads/Nova_KFA_1_lctncq.pdf',
-      partiesInvolved: 'Keble & Devtraco Plus',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973996/subssum-uploads/Nova_KFA_1_lctncq.pdf',
+      partiesInvolved: 'subssum & Devtraco Plus',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:27:51.718Z',
@@ -11793,7 +11793,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -11884,11 +11884,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1838,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -11944,7 +11944,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -11999,11 +11999,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1935,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -12129,7 +12129,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -12217,11 +12217,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 820,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -12277,7 +12277,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -12359,11 +12359,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1864,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -12524,7 +12524,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -12557,11 +12557,11 @@ const plans = [
       favourite: [],
       availableTokens: 2000,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -12687,7 +12687,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -12739,10 +12739,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1912,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -12868,7 +12868,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -12938,11 +12938,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 943,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -13068,7 +13068,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -13132,11 +13132,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 962,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -13262,7 +13262,7 @@ const plans = [
       },
       nameOfProject: 'Nova KFA1',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973921/keble-uploads/Nova_KFA_1_oxciyb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973921/subssum-uploads/Nova_KFA_1_oxciyb.jpg',
       description:
         'A mixed-use ultra-modern urban lifestyle development, NoVA comes in studios, 1, 2, and 3 bedroom apartments complimented with the convenience and living essentials tenants require; as well as the luxury and freedom they deserve. Whether it’s a relaxing day at the spa, lounging at the bar with friends, or spending time with the kids at the play center, NoVA promises the freedom and choice to do these things and much more. There’s something for every lifestyle.',
       investmentPurpose: 'Construction',
@@ -13302,10 +13302,10 @@ const plans = [
       favourite: ['601e7d924bb7064e0f7c6618'],
       availableTokens: 1800,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973962/keble-uploads/Nova_KFA_1_Legal_olkm4j.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973962/subssum-uploads/Nova_KFA_1_Legal_olkm4j.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973996/keble-uploads/Nova_KFA_1_lctncq.pdf',
-      partiesInvolved: 'Keble & Devtraco Plus',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973996/subssum-uploads/Nova_KFA_1_lctncq.pdf',
+      partiesInvolved: 'subssum & Devtraco Plus',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:27:51.718Z',
@@ -13428,7 +13428,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride 1',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1658333098/keble-uploads/WhatsApp_Image_2022-07-20_at_3.25.31_PM_f3ca59.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1658333098/subssum-uploads/WhatsApp_Image_2022-07-20_at_3.25.31_PM_f3ca59.jpg',
       description:
         'Lekki Pride 1 is a Landed Property Located at Ajiwe Bus Stop, by Abraham Adesanya Roundabout, Lekki-Epe Expressway, Lagos State Nigeria. The Size of this Property is 450 SQM. It is Managed and Developed by Zylus Homes and Property Limited; This is a piece of prime real estate uniquely suited for residential and commercial purposes. It is an estate built in a serene, friendly environment with ultra-modern facilities such as electricity, security, good drainage, and good land topography.',
       investmentPurpose: 'Construction',
@@ -13461,10 +13461,10 @@ const plans = [
       favourite: [],
       availableTokens: 70,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1658333085/keble-uploads/LEKKI_PRIDE_1_LEGAL_AGREEMENT_1_k2pnxg.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1658333085/subssum-uploads/LEKKI_PRIDE_1_LEGAL_AGREEMENT_1_k2pnxg.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1658333107/keble-uploads/Lekki_Pride_Brochure_ir7sdq.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1658333107/subssum-uploads/Lekki_Pride_Brochure_ir7sdq.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-20T16:07:25.686Z',
@@ -13520,7 +13520,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -13575,11 +13575,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 975,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -13632,7 +13632,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -13711,11 +13711,11 @@ const plans = [
       favourite: ['62b1ba6ee82f788e9b34bf83'],
       availableTokens: 834,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -14258,7 +14258,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -14316,10 +14316,10 @@ const plans = [
       favourite: [],
       availableTokens: 1253,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -14410,7 +14410,7 @@ const plans = [
       },
       nameOfProject: 'Hilton City KFL',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/keble-uploads/Hilton_City_KFL_ea4jus.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929710/subssum-uploads/Hilton_City_KFL_ea4jus.jpg',
       description:
         'Hilton City is the perfect place for would-be homeowners and investors from Nigeria and the diaspora. It’s an estate that allows you to enjoy remarkable residential highlights including electricity, an excellent road network, a serene and luxurious environment, designated parking spaces, a good drainage system, stealth, and round-the-clock security. Hilton City allows you to build a home, create wealth for generations ahead, gives you value appreciation, and high returns on investment.',
       investmentPurpose: 'Construction',
@@ -14483,11 +14483,11 @@ const plans = [
       favourite: ['60555629c35bd069d6167635'],
       availableTokens: 1887,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/keble-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929885/subssum-uploads/Hilton_City_KFL_Legal_cvbc6g.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/keble-uploads/Keble_Brochure_Hilton_City_KFL_tpfo9z.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1656929747/subssum-uploads/subssum_Brochure_Hilton_City_KFL_tpfo9z.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.                                                                                                                                                  \n\n\nZylus Homes - Zylus Homes is a cutting-edge real estate and investment company, dedicated to increasing access to homes and property ownership in Africa.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-07-04T10:18:14.761Z',
@@ -14578,7 +14578,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -14621,10 +14621,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1925,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -14680,7 +14680,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -14738,10 +14738,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1899,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -14797,7 +14797,7 @@ const plans = [
       },
       nameOfProject: 'Lekki Pride II KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/keble-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973010/subssum-uploads/Lekki_Pride_II_KFA_sh7srb.jpg',
       description:
         'Lekki Pride Phase II offers apartments tailored to meet your highest standards, with excellently designed luxury homes, that bring comfort, luxury, and appreciation over time. It is an estate that gives you the feeling of safety with a unique blend of comfort, affordability, and luxury. Feel the pride of living at Lekki Pride, and experience luxury in an admirable estate designed just for you. All the rooms are fully en-suite with high-quality tiles, a large dining and living area with security smart lock doors. Lekki Pride offers a blend of luxury and a serene ambiance.',
       investmentPurpose: 'Construction',
@@ -14858,10 +14858,10 @@ const plans = [
       favourite: ['6045161fc35bd069d61675f1'],
       availableTokens: 1894,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/keble-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973024/subssum-uploads/Lekki_Pride_II_KFA_Legal_tl8a17.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/keble-uploads/Keble_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
-      partiesInvolved: 'Keble & Zylus Homes',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1652973153/subssum-uploads/subssum_Project_Brochure_Lekki_Pride_II_KFA_2_kpc0ji.pdf',
+      partiesInvolved: 'subssum & Zylus Homes',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-05-19T15:15:07.495Z',
@@ -14917,7 +14917,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -14996,10 +14996,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1157,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -15370,7 +15370,7 @@ const plans = [
       },
       nameOfProject: 'IVY House KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/keble-uploads/Ivy_House_KFU_rkksrb.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213088/subssum-uploads/Ivy_House_KFU_rkksrb.jpg',
       description:
         'Refurbishment and Development of three luxury dwellings in Scarisbrick. The purchase strategy is to acquire buildings that have the opportunity to significantly improve the value, but at the very least with an immediate uplift in equity with solvent ownership. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -15413,11 +15413,11 @@ const plans = [
       favourite: [],
       availableTokens: 988,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/keble-uploads/IVY_House_Legal.docx_qywq1r.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213099/subssum-uploads/IVY_House_Legal.docx_qywq1r.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/keble-uploads/IVY_House_KFU_Keble_Brochure_lzjiqk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1662213137/subssum-uploads/IVY_House_KFU_subssum_Brochure_lzjiqk.pdf',
       partiesInvolved:
-        'Keble - Keble is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
+        'subssum - subssum is a Fractional Real Estate Investment Platform, that enables Africans globally to access Real Estate Assets across Africa with as little as $10.',
       isWithdrawable: true,
       createdAt: {
         $date: '2022-09-03T13:53:10.576Z',
@@ -15470,7 +15470,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -15519,10 +15519,10 @@ const plans = [
       favourite: [],
       availableTokens: 1476,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -15578,7 +15578,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -15720,10 +15720,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1036,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -15779,7 +15779,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -15897,10 +15897,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1055,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -15956,7 +15956,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -16110,10 +16110,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1019,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -16166,7 +16166,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -16311,10 +16311,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1033,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -16370,7 +16370,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -16527,10 +16527,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1009,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -16586,7 +16586,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -16680,10 +16680,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1127,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -16739,7 +16739,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -16845,10 +16845,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1105,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -16904,7 +16904,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -16956,10 +16956,10 @@ const plans = [
       favourite: [],
       availableTokens: 2480,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -17015,7 +17015,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -17130,10 +17130,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1082,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -17189,7 +17189,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -17292,10 +17292,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1111,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -17351,7 +17351,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -17472,10 +17472,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1053,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -17531,7 +17531,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -17643,10 +17643,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2376,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -17702,7 +17702,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -17832,10 +17832,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2366,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -17891,7 +17891,7 @@ const plans = [
       },
       nameOfProject: 'Old Workhouse KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/keble-uploads/Hexham_1_fzvonq.png',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/subssum-uploads/Hexham_1_fzvonq.png',
       description:
         'Refurbishment and Development of existing residential property for outright sale to an institutional fund on a build-to-specification basis. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -17937,10 +17937,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 494,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/keble-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/subssum-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/keble-uploads/Old_Workhouse_KFA_eppyey.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/subssum-uploads/Old_Workhouse_KFA_eppyey.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:22:42.870Z',
@@ -17996,7 +17996,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -18039,11 +18039,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 493,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -18099,7 +18099,7 @@ const plans = [
       },
       nameOfProject: 'Old Workhouse KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/keble-uploads/Hexham_1_fzvonq.png',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/subssum-uploads/Hexham_1_fzvonq.png',
       description:
         'Refurbishment and Development of existing residential property for outright sale to an institutional fund on a build-to-specification basis. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -18132,10 +18132,10 @@ const plans = [
       favourite: [],
       availableTokens: 500,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/keble-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/subssum-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/keble-uploads/Old_Workhouse_KFA_eppyey.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/subssum-uploads/Old_Workhouse_KFA_eppyey.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:22:42.870Z',
@@ -18191,7 +18191,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -18246,10 +18246,10 @@ const plans = [
       favourite: [],
       availableTokens: 2467,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -18305,7 +18305,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -18348,10 +18348,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 243,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -18407,7 +18407,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -18543,10 +18543,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2361,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -18602,7 +18602,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -18741,10 +18741,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2358,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -18800,7 +18800,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -18948,10 +18948,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2349,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -19007,7 +19007,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -19044,11 +19044,11 @@ const plans = [
       favourite: [],
       availableTokens: 499,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -19101,7 +19101,7 @@ const plans = [
       },
       nameOfProject: 'Old Workhouse KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/keble-uploads/Hexham_1_fzvonq.png',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/subssum-uploads/Hexham_1_fzvonq.png',
       description:
         'Refurbishment and Development of existing residential property for outright sale to an institutional fund on a build-to-specification basis. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -19156,10 +19156,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 490,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/keble-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/subssum-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/keble-uploads/Old_Workhouse_KFA_eppyey.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/subssum-uploads/Old_Workhouse_KFA_eppyey.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:22:42.870Z',
@@ -19215,7 +19215,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -19300,11 +19300,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 215,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -19360,7 +19360,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -19427,11 +19427,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 484,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -19487,7 +19487,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -19587,10 +19587,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1116,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -19646,7 +19646,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -19683,10 +19683,10 @@ const plans = [
       favourite: [],
       availableTokens: 2498,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -19742,7 +19742,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -19812,10 +19812,10 @@ const plans = [
       favourite: [],
       availableTokens: 2461,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -19871,7 +19871,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -19965,10 +19965,10 @@ const plans = [
       favourite: [],
       availableTokens: 2389,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -20024,7 +20024,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -20139,10 +20139,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2375,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -20198,7 +20198,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -20322,10 +20322,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2372,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -20381,7 +20381,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -20547,10 +20547,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2334,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -20606,7 +20606,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -20670,11 +20670,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 485,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -20730,7 +20730,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -20878,10 +20878,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1023,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -20937,7 +20937,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -21001,10 +21001,10 @@ const plans = [
       favourite: [],
       availableTokens: 2464,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -21060,7 +21060,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -21133,10 +21133,10 @@ const plans = [
       favourite: [],
       availableTokens: 2460,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -21192,7 +21192,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -21274,10 +21274,10 @@ const plans = [
       favourite: [],
       availableTokens: 2449,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -21333,7 +21333,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -21370,10 +21370,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 248,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -21429,7 +21429,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -21550,10 +21550,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2373,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -21609,7 +21609,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -21679,11 +21679,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 483,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -21739,7 +21739,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -21836,11 +21836,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 406,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -21896,7 +21896,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -21993,10 +21993,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1117,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -22052,7 +22052,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -22101,10 +22101,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 231,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -22160,7 +22160,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -22314,10 +22314,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2345,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -22373,7 +22373,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -22536,10 +22536,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2337,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -22595,7 +22595,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -22628,11 +22628,11 @@ const plans = [
       favourite: [],
       availableTokens: 250,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -22685,7 +22685,7 @@ const plans = [
       },
       nameOfProject: 'Old Workhouse KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/keble-uploads/Hexham_1_fzvonq.png',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/subssum-uploads/Hexham_1_fzvonq.png',
       description:
         'Refurbishment and Development of existing residential property for outright sale to an institutional fund on a build-to-specification basis. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -22737,10 +22737,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 491,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/keble-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/subssum-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/keble-uploads/Old_Workhouse_KFA_eppyey.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/subssum-uploads/Old_Workhouse_KFA_eppyey.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:22:42.870Z',
@@ -22796,7 +22796,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -22836,11 +22836,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 498,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -22896,7 +22896,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -23020,10 +23020,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1052,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -23079,7 +23079,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -23209,10 +23209,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1049,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -23268,7 +23268,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -23377,10 +23377,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1093,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -23436,7 +23436,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -23602,10 +23602,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 999,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -23661,7 +23661,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -23737,10 +23737,10 @@ const plans = [
       favourite: [],
       availableTokens: 2459,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -23796,7 +23796,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -23923,10 +23923,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2367,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -23982,7 +23982,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -24037,10 +24037,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 226,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -24096,7 +24096,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -24129,10 +24129,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 250,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -24188,7 +24188,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -24321,10 +24321,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1045,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -24380,7 +24380,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -24432,11 +24432,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 490,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -24492,7 +24492,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -24559,10 +24559,10 @@ const plans = [
       favourite: [],
       availableTokens: 2463,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -24618,7 +24618,7 @@ const plans = [
       },
       nameOfProject: 'Old Workhouse KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/keble-uploads/Hexham_1_fzvonq.png',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/subssum-uploads/Hexham_1_fzvonq.png',
       description:
         'Refurbishment and Development of existing residential property for outright sale to an institutional fund on a build-to-specification basis. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -24661,10 +24661,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 496,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/keble-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/subssum-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/keble-uploads/Old_Workhouse_KFA_eppyey.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/subssum-uploads/Old_Workhouse_KFA_eppyey.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:22:42.870Z',
@@ -24720,7 +24720,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -24811,11 +24811,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 409,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -24871,7 +24871,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -24980,10 +24980,10 @@ const plans = [
       favourite: [],
       availableTokens: 2377,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -25039,7 +25039,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -25175,10 +25175,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2360,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -25234,7 +25234,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -25286,10 +25286,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 229,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -25345,7 +25345,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -25502,10 +25502,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2344,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -25561,7 +25561,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -25730,10 +25730,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2333,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -25789,7 +25789,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -25838,11 +25838,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 234,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -25898,7 +25898,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -25980,10 +25980,10 @@ const plans = [
       favourite: [],
       availableTokens: 2442,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -26039,7 +26039,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -26079,11 +26079,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 239,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -26139,7 +26139,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -26200,11 +26200,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 486,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -26260,7 +26260,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -26339,11 +26339,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 413,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -26399,7 +26399,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -26481,11 +26481,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 412,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -26541,7 +26541,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -26641,11 +26641,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 405,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -26701,7 +26701,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -26861,10 +26861,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1006,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -26917,7 +26917,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -27080,10 +27080,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1000,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -27139,7 +27139,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -27305,10 +27305,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 998,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -27364,7 +27364,7 @@ const plans = [
       },
       nameOfProject: 'Old Workhouse KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/keble-uploads/Hexham_1_fzvonq.png',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/subssum-uploads/Hexham_1_fzvonq.png',
       description:
         'Refurbishment and Development of existing residential property for outright sale to an institutional fund on a build-to-specification basis. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -27407,10 +27407,10 @@ const plans = [
       favourite: [],
       availableTokens: 497,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/keble-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/subssum-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/keble-uploads/Old_Workhouse_KFA_eppyey.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/subssum-uploads/Old_Workhouse_KFA_eppyey.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:22:42.870Z',
@@ -27466,7 +27466,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -27551,10 +27551,10 @@ const plans = [
       favourite: [],
       availableTokens: 2441,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -27610,7 +27610,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -27755,10 +27755,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2351,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -27814,7 +27814,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -27974,10 +27974,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2343,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -28033,7 +28033,7 @@ const plans = [
       },
       nameOfProject: 'Old Workhouse KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/keble-uploads/Hexham_1_fzvonq.png',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/subssum-uploads/Hexham_1_fzvonq.png',
       description:
         'Refurbishment and Development of existing residential property for outright sale to an institutional fund on a build-to-specification basis. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -28082,10 +28082,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 492,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/keble-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/subssum-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/keble-uploads/Old_Workhouse_KFA_eppyey.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/subssum-uploads/Old_Workhouse_KFA_eppyey.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:22:42.870Z',
@@ -28141,7 +28141,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -28328,10 +28328,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2319,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -28387,7 +28387,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -28433,11 +28433,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 492,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -28493,7 +28493,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -28641,11 +28641,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 371,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -28701,7 +28701,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -28789,10 +28789,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1129,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -28848,7 +28848,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -28906,10 +28906,10 @@ const plans = [
       favourite: [],
       availableTokens: 2466,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -28965,7 +28965,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -29053,10 +29053,10 @@ const plans = [
       favourite: [],
       availableTokens: 2439,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -29112,7 +29112,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -29212,10 +29212,10 @@ const plans = [
       favourite: [],
       availableTokens: 2384,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -29271,7 +29271,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -29389,10 +29389,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2374,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -29448,7 +29448,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -29560,10 +29560,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1083,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -29619,7 +29619,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -29659,10 +29659,10 @@ const plans = [
       favourite: [],
       availableTokens: 2493,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -29715,7 +29715,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -29884,10 +29884,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 997,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -29943,7 +29943,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -30121,10 +30121,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2329,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -30180,7 +30180,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -30361,10 +30361,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2324,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -30417,7 +30417,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -30478,10 +30478,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 223,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -30537,7 +30537,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -30583,11 +30583,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 235,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -30643,7 +30643,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -30716,11 +30716,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 416,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -30776,7 +30776,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -30861,11 +30861,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 411,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -30921,7 +30921,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -31054,10 +31054,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2364,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -31113,7 +31113,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -31240,10 +31240,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1051,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -31299,7 +31299,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -31435,10 +31435,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1044,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -31494,7 +31494,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -31597,10 +31597,10 @@ const plans = [
       favourite: [],
       availableTokens: 2379,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -31656,7 +31656,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -31708,10 +31708,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 227,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -31767,7 +31767,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -31945,10 +31945,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2325,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -32004,7 +32004,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -32188,10 +32188,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2323,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -32247,7 +32247,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -32386,10 +32386,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1043,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -32445,7 +32445,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -32536,10 +32536,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1128,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -32595,7 +32595,7 @@ const plans = [
       },
       nameOfProject: 'Old Workhouse KFA',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/keble-uploads/Hexham_1_fzvonq.png',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262854/subssum-uploads/Hexham_1_fzvonq.png',
       description:
         'Refurbishment and Development of existing residential property for outright sale to an institutional fund on a build-to-specification basis. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -32632,10 +32632,10 @@ const plans = [
       favourite: [],
       availableTokens: 499,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/keble-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262880/subssum-uploads/Old_Workhouse_Legal_x4dvuh.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/keble-uploads/Old_Workhouse_KFA_eppyey.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677262904/subssum-uploads/Old_Workhouse_KFA_eppyey.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:22:42.870Z',
@@ -32691,7 +32691,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -32782,10 +32782,10 @@ const plans = [
       favourite: [],
       availableTokens: 2391,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -32841,7 +32841,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -32938,10 +32938,10 @@ const plans = [
       favourite: [],
       availableTokens: 2387,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -32997,7 +32997,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -33037,10 +33037,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 244,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -33096,7 +33096,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -33238,10 +33238,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2352,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -33297,7 +33297,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -33448,10 +33448,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2347,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -33507,7 +33507,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263447/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_01_LR_zznqch.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -33565,10 +33565,10 @@ const plans = [
       favourite: ['63e990c6408ba01e76f21d06'],
       availableTokens: 224,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/keble-uploads/Kirklake_Legal_cuuvru.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263461/subssum-uploads/Kirklake_Legal_cuuvru.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/keble-uploads/Kirklake_Road_KFE_pbdcns.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677263517/subssum-uploads/Kirklake_Road_KFE_pbdcns.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T18:32:20.839Z',
@@ -33624,7 +33624,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -33796,10 +33796,10 @@ const plans = [
       favourite: ['63e6862c408ba01e76ec854b'],
       availableTokens: 2332,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -33855,7 +33855,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -33888,11 +33888,11 @@ const plans = [
       favourite: [],
       availableTokens: 500,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -33948,7 +33948,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -33988,11 +33988,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 237,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -34048,7 +34048,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -34097,11 +34097,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 491,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -34157,7 +34157,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -34212,11 +34212,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 489,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -34272,7 +34272,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -34330,11 +34330,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 487,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -34390,7 +34390,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -34544,11 +34544,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 358,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -34604,7 +34604,7 @@ const plans = [
       },
       nameOfProject: 'Millennium House KFE',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/keble-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674732712/subssum-uploads/WhatsApp_Image_2023-01-23_at_3.57.30_PM_sa1pza.jpg',
       description:
         'Refurbishment and Development of an existing open-plan commercial building into thirty-four segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property.',
       investmentPurpose: 'Construction',
@@ -34755,10 +34755,10 @@ const plans = [
       favourite: ['63d3a42cfaa80aa3c6bae34c'],
       availableTokens: 1021,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/keble-uploads/Millennium_House_Legal_ayuujo.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733797/subssum-uploads/Millennium_House_Legal_ayuujo.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/keble-uploads/Millenium_House_KFU_x2jghi.pdf',
-      partiesInvolved: 'Keble and Meristem are the parties involved it.',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1674733814/subssum-uploads/Millenium_House_KFU_x2jghi.pdf',
+      partiesInvolved: 'subssum and Meristem are the parties involved it.',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-01-26T11:53:47.930Z',
@@ -34814,7 +34814,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -34847,10 +34847,10 @@ const plans = [
       favourite: [],
       availableTokens: 2500,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -34906,7 +34906,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -34949,10 +34949,10 @@ const plans = [
       favourite: [],
       availableTokens: 2492,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -35008,7 +35008,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -35057,10 +35057,10 @@ const plans = [
       favourite: [],
       availableTokens: 2486,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -35116,7 +35116,7 @@ const plans = [
       },
       nameOfProject: 'Millside Park KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/keble-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269889/subssum-uploads/WhatsApp_Image_2023-02-24_at_3.31.32_PM_stu4an.jpg',
       description:
         'Refurbishment and Development of existing open-plan commercial building into Fifty - six segregated offices. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -35177,10 +35177,10 @@ const plans = [
       favourite: [],
       availableTokens: 2465,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/keble-uploads/Millside_Park_Legal_prv4ws.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677269937/subssum-uploads/Millside_Park_Legal_prv4ws.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/keble-uploads/Millside_Park_KFU_vuorwf.pdf',
-      partiesInvolved: 'Keble and Meristem Trustees',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1677270408/subssum-uploads/Millside_Park_KFU_vuorwf.pdf',
+      partiesInvolved: 'subssum and Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-02-24T20:27:54.651Z',
@@ -35236,7 +35236,7 @@ const plans = [
   //       },
   //       nameOfProject: 'Millennium Park KFI',
   //       imageOfProject:
-  //         'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+  //         'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
   //       description:
   //         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
   //       investmentPurpose: 'Construction',
@@ -35336,11 +35336,11 @@ const plans = [
   //       favourite: ['644bcf79b0377bdb73185f9e'],
   //       availableTokens: 404,
   //       legalAgreement:
-  //         'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+  //         'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
   //       brochure:
-  //         'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+  //         'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
   //       partiesInvolved:
-  //         'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+  //         'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
   //       isWithdrawable: true,
   //       createdAt: {
   //         $date: '2023-04-09T07:22:48.545Z',
@@ -35396,7 +35396,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -35499,11 +35499,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 404,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -35559,7 +35559,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -35665,11 +35665,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 400,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -35725,7 +35725,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -35777,11 +35777,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 232,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -35837,7 +35837,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -35946,11 +35946,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 399,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -36006,7 +36006,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -36118,11 +36118,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 398,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -36178,7 +36178,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -36293,11 +36293,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 391,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -36353,7 +36353,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -36495,11 +36495,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 377,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -36555,7 +36555,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -36676,11 +36676,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 387,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -36736,7 +36736,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -36860,11 +36860,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 385,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -36920,7 +36920,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -37047,11 +37047,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 383,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -37107,7 +37107,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -37237,11 +37237,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 382,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -37297,7 +37297,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -37523,11 +37523,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 272,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -37583,7 +37583,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -37719,11 +37719,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 380,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -37779,7 +37779,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -37918,11 +37918,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 379,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -37978,7 +37978,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -38033,11 +38033,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 230,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -38093,7 +38093,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -38235,11 +38235,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 373,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -38295,7 +38295,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -38353,11 +38353,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 229,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -38413,7 +38413,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -38558,11 +38558,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 372,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -38618,7 +38618,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -38862,11 +38862,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 265,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -38922,7 +38922,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -39073,11 +39073,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 368,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -39133,7 +39133,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -39194,11 +39194,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 227,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -39254,7 +39254,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -39408,11 +39408,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 355,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -39468,7 +39468,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -39625,11 +39625,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 354,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -39685,7 +39685,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -39845,11 +39845,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 352,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -39905,7 +39905,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -39969,11 +39969,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 226,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -40029,7 +40029,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -40192,11 +40192,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 351,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -40252,7 +40252,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -40319,11 +40319,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 223,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -40379,7 +40379,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -40545,11 +40545,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 326,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -40605,7 +40605,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -40774,11 +40774,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 325,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -40834,7 +40834,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -41006,11 +41006,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 315,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -41066,7 +41066,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -41244,11 +41244,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 302,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -41304,7 +41304,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -41374,11 +41374,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 222,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -41434,7 +41434,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -41612,11 +41612,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 298,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -41672,7 +41672,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -41856,11 +41856,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 295,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -41916,7 +41916,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -42100,11 +42100,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 294,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -42160,7 +42160,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -42347,11 +42347,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 293,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -42407,7 +42407,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -42597,11 +42597,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 290,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -42657,7 +42657,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -42850,11 +42850,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 289,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -42910,7 +42910,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -43106,11 +43106,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 288,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -43166,7 +43166,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -43365,11 +43365,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 287,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -43425,7 +43425,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -43498,11 +43498,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 221,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -43558,7 +43558,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -43763,11 +43763,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 285,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -43823,7 +43823,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -44028,11 +44028,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 284,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -44088,7 +44088,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -44296,11 +44296,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 283,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -44356,7 +44356,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -44567,11 +44567,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 281,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -44627,7 +44627,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -44841,11 +44841,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 276,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -44901,7 +44901,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -45118,11 +45118,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 275,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -45178,7 +45178,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -45398,11 +45398,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 274,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -45458,7 +45458,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -45681,11 +45681,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 273,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -45741,7 +45741,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -45967,11 +45967,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 271,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -46027,7 +46027,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -46256,11 +46256,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 270,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -46316,7 +46316,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -46548,11 +46548,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 269,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -46608,7 +46608,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -46843,11 +46843,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 268,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -46903,7 +46903,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -47141,11 +47141,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 267,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -47201,7 +47201,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -47442,11 +47442,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 266,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -47502,7 +47502,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -47578,11 +47578,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 220,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -47638,7 +47638,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -47717,11 +47717,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 219,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -47777,7 +47777,7 @@ const plans = [
       },
       nameOfProject: 'Kirklake Road KFU',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/keble-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025526/subssum-uploads/LXR001_-71_71A_Kirklake_Rd_Plot_02_LR_u580gg.jpg',
       description:
         'Refurbishment and Development of existing residential property to a luxury flagship project. The purchase strategy is to acquire buildings that have the opportunity to improve the value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -47859,11 +47859,11 @@ const plans = [
       favourite: ['63e0f49b408ba01e76e0eb15'],
       availableTokens: 218,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/keble-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025555/subssum-uploads/Kirklake_Road_Legal_h1s6ti.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/keble-uploads/Kirklake_Road_KFU_g7qoma.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681025611/subssum-uploads/Kirklake_Road_KFU_g7qoma.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\n\n\n\n\n\n\n\n\n\n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:34:01.867Z',
@@ -47919,7 +47919,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -48163,11 +48163,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 264,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',
@@ -48223,7 +48223,7 @@ const plans = [
       },
       nameOfProject: 'Millennium Park KFI',
       imageOfProject:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/keble-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024915/subssum-uploads/WhatsApp_Image_2023-04-06_at_1.53.06_PM_btkvxa.jpg',
       description:
         'The commercial property is located in Birchwood, a suburb of Warrington, renowned for becoming a technology and commerce hub, connecting to both the M62 & M6 motorways & a short drive from Manchester Airport and Liverpool Airport\n\nThe building is over 10,000 square feet in size and was purchased from a market-leading administrator acting on behalf of a London AIM - Listed company that fell into administration. The purchase strategy is to acquire buildings that have the opportunity to improve their value significantly. The investment objective is to achieve capital growth by investing in and developing property',
       investmentPurpose: 'Construction',
@@ -48470,11 +48470,11 @@ const plans = [
       favourite: ['644bcf79b0377bdb73185f9e'],
       availableTokens: 261,
       legalAgreement:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/keble-uploads/Millennium_Park_Legal_ikibuk.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024938/subssum-uploads/Millennium_Park_Legal_ikibuk.pdf',
       brochure:
-        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/keble-uploads/Millennium_Park_KFI_l8qgy6.pdf',
+        'https://res.cloudinary.com/myyinvest/image/upload/v1681024962/subssum-uploads/Millennium_Park_KFI_l8qgy6.pdf',
       partiesInvolved:
-        'Keble - Keble is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
+        'subssum - subssum is an investment platform, that enables Africans to purchase fractional shares of global real estate assets. \n\nMeristem Trustees - Investments & Assets are managed by SEC-regulated Meristem Trustees',
       isWithdrawable: true,
       createdAt: {
         $date: '2023-04-09T07:22:48.545Z',

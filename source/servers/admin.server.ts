@@ -20,7 +20,7 @@ import {
   NotificationTaskConsumer,
 } from '../services/queues/consumer.service';
 
-const name = 'Keble Admin Service';
+const name = 'subssum Admin Service';
 
 const init = () => createApp(name, bindAdminRoutes);
 const logger = new Logger('general', Namespaces.ADMIN_SERVER);

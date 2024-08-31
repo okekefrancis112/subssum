@@ -12,18 +12,18 @@ services:
     expose:
       - 6379
 
-  keble-backend-image:
+  subssum-backend-image:
     build:
       context: .
       dockerfile: Dockerfile
       args:
         - "--no-cache"
-    image: keble-backend/image
+    image: subssum-backend/image
     volumes:
       - .:/app
 
-  keble-backend:
-    image: keble-backend/image
+  subssum-backend:
+    image: subssum-backend/image
     # command: sh entry-point.sh
     ports:
       - 1445:1445
@@ -31,7 +31,7 @@ services:
     #   - 1445
     restart: always
     depends_on:
-      - keble-backend-image
+      - subssum-backend-image
 
 
 volumes:

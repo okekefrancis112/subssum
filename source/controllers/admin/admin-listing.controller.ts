@@ -1561,7 +1561,7 @@ export async function getListingsROI(
             {
                 $match: {
                     status: IListingStatus.ACTIVE,
-                    // ! This is used to filter out listings that were in Keble 1.0
+                    // ! This is used to filter out listings that were in subssum 1.0
                     createdAt: { $gte: new Date("2023-06-13") },
                 },
             },

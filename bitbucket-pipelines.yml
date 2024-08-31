@@ -47,6 +47,6 @@ pipelines:
             - apt-get update -qy
             - apt-get install -qy sshpass
 
-            - scp -i "$STAGING_PRIVATE_KEY" -o StrictHostKeyChecking=no -r * $EC2_USER@$EC2_IP:/home/$EC2_USER/kebleStage
-            # - ssh -i "$STAGING_PRIVATE_KEY" -o StrictHostKeyChecking=no $EC2_USER@$EC2_IP "sudo chown -R $EC2_USER:$EC2_USER /home/$EC2_USER/kebleStage"
-            - ssh -i "$STAGING_PRIVATE_KEY" -o StrictHostKeyChecking=no $EC2_USER@$EC2_IP "cd kebleStage && npm install && pm2 restart all --silent"
+            - scp -i "$STAGING_PRIVATE_KEY" -o StrictHostKeyChecking=no -r * $EC2_USER@$EC2_IP:/home/$EC2_USER/subssumStage
+            # - ssh -i "$STAGING_PRIVATE_KEY" -o StrictHostKeyChecking=no $EC2_USER@$EC2_IP "sudo chown -R $EC2_USER:$EC2_USER /home/$EC2_USER/subssumStage"
+            - ssh -i "$STAGING_PRIVATE_KEY" -o StrictHostKeyChecking=no $EC2_USER@$EC2_IP "cd subssumStage && npm install && pm2 restart all --silent"

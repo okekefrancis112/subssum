@@ -203,7 +203,7 @@ export async function ProcessPayouts(req: ExpressRequest) {
                         amount: Number(amount),
                         user_id: new Types.ObjectId(user_id),
                         currency: ICurrency.USD,
-                        payment_gateway: IPaymentGateway.KEBLE,
+                        payment_gateway: IPaymentGateway.subssum,
                         reference: reference,
                         transaction_hash: transaction_hash,
                         description: `Payout from ${get_investment_listing.project_name} investment`,
@@ -267,7 +267,7 @@ export async function ProcessPayouts(req: ExpressRequest) {
                     // send a top up email to the user
                     await UtilFunctions.sendEmail2("investment.hbs", {
                         to: user.email,
-                        subject: "Keble Investment Deed",
+                        subject: "subssum Investment Deed",
                         props: {
                             email: user.email,
                             name: user.first_name,
@@ -286,7 +286,7 @@ export async function ProcessPayouts(req: ExpressRequest) {
 
                     await UtilFunctions.sendEmail2("fund-wallet.hbs", {
                         to: user.email,
-                        subject: "Keble Wallet Top Up",
+                        subject: "subssum Wallet Top Up",
                         props: {
                             email: user.email,
                             name: user.first_name,
@@ -346,7 +346,7 @@ export async function ProcessPayouts(req: ExpressRequest) {
                         amount: Number(returns),
                         user_id: new Types.ObjectId(user_id),
                         currency: ICurrency.USD,
-                        payment_gateway: IPaymentGateway.KEBLE,
+                        payment_gateway: IPaymentGateway.subssum,
                         reference: reference,
                         transaction_hash: transaction_hash,
                         description: `Payout from ${get_investment_listing.project_name} investment`,
@@ -410,7 +410,7 @@ export async function ProcessPayouts(req: ExpressRequest) {
                     // send a top up email to the user
                     await UtilFunctions.sendEmail2("investment.hbs", {
                         to: user.email,
-                        subject: "Keble Investment Deed",
+                        subject: "subssum Investment Deed",
                         props: {
                             email: user.email,
                             name: user.first_name,
@@ -428,7 +428,7 @@ export async function ProcessPayouts(req: ExpressRequest) {
 
                     await UtilFunctions.sendEmail2("fund-wallet.hbs", {
                         to: user.email,
-                        subject: "Keble Wallet Top Up",
+                        subject: "subssum Wallet Top Up",
                         props: {
                             email: user.email,
                             name: user.first_name,
@@ -519,7 +519,7 @@ export async function ProcessPayouts(req: ExpressRequest) {
                     // send a top up email to the user
                     await UtilFunctions.sendEmail2("investment.hbs", {
                         to: user.email,
-                        subject: "Keble Investment Deed",
+                        subject: "subssum Investment Deed",
                         props: {
                             email: user.email,
                             name: user.first_name,
@@ -539,7 +539,7 @@ export async function ProcessPayouts(req: ExpressRequest) {
                         amount: Number(amount) + Number(returns),
                         user_id: new Types.ObjectId(user_id),
                         currency: ICurrency.USD,
-                        payment_gateway: IPaymentGateway.KEBLE,
+                        payment_gateway: IPaymentGateway.subssum,
                         reference: reference,
                         transaction_hash: transaction_hash,
                         description: `Payout from ${get_investment_listing.project_name} investment`,
