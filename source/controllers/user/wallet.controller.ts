@@ -13,7 +13,6 @@ import {
 import { RATES } from "../../constants/rates.constant";
 import { paystackApiClient } from "../../integrations/paystackApiClient";
 import { flutterwaveApiClient } from "../../integrations/flutterwaveApiClient";
-import { monoApiClient } from "../../integrations/monoApiClient";
 import walletRepository from "../../repositories/wallet.repository";
 import { Wallet } from "../../models/";
 import {
@@ -60,7 +59,6 @@ import {
 import { env } from "../../config";
 import { discordMessageHelper } from "../../helpers/discord.helper";
 import { ICurrency } from "../../interfaces/exchange-rate.interface";
-import { anchorApiClient } from "../../integrations/anchorApiClient";
 import { ChargeRecurring } from "../../helpers/recurring.helper";
 
 export async function fundWallet(
@@ -609,85 +607,6 @@ export async function fundWallet(
                 code: HTTP_CODES.OK,
                 message: "Flutterwave payment url generated successfully",
                 data: data,
-            });
-        }
-
-        /************************************
-         * **********************************
-         * **********************************
-         *
-         * ************* MONO ***************
-         * **********************************
-         * **********************************
-         */
-
-        if (payment_gateway == IPaymentGateway.MONO) {
-            if (!user.account_id) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `Kindly link your account to proceed ❌`,
-                    DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                    DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                    "MONO WALLET FUNDING"
-                );
-                return ResponseHandler.sendErrorResponse({
-                    res,
-                    code: HTTP_CODES.BAD_REQUEST,
-                    error: "Kindly link your account to proceed.",
-                });
-            }
-
-            const fee = paystack_charge(amount);
-            const monoAmount = (amount + fee) * 100;
-
-            const payload = {
-                amount: String(monoAmount),
-                type: "onetime-debit",
-                description: "subssum Wallet Funding",
-                reference: reference,
-                account: user.account_id,
-                redirect_url: APP_CONSTANTS.REDIRECTS.WALLET,
-                meta: {
-                    normal_amount: amount,
-                    reference: reference,
-                    transaction_to: ITransactionTo.WALLET,
-                    user_id: _id,
-                    dollar_amount: dollarAmount,
-                    exchange_rate_value: buy_rate,
-                    exchange_rate_currency: rate?.currency,
-                    currency: ICurrency.USD,
-                    payment_reference: reference,
-                    transaction_hash,
-                    payment_gateway: IPaymentGateway.MONO,
-                    chargeType: IChargeType.ONE_TIME_PAYMENT,
-                },
-            };
-
-            const [monoApi] = await Promise.all([
-                await monoApiClient.initializeTransaction(payload),
-            ]);
-
-            const data = {
-                url: monoApi.payment_link,
-                reference: monoApi.reference,
-            };
-
-            await discordMessageHelper(
-                req,
-                user,
-                `Mono payment initiated successfully ✅`,
-                DISCORD_WALLET_INITIATED_FUNDING_DEVELOPMENT,
-                DISCORD_WALLET_INITIATED_FUNDING_PRODUCTION,
-                "MONO WALLET FUNDING",
-                { Amount: amount, transaction_hash }
-            );
-
-            return ResponseHandler.sendSuccessResponse({
-                res,
-                code: HTTP_CODES.OK,
-                message: "Mono payment link generated successfully.",
-                data,
             });
         }
 
@@ -1469,137 +1388,4 @@ export async function getUserWallet(
             error: `${error}`,
         });
     }
-}
-
-export async function generateNGNWallet(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    const user = throwIfUndefined(req.user, "req.user");
-
-    const getUser = await userRepository.getById({ _id: user._id });
-
-    if (!getUser) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: HTTP_CODES.NOT_FOUND,
-            error: "User not found",
-        });
-    }
-
-    if (!getUser.kyc_completed) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: HTTP_CODES.BAD_REQUEST,
-            error: "Please complete your KYC to proceed.",
-        });
-    }
-
-    if (getUser.id_verification !== "bvn" && checkIfEmpty(getUser.bvn)) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: HTTP_CODES.BAD_REQUEST,
-            error: "Please add and verify your BVN to proceed.",
-        });
-    }
-
-    const checkFields = (fieldValue: string | undefined, fieldName: string) => {
-        if (checkIfEmpty(fieldValue)) {
-            ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: `Please add your ${fieldName} to proceed.`,
-            });
-            return true;
-        }
-        return false;
-    };
-
-    if (
-        checkFields(getUser?.first_name, "first name") ||
-        checkFields(getUser?.last_name, "last name") ||
-        checkFields(getUser?.email, "email") ||
-        checkFields(getUser?.phone_number, "phone number") ||
-        checkFields(getUser?.dob, "date of birth") ||
-        checkFields(getUser?.address, "address") ||
-        checkFields(getUser.gender, "gender") ||
-        checkFields(getUser.city, "city") ||
-        checkFields(getUser.postal_code, "postal code") ||
-        checkFields(getUser.state, "state") ||
-        checkFields(getUser.country_code, "country")
-    ) {
-        return;
-    }
-
-    const onboardAnchorCustomer = await anchorApiClient.create_customer({
-        email: getUser.email!,
-        firstName: getUser.first_name!,
-        lastName: getUser.last_name!,
-        middleName: getUser.middle_name!,
-        phoneNumber: getUser.phone_number!,
-        dateOfBirth: switchDate(getUser.dob!),
-        addressLine_1: getUser.address!,
-        bvn: getUser.id_number! || getUser.bvn!,
-        gender: getUser.gender!,
-        city: getUser.city!,
-        postalCode: getUser.postal_code!,
-        state: getUser.state!,
-        country: getUser.country_code!,
-    });
-
-    await userRepository.atomicUpdate(user._id, {
-        $set: {
-            anchor_customer_id: onboardAnchorCustomer.data.id,
-        },
-    });
-
-    return res.json(test);
-}
-
-export async function deleteCustomer(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    const customer_id = req.params.customer_id;
-    const delete_customer = anchorApiClient.delete_customer({
-        customer_id,
-    });
-
-    res.json(delete_customer);
-}
-
-export async function testGen(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    const user = throwIfUndefined(req.user, "req.user");
-
-    const getUser = await userRepository.getById({ _id: user._id });
-
-    if (!getUser) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: HTTP_CODES.NOT_FOUND,
-            error: "User not found",
-        });
-    }
-
-    const test_gen = await anchorApiClient.generate_account({
-        firstName: getUser.first_name!,
-        lastName: getUser.last_name!,
-        reference: getUser._id,
-        email: getUser.email!,
-        bvn: getUser.bvn!,
-    });
-
-    res.json(test_gen);
-}
-
-export async function testGen2(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    // await ProcessPayouts(req);
-    await ChargeRecurring(req);
-    res.json("done");
 }

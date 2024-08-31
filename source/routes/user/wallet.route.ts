@@ -4,7 +4,6 @@ import express from "express";
 // Import controllers and validations
 import * as walletControllers from "../../controllers/user/wallet.controller";
 
-import * as savingsControllers from "../../controllers/user/savings.controller";
 import * as WalletValidations from "../../validations/user/wallet.validation";
 import auth from "../../middlewares/auth.middleware";
 
@@ -19,17 +18,6 @@ router.post(
     walletControllers.fundWallet
 );
 
-router.post("/test-savings", savingsControllers.processSavings);
-
-router.post("/test-customer", auth.auth, walletControllers.generateNGNWallet);
-
-router.post("/test-gen", auth.auth, walletControllers.testGen);
-router.post("/test-gen2", walletControllers.testGen2);
-
-router.delete(
-    "/delete-customer/:customer_id",
-    walletControllers.deleteCustomer
-);
 
 // POST route to get wallet name
 router.post(

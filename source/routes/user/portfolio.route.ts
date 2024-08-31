@@ -1,6 +1,6 @@
 import express from "express";
 
-import * as portfolioControllers from "../../controllers/user/portfolio.controller";
+// import * as portfolioControllers from "../../controllers/user/portfolio.controller";
 import * as portfolioWalletControllers from "../../controllers/user/portfolio-wallet.controller";
 import * as portfolioPayWalletControllers from "../../controllers/user/portfolio-pay.controller";
 import * as investmentControllers from "../../controllers/user/investment.controller";
@@ -96,55 +96,5 @@ router.get(
     validateObjectId.validatePortfolioObjectId,
     investmentControllers.myInvestPortfolioDetailTransactions
 );
-
-// PUT route to pause a specific investment portfolio
-router.put(
-    "/pause/:portfolio_id",
-    auth.auth,
-    validateObjectId.validatePortfolioObjectId,
-    portfolioControllers.pausePortfolio
-);
-
-// PUT route to resume a specific investment portfolio
-router.put(
-    "/resume/:portfolio_id",
-    auth.auth,
-    validateObjectId.validatePortfolioObjectId,
-    portfolioControllers.resumePortfolio
-);
-
-// PUT route to turn on reinvest for a specific investment
-router.put(
-    "/turn-on-reinvest/:investment_id",
-    auth.auth,
-    validateObjectId.validateInvestObjectId,
-    portfolioControllers.turnOnReinvest
-);
-
-// PUT route to turn off reinvest for a specific investment
-router.put(
-    "/turn-off-reinvest/:investment_id",
-    auth.auth,
-    validateObjectId.validateInvestObjectId,
-    portfolioControllers.turnOffReinvest
-);
-
-// PUT route to edit a specific investment portfolio
-router.put(
-    "/edit/:portfolio_id",
-    auth.auth,
-    validateObjectId.validatePortfolioObjectId,
-    PortfolioValidations.validateEditPortfolio,
-    portfolioControllers.editPortfolio
-);
-
-// Route to get exchange rate
-router.get("/exchange-rate", portfolioControllers.exchangeRate);
-
-// Route to get new exchange rate
-router.get("/new-exchange-rate", portfolioControllers.newExchangeRate);
-
-// Route to get new exchange rate (Mobile)
-router.get("/exchange-rate-mobile", portfolioControllers.newExchangeRateMobile);
 
 export default router;
