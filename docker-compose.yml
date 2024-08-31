@@ -1,0 +1,64 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - "6379:6379"
+    command: redis-server --save 20 1 --loglevel warning
+    volumes:
+      - redis:/data
+    expose:
+      - 6379
+
+  keble-backend-image:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - "--no-cache"
+    image: keble-backend/image
+    volumes:
+      - .:/app
+
+  keble-backend:
+    image: keble-backend/image
+    # command: sh entry-point.sh
+    ports:
+      - 1445:1445
+    # expose:
+    #   - 1445
+    restart: always
+    depends_on:
+      - keble-backend-image
+
+
+volumes:
+  redis:
+    driver: local
+
+
+
+
+
+
+
+
+# version: "3"
+# services:
+#   redis:
+#     image: redis
+#     restart: always
+#   app:
+#     container_name: app
+#     restart: always
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     environment:
+#       - .env
+#     ports:
+#       - 1445:1445
+#     depends_on:
+#       - redis

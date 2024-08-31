@@ -1,0 +1,150 @@
+<head>
+  <meta charset='UTF-8' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <title>Welcome to Keble</title>
+
+  <link href='https://fonts.cdnfonts.com/css/satoshi' rel='stylesheet' />
+
+  <style type='text/css'>
+    * { padding: 0 !important; margin: 0 !important; font-family: 'Satoshi', sans-serif; }
+    .main-body { width: 100%; padding: 50px 0 50px 0 !important; background-color: #f5f5f5; }
+    .span-green { color: #35977f !important; } .email-wrapper { width: 600px; margin-right: auto
+    !important; margin-left: auto !important; display: block; } .header-img { width: 100%;
+    background-color: #ffffff; } .header-image { background-color: #ffffff; } .logo-image { width:
+    120px; margin-bottom: 10px !important; } .logo-image img { width: 100%; } .main-content {
+    padding: 25px !important; background-color: #ffffff; } .main-content .receiver-name { color:
+    #1e293b; margin-top: 60px !important; font-size: 17px !important; font-weight: 700 !important; }
+    .main-content .subject-motto { color: #35977f !important; font-size: 17px; font-weight: 700
+    !important; margin-top: 30px !important; } .message-content { font-size: 14.5px; font-weight:
+    400 !important; color: #1e293b; line-height: 26px; margin-top: 25px !important; }
+    .message-content-new { font-size: 14.5px; font-weight: 400 !important; color: #1e293b;
+    line-height: 26px; margin-top: 10px !important; } .diff { position: relative; top: -15px;
+    font-size: 14.5px; font-weight: 400 !important; color: #1e293b; line-height: 26px; margin-top:
+    25px !important; } .explore-link { padding: 15px !important; color: #ffffff !important;
+    background-color: #338470 !important; border-radius: 4px; display: block; font-weight: 600;
+    font-size: 14px; box-shadow: 0 0 10px #00000025; text-align: center; text-decoration: none; }
+    .greeting-end { font-size: 14.5px; font-weight: 400 !important; color: #1e293b; line-height:
+    26px; margin-bottom: 5px !important; } .download-app { font-size: 11px; font-weight: 600; color:
+    #338470; margin-top: 20px !important; } .app-links { width: 250px !important; /* display:grid
+    !important; grid-template-columns: auto auto !important; */ margin-top: 15px !important; }
+    .app-links a { display: inline-block !important; } .app-table { height: 40px !important; }
+    .links-img { width: 100%; } .each-app-logo { width: 50%; } .email-cs { color: #174a3d;
+    text-decoration: none !important; } .copy-right { font-size: 16px; color: #1e293b; margin-top:
+    10px !important; text-align: center; } .trybe-img { width: 100px; position: relative; bottom:
+    -15px; } .mail-email { color: #338470; text-decoration: none; font-weight: 500; }
+    .message-change { text-align: center !important; } .otp-span { font-size: 40px; font-weight:
+    700; color: #338470; letter-spacing: 6px; text-align: center !important; margin-top: 50px
+    !important; margin-bottom: 50px !important; margin-right: auto; margin-left: auto; display:
+    block; } .social-icons { margin-top: 30px !important; } .social-icons ul { display: flex;
+    justify-content: center; align-items: center; list-style: none; } .social-icons ul li {
+    margin-right: 10px !important; width: 20px; } .social-img { width: 100%; } .span-red { color:
+    #f75555; font-weight: 500; } .center { display: flex; justify-content: center; align-items:
+    center; } .button { background-color: #35977f; border: 0; color: white; font-size: 16px;
+    font-weight: 500; height: 48px; padding: 11px 46px !important; border-radius: 8px; cursor:
+    pointer; } .flex-bordered { border: 1px solid #e1e1eb; /* Equal width columns */
+    justify-content: space-between; padding: 16px 24px !important; border-radius: 8px; }
+    .flex-bordered span:nth-child(2){float: right} .flex-bordered span:first-child{float: left}
+    @media (max-width: 768px) { .email-wrapper { width: 550px; } } @media (max-width: 600px) {
+    .email-wrapper { width: 490px; } } @media (max-width: 500px) { .email-wrapper { width: auto; }
+    .main-body { width: 100%; padding: 50px 15px 50px 15px !important; } }
+  </style>
+</head>
+<div class='main-body'>
+  <div class='email-wrapper'>
+    <div class='main-content'>
+      <div class='logo-image'>
+        <img
+          src='https://res.cloudinary.com/myyinvest/image/upload/v1649269921/keble-static-email-images/Group_2_emfa73.png'
+          alt='logo'
+        />
+      </div>
+      <h3 class='receiver-name'>Hey {{name}},</h3>
+      <p class='message-content-new'>
+        Thank you for using Keble! We're thrilled to be part of your wealth-building journey🚀
+      </p>
+
+      <p class='message-content'>
+        We've attached your investment deed 🗎 of assignment to this email for your investment into ({{project_name}})
+      </p>
+
+      <div class='message-content'>
+        <div class='flex-bordered'>
+          <span>Name of project</span>
+          <span><b>{{project_name}}</b></span>
+        </div>
+      </div>
+      <div class='message-content'>
+        <div class='flex-bordered'>
+          <span>Amount Invested</span>
+          <span><b>${{amount_invest}}</b></span>
+        </div>
+      </div>
+      <div class='message-content'>
+        <div class='flex-bordered'>
+          <span>Number of tokens</span>
+          <span><b>{{no_tokens}}KE</b></span>
+        </div>
+      </div>
+      <div class='message-content'>
+        <div class='flex-bordered'>
+          <span>Maturity Date</span>
+          <span><b>{{maturity_date}}</b></span>
+        </div>
+      </div>
+
+      <p class='message-content center'>
+        <a href={{link}} class='button'>Download Deed</a>
+      </p>
+
+      <p class='message-content'>
+        The deed outlines the details of your investment with us.
+      </p>
+
+      <p class='message-content'>
+        Please take a moment to review it and let us know if you have any questions or concerns by
+        emailing us at
+        <a class='mail-email' href='mailto:hello@keble.co'>Hello@keble.co</a>
+      </p>
+
+      <br />
+      <hr />
+      <br />
+      <h5 class='greeting-end'>Best regards,<br /><b>The Keble Team</b></h5>
+    </div>
+
+    <div class='social-icons'>
+      <ul>
+        <li>
+          <a href='#'><img
+              class='social-img'
+              src='https://res.cloudinary.com/valfenix/image/upload/v1683362034/keble/instagram_vxs4ss.png'
+              alt='instagram'
+            /></a>
+        </li>
+
+        <li>
+          <a href='#'>
+            <img
+              class='social-img'
+              src='https://res.cloudinary.com/valfenix/image/upload/v1683362033/keble/twitter_hokyk9.png'
+              alt='twitter'
+            /></a>
+        </li>
+
+        <li>
+          <a href='#'>
+            <img
+              class='social-img'
+              src='https://res.cloudinary.com/valfenix/image/upload/v1683362033/keble/facebook_vlzink.png'
+              alt='facebook'
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <p class='copy-right'>23 Hughes Avenue, Alagomeji-yaba, Lagos.</p>
+    <p class='copy-right'>&copy; 2023 Keble Limited</p>
+  </div>
+</div>

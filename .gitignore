@@ -1,0 +1,8 @@
+/node_modules
+/build
+/logs
+/files
+/files/csv
+/files/pdfs
+.env
+/coverage

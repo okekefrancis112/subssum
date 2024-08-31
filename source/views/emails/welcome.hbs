@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Keble</title>
+
+  <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+                
+  <style type="text/css">
+    * {
+      padding: 0 !important;
+      margin: 0 !important;
+      font-family: 'Satoshi', sans-serif;
+                                                
+    }
+
+    .main-body {
+      width: 100%;
+      padding: 50px 0 50px 0 !important;
+      background-color: #f5f5f5;
+    }
+
+    .span-green {
+      color: #35977f !important;
+    }
+    .email-wrapper {
+      width: 600px;
+      margin-right: auto !important;
+      margin-left: auto !important;
+      display: block;
+    }
+
+    .header-img {
+      width: 100%;
+      background-color: #ffffff;
+    }
+
+    .header-image {
+      background-color: #ffffff;
+    }
+
+    .logo-image {
+      width: 120px;
+      margin-bottom: 10px !important;
+    }
+
+    .logo-image img {
+      width: 100%;
+    }
+
+    .main-content {
+      padding: 25px !important;
+      background-color: #ffffff;
+    }
+
+    .main-content .receiver-name {
+      color: #5C5C80;
+      margin-top: 60px !important;
+      font-size: 17px !important;
+      font-weight: 700 !important;
+    }
+
+    .main-content .subject-motto {
+      color: #35977f !important;
+      font-size: 17px;
+      font-weight: 700 !important;
+      margin-top: 30px !important;
+    }
+
+    .message-content {
+      font-size: 14.5px;
+      font-weight: 400 !important;
+      color: #5C5C80;
+      line-height: 26px;
+      margin-top: 25px !important;
+    }
+
+     .diff {
+    position: relative;
+    top: -15px;
+      font-size: 14.5px;
+      font-weight: 400 !important;
+      color: #5C5C80;
+      line-height: 26px;
+      margin-top: 25px !important;
+    }
+
+    .explore-link {
+      padding: 15px !important;
+      color: #ffffff !important;
+      background-color: #338470 !important;
+      border-radius: 4px;
+      display: block;
+      font-weight: 600;
+      font-size: 14px;
+      box-shadow: 0 0 10px #00000025;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .greeting-end {
+        font-size: 14.5px;
+      font-weight: 400 !important;
+      color: #5C5C80;
+      line-height: 26px;
+      margin-bottom: 5px !important;
+    }
+
+    .download-app {
+      font-size: 11px;
+      font-weight: 600;
+      color: #338470;
+      margin-top: 20px !important;
+    }
+
+    .app-links {
+      width: 250px !important;
+      /* display:grid !important;
+grid-template-columns: auto auto !important; */
+      margin-top: 15px !important;
+    }
+
+    .app-links a {
+      display: inline-block !important;
+    }
+
+    .app-table {
+      height: 40px !important;
+    }
+
+    .links-img {
+      width: 100%;
+    }
+
+    .each-app-logo {
+      width: 50%;
+    }
+
+    .email-cs {
+      color: #174a3d;
+      text-decoration: none !important;
+    }
+
+    .copy-right {
+      font-size: 9px;
+      color: #5C5C80;
+      margin-top: 10px !important;
+    }
+
+    .trybe-img{
+        width: 100px;
+        position: relative;
+        bottom: -15px;
+    }
+
+    .mail-email{
+        color: #338470;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      .email-wrapper {
+        width: 550px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .email-wrapper {
+        width: 490px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .email-wrapper {
+        width: auto;
+      }
+
+      .main-body {
+        width: 100%;
+        padding: 50px 15px 50px 15px !important;
+      }
+    }
+  </style>
+</head>
+<div class="main-body">
+  <div class="email-wrapper">
+    <div class="main-content">
+      <div class="logo-image">
+        <img
+          src="https://res.cloudinary.com/myyinvest/image/upload/v1649269921/keble-static-email-images/Group_2_emfa73.png"
+          alt="logo"
+        />
+      </div>
+      <h3 class="receiver-name">Hi {{name}},</h3>
+      <h2 class="subject-motto">Glad to have you here. Welcome to Keble! 🤗</h2>
+      <p class="message-content">
+        Keble is a platform that provides accessible and affordable real estate options for
+        Africans. As a Keble user, you can access various Real Estate investment 🏡 options on our
+        <span class="span-green"><b>platform</b></span.
+        >
+      </p>
+      <p class="diff">
+        You also have lifetime access to <a href="https://keble.co"><img class="trybe-img" alt="trybe-img" src="https://res.cloudinary.com/valfenix/image/upload/v1683359578/keble/keble-trybe_hkdcx8.png" /></a> our online community, which provides personal finance education to young professionals.
+      </p>
+      <p class="message-content">
+        While you look around, If you have any questions or concerns, please don't hesitate to contact our support team ☎️ at <a class="mail-email" href=mailto:hello@keble.co>Hello@keble.co</a>.
+      </p>
+
+      <p class="message-content">
+        We look forward to helping you in your journey toward building wealth.
+      </p>
+
+      <p class="message-content">
+        Again, Welcome!
+      </p>
+      
+      <br />
+      <hr />
+      <br />
+      <h5 class="greeting-end">Warm regards,</h5>
+      <h5 class="greeting-end"><b>Emmanuel Oballa</b></h5>
+      <h5 class="greeting-end">CEO, Keble</h5>
+    </div>
+    <p class="download-app">Download our apps &#x1F680;</p>
+    <div class="app-links">
+      <table classname="app-table">
+        <tr>
+          <td class="each-app-logo">
+            <a href="#!"
+              ><img
+                class="links-img"
+                src="https://res.cloudinary.com/valfenix/image/upload/v1683358671/keble/apple-download_bepxob.png"
+                alt="app-logo"
+            /></a>
+          </td>
+          <td class="each-app-logo">
+            <a href="#!"
+              ><img
+                class="links-img"
+                src="https://res.cloudinary.com/valfenix/image/upload/v1683358671/keble/google-download_xqyxnk.png"
+                alt="app-logo"
+            /></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p class="copy-right">23 Hughes Avenue, Alagomeji-yaba, Lagos.</p>
+    <p class="copy-right">&copy; 2023 Keble Limited</p>
+  </div>
+</div>

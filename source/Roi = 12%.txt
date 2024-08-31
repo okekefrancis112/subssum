@@ -1,0 +1,73 @@
+Roi = 12%
+
+Amount Invested = 20 Dollars;
+
+Start Date = 1st Jan 2023
+
+End date = 1st Jan 2024
+
+Current Date = ???
+
+
+
+
+Return = roi/ 100 * Amount Invested 
+
+Expected Payout = Return + Amount Invested
+
+
+Time = start date - current date / start date - end date
+
+Current return = Time * Return
+
+
+Return = 2.4;
+
+Time = 0.416
+
+Current Return = 2.4 * 0.416
+
+
+
+
+PAYLOAD {
+  event: 'charge.completed',
+  data: {
+    id: 4605363,
+    tx_ref: 'KEBLE_TX_REFPAPJMYHLQOMS',
+    flw_ref: 'FLW-M03K-705f8cbb18cd586a76b549e5ca52b000',
+    device_fingerprint: '16709b0f062ea3c97ec08a66ef2c501e',
+    amount: 104,
+    currency: 'USD',
+    charged_amount: 104,
+    app_fee: 3.96,
+    merchant_fee: 0,
+    processor_response: 'Approved',
+    auth_model: 'noauth-saved-card',
+    ip: '54.75.161.64',
+    narration: 'Keble',
+    status: 'successful',
+    payment_type: 'card',
+    created_at: '2023-09-18T18:53:39.000Z',
+    account_id: 1843244,
+    customer: {
+      id: 2211362,
+      name: 'Anonymous customer',
+      phone_number: '09051843790',
+      email: 'voffiah.biz@gmail.com',
+      created_at: '2023-09-18T07:55:39.000Z'
+    },
+    card: {
+      first_6digits: '553188',
+      last_4digits: '2950',
+      issuer: 'MASTERCARD  CREDIT',
+      country: 'NG',
+      type: 'MASTERCARD',
+      expiry: '09/32'
+    }
+  },
+  'event.type': 'CARD_TRANSACTION'
+}
+
+
+

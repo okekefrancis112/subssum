@@ -1,0 +1,77 @@
+{
+    amount: new Decimal128("10"),
+    transaction_type: 'debit',
+    keble_transaction_type: 'investment',
+    user_id: new ObjectId("63960fbb3a90955d2e5edcdd"),
+    transaction_medium: 'card',
+    transaction_ref: new ObjectId("63a5a9789da6b921ebf9c3ea"),
+    payment_reference: 'KEBLE_TX_REFBNKVRO2F0CLH',
+    payment_gateway: 'paystack',
+    description: 'Build an Aeroplane plan worth 10 USD was successfully created at Rate 740/ USD ',
+    currency: 'USD',
+    exchange_rate_value: new Decimal128("740"),
+    exchange_rate_currency: 'USD',
+    transaction_hash: 'KEBLE_TX_HASH_REFYKYULQK6YBZX',
+    ip_address: '105.112.168.164',
+    transaction_status: 'completed',
+    _id: new ObjectId("63a5a9799da6b921ebf9c3ec"),
+    createdAt: 2022-12-23T13:13:29.162Z,
+    updatedAt: 2022-12-23T13:13:29.162Z,
+    __v: 0
+  }
+
+
+  "dev:admin": "nodemon --exec node --trace-warnings -r ts-node/register source/servers/admin.server.ts",
+
+
+
+  data: {
+    success: false,
+    statusCode: 403,
+    message: 'Forbidden: Only Test IDs are allowed',
+    name: 'ForbiddenError',
+    data: {}
+  }
+
+
+  // {
+                //   $divide: [
+                //     // Current Date
+                //     {
+                //       $dateDiff: {
+                //         startDate: '$investment.start_date',
+                //         endDate: '$$NOW',
+                //         unit: 'hour',
+                //       },
+                //     },
+
+                //     // Completed Date
+                //     {
+                //       $dateDiff: {
+                //         startDate: '$investment.start_date',
+                //         endDate: '$investment.end_date',
+                //         unit: 'hour',
+                //       },
+                //     },
+                //   ],
+                // },
+
+
+                // ))))))))))))))))))))))))))))))))))))))) {
+                //   data: {
+                //     id: '170471792468316-anc_ind_cst',
+                //     type: 'IndividualCustomer',
+                //     attributes: {
+                //       createdAt: '2024-01-08T12:45:24.714373',
+                //       phoneNumber: '07061106109',
+                //       address: [Object],
+                //       soleProprietor: false,
+                //       fullName: [Object],
+                //       identificationLevel2: [Object],
+                //       email: 'Marjolaine88@gmail.com',
+                //       verification: [Object],
+                //       status: 'ACTIVE'
+                //     },
+                //     relationships: { documents: [Object], organization: [Object] }
+                //   }
+                // }

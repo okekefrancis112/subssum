@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Keble</title>
+
+  <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
+
+  <link href="https://fonts.cdnfonts.com/css/abhaya-libre-2" rel="stylesheet" />
+
+  <style type="text/css">
+    * {
+      padding: 0 !important;
+      margin: 0 !important;
+      font-family: 'Satoshi', sans-serif;
+    }
+
+    body {
+      padding: 0 !important;
+      margin: 0 !important;
+      position: relative;
+    }
+
+    .abahya-font {
+      font-family: 'Abhaya Libre', sans-serif;
+    }
+
+    .deed {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 5px !important;
+    }
+
+    .text-base {
+      font-size: 16px;
+    }
+
+    .font-bold {
+      font-weight: 700;
+    }
+
+    /* .main-body {
+      width: 100%;
+      padding: 20px 0 20px 0 !important;
+      background-color: #f5f5f5;
+    } */
+
+    /* .email-wrapper {
+      width: 858px;
+      margin-right: auto !important;
+      margin-left: auto !important;
+      display: block;
+    } */
+
+    .logo-image {
+      width: 120px;
+      margin-bottom: 10px !important;
+      display: block !important;
+      text-align: center !important;
+      justify-content: center;
+    }
+
+    .logo-image img {
+      width: 100%;
+    }
+
+    .main-content {
+      padding: 68px 125px !important;
+      background-color: #ffffff;
+      position: relative;
+      /* height: 612px; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .certificate-text {
+      margin-top: 24px !important;
+    }
+
+    .top-svg {
+      width: 350px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .bottom-svg {
+      position: absolute !important;
+      width: 200px;
+      bottom: -100px !important;
+      right: 0 !important;
+      z-index: 20;
+    }
+
+    .award-svg {
+      position: absolute;
+      top: 112px;
+      right: 60px;
+      z-index: 1;
+    }
+
+    .id {
+      position: absolute;
+      font-size: 13px;
+      text-align: center;
+      font-weight: 600;
+      top: 68px;
+      right: 40px;
+    }
+
+    .buffer {
+      height: 50px !important;
+    }
+
+    .id span {
+      position: absolute;
+      font-size: 12px;
+      text-align: center;
+      font-weight: 700;
+      top: 68px;
+      right: 40px;
+    }
+
+    .certificate {
+      font-size: 16px;
+      margin-bottom: 8px !important;
+      margin-top: 23px !important;
+    }
+
+    .name {
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .certify {
+      font-size: 14px;
+      color: #535353;
+      text-align: center;
+      margin-top: 22px !important;
+      font-weight: 500;
+      line-height: 22px;
+      z-index: 2 !important;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      width: 100%;
+      margin-top: 80px !important;
+    }
+
+    .right-side {
+      float: right !important;
+    }
+
+    .left-side {
+      float: left !important;
+    }
+
+    .date {
+      border-bottom: 1px solid #eca200;
+      padding: 5px 30px !important;
+      margin-bottom: 5px !important;
+    }
+
+    .date p {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .signatory {
+      border-bottom: 1px solid #eca200;
+      padding: 5px 30px !important;
+      margin-bottom: 5px !important;
+    }
+
+    .signatory p {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .email-wrapper {
+        width: 550px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .email-wrapper {
+        width: 490px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .email-wrapper {
+        width: auto;
+      }
+
+      .main-body {
+        width: 100%;
+        /* padding: 50px 15px 50px 15px !important; */
+      }
+    }
+  </style>
+</head>
+<div class="main-body">
+  <div class="email-wrapper">
+    <div class="main-content">
+      <center>
+        <div class="logo-image">
+          <img
+            src="https://res.cloudinary.com/myyinvest/image/upload/v1649269921/keble-static-email-images/Group_2_emfa73.png"
+            alt="logo"
+          />
+        </div>
+      </center>
+      <br />
+
+      <div class="id">
+        <p>ID Number:</p>
+        <p>{{transaction_id}}</p>
+      </div>
+
+      <center>
+        <div class="certificate-text">
+          <img
+            src="https://res.cloudinary.com/valfenix/image/upload/v1688406731/keble/Certificate_ndzxk6.png"
+            alt="certificate"
+            width="160px"
+          />
+        </div>
+
+        <br />
+
+        <p class="abahya-font deed">OF KEBLE DEED</p>
+
+        <p class="certificate">This certificate is awarded to</p>
+
+        <p class="abahya-font name"><b>{{name}}</b></p>
+
+        <p class="certify">
+          This is to certify that the bearer of this certificate, has purchased
+          <b>{{token}} token(s)</b> of the <b>{{project_name}}</b>. This ownership expires on the
+          date of maturity upon which the bearer will receive their capital and returns on
+          investment.
+        </p>
+      </center>
+
+      <div class="footer">
+        <div class="left-side">
+          <div class="signatory">
+            <img
+              src="https://res.cloudinary.com/valfenix/image/upload/v1688407011/keble/emma-signature_sxpvki.png"
+              width="100px"
+              alt="signature"
+            />
+            <p>Emmanuel Oballa</p>
+          </div>
+          <p style="text-align: center; font-weight: 700">CEO, Keble</p>
+        </div>
+        <div class="right-side">
+          <div class="date">
+            <div class="buffer"></div>
+
+            <p>{{date}}</p>
+          </div>
+          <p style="text-align: center">DATE</p>
+        </div>
+      </div>
+
+      <div class="award-svg">
+        <img
+          src="https://res.cloudinary.com/valfenix/image/upload/v1688400033/keble/keble-badge_ckijno.png"
+          alt="award"
+          width="160px"
+        />
+      </div>
+
+      <div class="top-svg">
+        <img
+          src="https://res.cloudinary.com/valfenix/image/upload/v1688402931/keble/upper_part_j1m5vs.png"
+          alt=""
+          width="100%"
+        />
+      </div>
+
+      <div class="bottom-svg">
+        <img
+          src="https://res.cloudinary.com/valfenix/image/upload/v1688402932/keble/lower-design_1_ifsl5g.png"
+          alt=""
+          width="100%"
+        />
+      </div>
+    </div>
+  </div>
+</div>

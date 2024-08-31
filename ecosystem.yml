@@ -1,0 +1,5 @@
+apps:
+  - name: 'keble20'
+    script: './build/servers/user.server.js && ./build/servers/admin.server.js'
+    node_args: '-r ./tsconfig-paths.js'
+    kill_timeout: 10000
