@@ -35,7 +35,6 @@ import { creditWallet } from "./wallet.helper";
 import moment from "moment";
 import walletRepository from "../repositories/wallet.repository";
 import { NotificationTaskJob } from "../services/queues/producer.service";
-import { INotificationCategory } from "../interfaces/notification.interface";
 import investRepository from "../repositories/invest.repository";
 
 export async function ProcessPayouts(req: ExpressRequest) {
@@ -295,21 +294,6 @@ export async function ProcessPayouts(req: ExpressRequest) {
                             createdAt: new Date().toLocaleString(),
                         },
                     });
-
-                    // Notification for funding
-                    await NotificationTaskJob({
-                        name: "User Notification",
-                        data: {
-                            user_id: user._id,
-                            title: "Wallet Funding",
-                            notification_category: INotificationCategory.WALLET,
-                            content: `Wallet topped up: $${formatDecimal(
-                                amount,
-                                100
-                            )}`,
-                            action_link: `${link()}/wallet`,
-                        },
-                    });
                 } else if (auto_reinvest && reinvest === "only_amount") {
                     const reinvestPayload = {
                         user_id: new Types.ObjectId(user_id),
@@ -435,21 +419,6 @@ export async function ProcessPayouts(req: ExpressRequest) {
                             balance: formatDecimal(balance, 100),
                             amount: formatDecimal(returns, 100),
                             createdAt: new Date().toLocaleString(),
-                        },
-                    });
-
-                    // Notification for funding
-                    await NotificationTaskJob({
-                        name: "User Notification",
-                        data: {
-                            user_id: user._id,
-                            title: "Wallet Funding",
-                            notification_category: INotificationCategory.WALLET,
-                            content: `Wallet topped up: $${formatDecimal(
-                                returns,
-                                100
-                            )}`,
-                            action_link: `${link()}/wallet`,
                         },
                     });
                 } else if (auto_reinvest && reinvest === "both") {

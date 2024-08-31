@@ -7,10 +7,6 @@ import walletRepository from "../../repositories/wallet.repository";
 import { ExpressRequest } from "../../server";
 import {
     APP_CONSTANTS,
-    USER_REGISTRATION_DISCORD_CHANNEL_DEVELOPMENT,
-    USER_REGISTRATION_DISCORD_CHANNEL_PRODUCTION,
-    WALLET_GENERATION_DISCORD_CHANNEL_DEVELOPMENT,
-    WALLET_GENERATION_DISCORD_CHANNEL_PRODUCTION,
 } from "../../constants/app_defaults.constant";
 import UtilFunctions, { link, throwIfUndefined } from "../../util";
 import ResponseHandler from "../../util/response-handler";
@@ -28,7 +24,6 @@ import {
     IAuditActivityType,
 } from "../../interfaces/audit.interface";
 import { HTTP_CODES } from "../../constants/app_defaults.constant";
-import { INotificationCategory } from "../../interfaces/notification.interface";
 import { GOOGLE_SECRET_KEY, env } from "../../config";
 import OAuth2ClientService from "../../helpers/auth.helper";
 
@@ -343,18 +338,6 @@ export async function VerifyEmail(
             token,
             ...user,
         };
-
-        // Notification for to complete kyc
-        await NotificationTaskJob({
-            name: "User Notification",
-            data: {
-                user_id: user._id,
-                title: "KYC request request",
-                notification_category: INotificationCategory.ACCESS,
-                content: `Complete your KYC to avoid account restrictions`,
-                action_link: `${link()}/account`,
-            },
-        });
 
         return ResponseHandler.sendSuccessResponse({
             res,

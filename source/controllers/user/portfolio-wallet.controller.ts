@@ -50,7 +50,6 @@ import {
     IDebitPayload,
     IInvestmentForm,
 } from "../../interfaces/investment.interface";
-import { INotificationCategory } from "../../interfaces/notification.interface";
 import moment from "moment";
 import walletRepository from "../../repositories/wallet.repository";
 import { discordMessageHelper } from "../../helpers/discord.helper";
@@ -257,18 +256,6 @@ export async function createInvestmentPortfolioWallet(
             activity_type: IAuditActivityType.ACCESS,
             activity_status: IAuditActivityStatus.SUCCESS,
             user: user._id,
-        });
-
-        // Notification
-        await NotificationTaskJob({
-            name: "User Notification",
-            data: {
-                user_id: user._id,
-                title: "Investment Notification",
-                notification_category: INotificationCategory.INVESTMENT,
-                content: `Your ${plan_name} portfolio was created successfully.`,
-                action_link: `${link()}/invest`,
-            },
         });
 
         const deeds_data = {
@@ -543,18 +530,6 @@ export async function topUpInvestmentPortfolioWallet(
             activity_type: IAuditActivityType.ACCESS,
             activity_status: IAuditActivityStatus.SUCCESS,
             user: user._id,
-        });
-
-        // Notification
-        await NotificationTaskJob({
-            name: "User Notification",
-            data: {
-                user_id: user._id,
-                title: "Investment Notification",
-                notification_category: INotificationCategory.INVESTMENT,
-                content: `Your ${getPortfolio.plan_name} was topped up with $${amount}.`,
-                action_link: `${link()}/invest`,
-            },
         });
 
         await session.commitTransaction();

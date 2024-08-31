@@ -36,7 +36,6 @@ import {
 import { NotificationTaskJob } from "../../services/queues/producer.service";
 import { paystackApiClient } from "../../integrations/paystackApiClient";
 import otpRepository from "../../repositories/otp.repository";
-import { INotificationCategory } from "../../interfaces/notification.interface";
 import exchangeRateRepository from "../../repositories/exchange-rate.repository";
 import banksRepository from "../../repositories/banks.repository";
 import { IBankType } from "../../interfaces/banks.interface";
@@ -445,21 +444,6 @@ export async function verifyWithdrawalRequests(
             activity_type: IAuditActivityType.ACCESS,
             activity_status: IAuditActivityStatus.SUCCESS,
             user: user._id,
-        });
-
-        // Notification for receiver
-        await NotificationTaskJob({
-            name: "User Notification",
-            data: {
-                user_id: user._id,
-                title: "Withdrawal request",
-                notification_category: INotificationCategory.WALLET,
-                content: `$${formatDecimal(
-                    Number(amount),
-                    100
-                )} Withdrawn to Bank account.`,
-                action_link: `${link()}/wallet`,
-            },
         });
 
         return ResponseHandler.sendSuccessResponse({
@@ -881,21 +865,6 @@ export async function verifyWithdrawalRequestsForeignBank(
             activity_type: IAuditActivityType.ACCESS,
             activity_status: IAuditActivityStatus.SUCCESS,
             user: user._id,
-        });
-
-        // Notification for receiver
-        await NotificationTaskJob({
-            name: "User Notification",
-            data: {
-                user_id: user._id,
-                title: "Withdrawal request",
-                notification_category: INotificationCategory.WALLET,
-                content: `$${formatDecimal(
-                    Number(amount),
-                    100
-                )} Withdrawn to Bank account.`,
-                action_link: `${link()}/wallet`,
-            },
         });
 
         return ResponseHandler.sendSuccessResponse({

@@ -37,7 +37,6 @@ import ResponseHandler from "../../util/response-handler";
 import { creditWallet, debitWallet } from "../../helpers/wallet.helper";
 import { WALLET_STATUS } from "../../interfaces/wallet.interface";
 import transactionRepository from "../../repositories/transaction.repository";
-import { INotificationCategory } from "../../interfaces/notification.interface";
 import cardsRepository from "../../repositories/cards.repository";
 import {
     IAuditActivityStatus,
@@ -1196,30 +1195,6 @@ export async function verifyWalletTransfer(
         session.endSession();
 
         await otpRepository.destroyOtpToken({ user_id: user._id });
-
-        //  create a notification for the sender
-        await NotificationTaskJob({
-            name: "User Notification",
-            data: {
-                user_id: new Types.ObjectId(sender_wallet?.user_id),
-                title: "Wallet Transfer",
-                content: `$${amount} transferred, sent to ${receiverUser.first_name} ${receiverUser.last_name}`,
-                notification_category: INotificationCategory.WALLET,
-                action_link: `${link()}/wallet`,
-            },
-        });
-
-        // Notification for receiver
-        await NotificationTaskJob({
-            name: "User Notification",
-            data: {
-                user_id: new Types.ObjectId(wallet?.user_id),
-                title: "Investment Notification",
-                notification_category: INotificationCategory.WALLET,
-                content: `$${amount} received, sent from ${senderUser.first_name} ${senderUser.last_name}`,
-                action_link: `${link()}/wallet`,
-            },
-        });
 
         return ResponseHandler.sendSuccessResponse({
             res,

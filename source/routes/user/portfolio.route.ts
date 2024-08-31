@@ -1,6 +1,5 @@
 import express from "express";
 
-// import * as portfolioControllers from "../../controllers/user/portfolio.controller";
 import * as portfolioWalletControllers from "../../controllers/user/portfolio-wallet.controller";
 import * as portfolioPayWalletControllers from "../../controllers/user/portfolio-pay.controller";
 import * as investmentControllers from "../../controllers/user/investment.controller";

@@ -32,7 +32,6 @@ import {
     NotificationTaskJob,
     RecurringInvestmentTaskJob,
 } from "../services/queues/producer.service";
-import { INotificationCategory } from "../interfaces/notification.interface";
 import moment from "moment";
 
 export async function ChargeRecurring(req: ExpressRequest) {
@@ -193,18 +192,6 @@ export async function ChargeRecurring(req: ExpressRequest) {
                     name: "Recurring Investment Charge",
                     data: {
                         investment_payload,
-                    },
-                });
-
-                // Notification
-                await NotificationTaskJob({
-                    name: "User Notification",
-                    data: {
-                        user_id: user?._id,
-                        title: "Investment Top Up",
-                        notification_category: INotificationCategory.INVESTMENT,
-                        content: `Investment Top-up Successful`,
-                        action_link: `${link()}/invest`,
                     },
                 });
             }

@@ -12,42 +12,6 @@ const router = express.Router();
 
 // Routes for Users
 
-// PUT route to blacklist a user
-router.put(
-    "/blacklist-user/:user_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("delete-users"),
-    UserValidations.validateUserId,
-    UserValidations.validateBlackList,
-    UsersControllers.blackListUser
-);
-
-// PUT route to whitelist a user
-router.put(
-    "/whitelist-user/:user_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("delete-users"),
-    UserValidations.validateUserId,
-    UsersControllers.whiteListUser
-);
-
-// PUT route to blacklist users
-router.put(
-    "/blacklist-users",
-    auth_admin.authAdmin,
-    accessAdminAuth("delete-users"),
-    UserValidations.validateBlackList,
-    UsersControllers.blackListMultipleUsers
-);
-
-// PUT route to whitelist users
-router.put(
-    "/whitelist-users",
-    auth_admin.authAdmin,
-    accessAdminAuth("delete-users"),
-    UsersControllers.whiteListMultipleUsers
-);
-
 // PUT route to edit a user
 router.put(
     "/edit-user/:user_id",
@@ -63,49 +27,6 @@ router.get(
     auth_admin.authAdmin,
     accessAdminAuth("view-users"),
     UsersControllers.getUsers
-);
-
-// GET route to get all blacklisted users
-router.get(
-    "/get-all-blacklisted",
-    auth_admin.authAdmin,
-    accessAdminAuth("view-users"),
-    UsersControllers.getBlacklistedUsers
-);
-
-// GET route to get all blacklisted users
-router.get(
-    "/get-blacklisted-user/:user_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("view-users"),
-    UserValidations.validateUserId,
-    UsersControllers.getSingleBlacklistedUsers
-);
-
-// GET route to get all blacklisted users
-router.get(
-    "/get-blacklisted-history/:user_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("view-users"),
-    UserValidations.validateUserId,
-    UsersControllers.getBlacklistedHistory
-);
-
-// GET route to export all blacklisted users
-router.get(
-    "/export-all-blacklisted",
-    auth_admin.authAdmin,
-    accessAdminAuth("view-users"),
-    UsersControllers.exportBlacklistedUsers
-);
-
-// GET route to export all blacklisted users
-router.get(
-    "/export-blacklisted/:user_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("view-users"),
-    UserValidations.validateUserId,
-    UsersControllers.exportBlacklistedUserHistory
 );
 
 // GET route to get a user personal info

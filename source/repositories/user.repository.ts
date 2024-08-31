@@ -4,7 +4,7 @@ import { ExpressRequest } from "../server";
 import { IUserDocument, IWhereHow } from "../interfaces/user.interface";
 import { CreateUserDto, UpdateUserDto } from "../dtos/user.dto";
 import { APP_CONSTANTS } from "../constants/app_defaults.constant";
-import { Blacklist, User } from "../models";
+import { User } from "../models";
 import UtilFunctions, {
     convertDate,
     format_query_decimal,
@@ -14,8 +14,6 @@ import UtilFunctions, {
     repoTime,
 } from "../util";
 import moment from "moment";
-import { IBlacklistDocument } from "../interfaces/blacklist.interface";
-import { format } from "winston";
 
 class UserRepository {
     // Create User
@@ -780,112 +778,6 @@ class UserRepository {
             data: blacklist,
             pagination,
         };
-    }
-
-    // Get blacklisted user history
-    // This function is used to get blacklisted user history from the database
-    public async getBlacklistedUserHistory(
-        req: ExpressRequest
-    ): Promise<IBlacklistDocument[] | null | any> {
-        // Get query parameters from request
-        const { query } = req;
-        const { user_id } = req.params; // Get the listing_id from the request params
-        const search = String(query.search);
-        const perpage = Number(query.perpage) || 10;
-        const page = Number(query.page) || 1;
-        const dateFrom: any = query.dateFrom || "Jan 1 2021";
-        const dateTo: any = query.dateTo || `${Date()}`;
-        const myDateFrom = convertDate(dateFrom);
-        const myDateTo = convertDate(dateTo);
-
-        // Check if there is a search string and add it to the search query object
-        const searching = repoSearch({
-            search: search,
-            searchArray: ["user.first_name", "user.last_name", "user.email"],
-        });
-
-        // Create filter query object
-        const filterQuery = {
-            user_id: new Types.ObjectId(user_id),
-            createdAt: { $gte: new Date(myDateFrom), $lte: new Date(myDateTo) },
-            is_black_listed: true,
-            ...searching,
-        };
-
-        // Find documents with filter query
-        const blacklist = await Blacklist.find(filterQuery)
-            .limit(perpage)
-            .skip(page * perpage - perpage)
-            .sort({ createdAt: -1 });
-
-        // Count total number of documents found
-        const total = blacklist.length;
-
-        const pagination = repoPagination({ page, perpage, total: total! });
-
-        return {
-            data: blacklist,
-            pagination,
-        };
-    }
-
-    // Get blacklisted user history
-    // This function is used to get blacklisted user history from the database
-    public async getBlacklistedUserHistoryNoPagination(
-        req: ExpressRequest
-    ): Promise<IBlacklistDocument[] | null | any> {
-        // Get query parameters from request
-        const { query } = req;
-        const { user_id } = req.params; // Get the listing_id from the request params
-        const search = String(query.search);
-        const dateFrom: any = query.dateFrom || "Jan 1 2021";
-        const dateTo: any = query.dateTo || `${Date()}`;
-        let period = String(query.period) || "custom"; // Set the period
-
-        // Check if there is a search string and add it to the search query object
-        const searching = repoSearch({
-            search: search,
-            searchArray: ["user.first_name", "user.last_name", "user.email"],
-        });
-
-        // Check the period and set the time filter accordingly
-        const timeFilter = await repoTime({ period, dateFrom, dateTo });
-
-        // Create filter query object
-        const filterQuery = {
-            user_id: new Types.ObjectId(user_id),
-            is_black_listed: true,
-            ...timeFilter,
-            ...searching,
-        };
-
-        // Find documents with filter query
-        const blacklist = await Blacklist.find(filterQuery);
-
-        // const users_pipeline = [
-        //   { $match: filterQuery },
-        //   { $sort: { createdAt: -1 } },
-        //   {
-        //     $project: {
-        //       // first_name: '$user.first_name',
-        //       // last_name: '$user.last_name',
-        //       // email: '$user.email',
-        //       blacklist_reason: 1,
-        //       blacklist_category: 1,
-        //       is_black_listed: 1,
-        //       is_disabled: 1,
-        //       can_withdraw: 1,
-        //       can_send_to_friend: 1,
-        //       can_invest: 1,
-        //     },
-        //   },
-        // ];
-
-        // Find documents with filter query
-        // const users = await Blacklist.(users_pipeline);
-
-        // return users;
-        return blacklist;
     }
 
     /************************

@@ -39,7 +39,6 @@ import {
 import cardsRepository from "../../repositories/cards.repository";
 import UtilFunctions, { formatDecimal, link } from "../../util";
 import walletRepository from "../../repositories/wallet.repository";
-import { INotificationCategory } from "../../interfaces/notification.interface";
 import { NotificationTaskJob } from "../../services/queues/producer.service";
 import { portfolioIsExist } from "../../validations/user/portfolio.validation";
 import { discordMessageHelper } from "../../helpers/discord.helper";
@@ -272,19 +271,6 @@ export const flutterwaveWebhook = async (
                             },
                         });
 
-                        // Notification for funding
-                        await NotificationTaskJob({
-                            name: "User Notification",
-                            data: {
-                                user_id: user._id,
-                                title: "Wallet Funding",
-                                notification_category:
-                                    INotificationCategory.WALLET,
-                                content: `Wallet topped up: $${email_amount}`,
-                                action_link: `${link()}/wallet`,
-                            },
-                        });
-
                         await session.commitTransaction();
                         await session.endSession();
 
@@ -507,18 +493,6 @@ export const flutterwaveWebhook = async (
                             balance: balance,
                             amount: email_amount,
                             createdAt: new Date().toLocaleString(),
-                        },
-                    });
-
-                    // Notification for funding
-                    await NotificationTaskJob({
-                        name: "User Notification",
-                        data: {
-                            user_id: user._id,
-                            title: "Wallet Funding",
-                            notification_category: INotificationCategory.WALLET,
-                            content: `Wallet topped up: $${email_amount}`,
-                            action_link: `${link()}/wallet`,
                         },
                     });
 
@@ -756,18 +730,6 @@ export const flutterwaveWebhook = async (
                         });
                     }
 
-                    // Notification
-                    await NotificationTaskJob({
-                        name: "User Notification",
-                        data: {
-                            user_id: user._id,
-                            title: "Plan",
-                            notification_category: INotificationCategory.PLAN,
-                            content: `Your ${meta.plan_name} plan have been created.`,
-                            action_link: `${link()}/invest`,
-                        },
-                    });
-
                     await session.commitTransaction();
                     await session.endSession();
 
@@ -907,21 +869,6 @@ export const flutterwaveWebhook = async (
                         meta.currency == ICurrency.USD
                             ? amount
                             : meta.normal_amount / meta.exchange_rate_value;
-
-                    const _amount = formatDecimal(payload_amount, 100);
-
-                    // Notification
-                    await NotificationTaskJob({
-                        name: "User Notification",
-                        data: {
-                            user_id: user._id,
-                            title: "Investment Top Up",
-                            notification_category:
-                                INotificationCategory.INVESTMENT,
-                            content: `Your ${getPortfolio?.plan_name} plan was topped up with $${_amount}`,
-                            action_link: `${link()}/invest`,
-                        },
-                    });
 
                     await session.commitTransaction();
                     await session.endSession();

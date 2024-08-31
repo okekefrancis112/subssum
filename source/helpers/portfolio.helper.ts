@@ -32,7 +32,6 @@ import {
 } from "../interfaces/investment.interface";
 import UtilFunctions, { getPercent, link } from "../util";
 import { creditWallet } from "./wallet.helper";
-import { INotificationCategory } from "../interfaces/notification.interface";
 import { NotificationTaskJob } from "../services/queues/producer.service";
 import investRepository from "../repositories/invest.repository";
 import { ICurrency } from "../interfaces/exchange-rate.interface";
@@ -561,17 +560,6 @@ export async function process_cash_dividends() {
                 if (!result.success) {
                     await session.abortTransaction();
                 }
-
-                await NotificationTaskJob({
-                    name: "User Notification",
-                    data: {
-                        user_id,
-                        title: "Wallet Dividends Funding",
-                        notification_category: INotificationCategory.WALLET,
-                        content: `Wallet topped up: $${monthly_dividends}`,
-                        action_link: `${link()}/wallet`,
-                    },
-                });
 
                 await investmentRepository.atomicUpdate(
                     new Types.ObjectId(_id),

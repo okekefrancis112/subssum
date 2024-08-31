@@ -8,9 +8,7 @@ import { initDatabase } from '../util/mongo';
 import { Namespaces } from '../constants/namespace.constant';
 import * as redis from '../services/redis.service';
 import {
-  AdminNotificationTaskConsumer,
   DiscordTaskConsumer,
-  NotificationTaskConsumer,
 } from '../services/queues/consumer.service';
 
 const logger = new Logger('general', Namespaces.CONSUMER_SERVER);
@@ -26,8 +24,6 @@ export const init = () => createApp(name, bindUserRoutes);
   redis;
 
   DiscordTaskConsumer();
-  AdminNotificationTaskConsumer();
-  NotificationTaskConsumer();
 
   init().listen(CONSUMER_PORT, () => {
     logger.info(`Consumer started successfully on ${CONSUMER_PORT}`);

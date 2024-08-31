@@ -36,7 +36,6 @@ import {
 import cardsRepository from "../../repositories/cards.repository";
 import UtilFunctions, { formatDecimal, link } from "../../util";
 import walletRepository from "../../repositories/wallet.repository";
-import { INotificationCategory } from "../../interfaces/notification.interface";
 import { NotificationTaskJob } from "../../services/queues/producer.service";
 import { portfolioIsExist } from "../../validations/user/portfolio.validation";
 import { discordMessageHelper } from "../../helpers/discord.helper";
@@ -287,19 +286,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                             },
                         });
 
-                        // Notification for funding
-                        await NotificationTaskJob({
-                            name: "User Notification",
-                            data: {
-                                user_id: user._id,
-                                title: "Wallet Funding",
-                                notification_category:
-                                    INotificationCategory.WALLET,
-                                content: `Wallet topped up: $${email_amount}`,
-                                action_link: `${link()}/wallet`,
-                            },
-                        });
-
                         await session.commitTransaction();
                         await session.endSession();
 
@@ -404,19 +390,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                                 error: "Your transactions have been canceled.",
                             });
                         }
-
-                        // Notification
-                        await NotificationTaskJob({
-                            name: "User Notification",
-                            data: {
-                                user_id: user._id,
-                                title: "Plan",
-                                notification_category:
-                                    INotificationCategory.PLAN,
-                                content: `Your ${data.metadata.plan_name} plan have been created.`,
-                                action_link: `${link()}/invest`,
-                            },
-                        });
 
                         await discordMessageHelper(
                             req,
@@ -545,21 +518,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                                 error: "This portfolio does not exist",
                             });
                         }
-
-                        const _amount = formatDecimal(formatted_amount, 100);
-
-                        // Notification
-                        await NotificationTaskJob({
-                            name: "User Notification",
-                            data: {
-                                user_id: user._id,
-                                title: "Investment Top Up",
-                                notification_category:
-                                    INotificationCategory.INVESTMENT,
-                                content: `Your ${getPortfolio?.plan_name} portfolio was topped up with $${_amount}`,
-                                action_link: `${link()}/invest`,
-                            },
-                        });
 
                         await session.commitTransaction();
                         await session.endSession();

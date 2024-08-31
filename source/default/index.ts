@@ -5,10 +5,6 @@ import {
   TECHNICAL_LAST_NAME,
 } from '../config';
 import adminUserRepository from '../repositories/admin-user.repository';
-import blogCategoriesRepository from '../repositories/blog-categories.repository';
-import blogRepository from '../repositories/blog.repository';
-import faqRepository from '../repositories/faq.repository';
-import learnRepository from '../repositories/learn.repository';
 import permissionRepository from '../repositories/permission.repository';
 import roleRepository from '../repositories/role.repository';
 
@@ -643,61 +639,4 @@ export async function seedDefaultTechnicalAdminUser() {
     });
     console.log(`${user.email} created.`);
   }
-}
-
-// Seed Default Faq Categories
-export async function seedFaqsCategories() {
-  categories.forEach(async (e: any) => {
-    const checkCategories = await faqRepository.getOneCategory({
-      category_alias: e.category_alias,
-    });
-    if (checkCategories) {
-      console.log(`${checkCategories.category_alias} exists already`);
-    } else {
-      const saved = await faqRepository.createCategory({
-        category_name: e.category_name,
-        category_description: e.category_description,
-        category_alias: e.category_alias,
-      });
-      console.log(`${saved.category_name} created.`);
-    }
-  });
-}
-
-// Seed Default Learn Categories
-export async function seedLearnsCategories() {
-  learn_categories.forEach(async (e: any) => {
-    const checkCategories = await learnRepository.getOneCategory({
-      category_alias: e.category_alias,
-    });
-    if (checkCategories) {
-      console.log(`${checkCategories.category_alias} exists already`);
-    } else {
-      const saved = await learnRepository.createCategory({
-        category_name: e.category_name,
-        category_description: e.category_description,
-        category_alias: e.category_alias,
-      });
-      console.log(`${saved.category_name} created.`);
-    }
-  });
-}
-
-// Seed Default Blog Categories
-export async function seedBlogCategories() {
-  blog_categories.forEach(async (e: any) => {
-    const checkCategories = await blogCategoriesRepository.getOne({
-      category_alias: e.category_alias,
-    });
-    if (checkCategories) {
-      console.log(`${checkCategories.category_alias} exists already`);
-    } else {
-      const saved = await blogCategoriesRepository.create({
-        category_name: e.category_name,
-        category_description: e.category_description,
-        category_alias: e.category_alias,
-      });
-      console.log(`${saved.category_name} created.`);
-    }
-  });
 }

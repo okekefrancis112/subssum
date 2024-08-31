@@ -8,17 +8,10 @@ import { Namespaces } from '../constants/namespace.constant';
 import {
   seedDefaultAdminRole,
   seedDefaultTechnicalAdminUser,
-  seedFaqsCategories,
   seedPermissions,
   seedSuperAdminRole,
   seedTechnicalAdminRole,
-  seedLearnsCategories,
-  seedBlogCategories,
 } from '../default';
-import {
-  AdminNotificationTaskConsumer,
-  NotificationTaskConsumer,
-} from '../services/queues/consumer.service';
 
 const name = 'subssum Admin Service';
 
@@ -39,10 +32,4 @@ const logger = new Logger('general', Namespaces.ADMIN_SERVER);
   // await seedSuperAdminRole();
   // await seedDefaultAdminRole();
   // await seedDefaultTechnicalAdminUser();
-  // await seedFaqsCategories();
-  // await seedLearnsCategories();
-  // await seedBlogCategories();
-
-  // AdminNotificationTaskConsumer();
-  // NotificationTaskConsumer();
 })();

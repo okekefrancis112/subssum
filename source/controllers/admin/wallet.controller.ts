@@ -21,7 +21,6 @@ import {
     IWalletTransactionType,
 } from "../../interfaces/transaction.interface";
 import { creditWallet, debitWallet } from "../../helpers/wallet.helper";
-import { INotificationCategory } from "../../interfaces/notification.interface";
 import { NotificationTaskJob } from "../../services/queues/producer.service";
 import auditRepository from "../../repositories/audit.repository";
 import {
@@ -353,18 +352,6 @@ export async function fundUserWallet(
                     balance: balance,
                     amount: amount,
                     createdAt: new Date().toLocaleString(),
-                },
-            });
-
-            // Notification for funding
-            await NotificationTaskJob({
-                name: "User Notification",
-                data: {
-                    user_id: new Types.ObjectId(user_id),
-                    title: "Wallet Funding",
-                    notification_category: INotificationCategory.WALLET,
-                    content: `Top up  Wallet`,
-                    action_link: `${link()}/wallet`,
                 },
             });
 
