@@ -27,23 +27,17 @@ import {
     IAuditActivityStatus,
     IAuditActivityType,
 } from "../../interfaces/audit.interface";
-import {
-    oldListingIsExist,
-    portfolioIsExist,
-} from "../../validations/user/portfolio.validation";
 import cardsRepository from "../../repositories/cards.repository";
 import exchangeRateRepository from "../../repositories/exchange-rate.repository";
 import {
     flutterwave_usd_charge,
     paystack_charge,
 } from "../../helpers/charges.helper";
-import { discordMessageHelper } from "../../helpers/discord.helper";
 import {
     FlutterwavePayService,
     PaystackPayService,
 } from "../../helpers/payservice.helper";
 import { ICurrency } from "../../interfaces/exchange-rate.interface";
-import { Investment } from "../../models";
 
 /***************************
  *
@@ -54,7 +48,7 @@ import { Investment } from "../../models";
  */
 
 // Create Payment Service Investment
-export async function createInvestmentPortfolioPayService(
+export async function createInvestmentpaymentPayService(
     req: ExpressRequest,
     res: Response
 ): Promise<Response | void> {
@@ -72,14 +66,6 @@ export async function createInvestmentPortfolioPayService(
 
         // ! This part handles the investment restrictions for users without complete KYC
         if (!getUser.kyc_completed) {
-            await discordMessageHelper(
-                req,
-                user,
-                "Please complete your KYC to proceed ❌",
-                DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                "INVESTMENT"
-            );
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.BAD_REQUEST,
@@ -88,14 +74,6 @@ export async function createInvestmentPortfolioPayService(
         }
 
         if (!getUser.id_verified) {
-            await discordMessageHelper(
-                req,
-                user,
-                "Please verify your ID before proceeding ❌",
-                DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                "INVESTMENT"
-            );
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.BAD_REQUEST,
@@ -106,9 +84,9 @@ export async function createInvestmentPortfolioPayService(
         const {
             investment_category,
             investment_type,
-            plan_name,
+            payment_name,
             intervals,
-            plan_occurrence,
+            payment_occurrence,
             duration,
             payment_gateway,
             is_dollar,
@@ -152,15 +130,15 @@ export async function createInvestmentPortfolioPayService(
             });
         }
 
-        const listing = await oldListingIsExist(req, duration, user);
+        // const listing = await oldListingIsExist(req, duration, user);
 
-        if (!listing) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: `No listing of ${duration} months is available`,
-            });
-        }
+        // if (!listing) {
+        //     return ResponseHandler.sendErrorResponse({
+        //         res,
+        //         code: HTTP_CODES.BAD_REQUEST,
+        //         error: `No listing of ${duration} months is available`,
+        //     });
+        // }
 
         let flutterwave_channel;
         let paystack_channel;
@@ -227,11 +205,11 @@ export async function createInvestmentPortfolioPayService(
                 channels: [String(paystack_channel)],
                 normal_amount: amount,
                 investment_category,
-                plan_name,
+                payment_name,
                 intervals,
-                plan_occurrence,
+                payment_occurrence,
                 duration,
-                listing_id: listing._id,
+                // listing_id: listing._id,
                 transaction_to: ITransactionTo.INVESTMENT,
                 dollar_amount: dollarAmount,
                 exchange_rate_value: buy_rate,
@@ -240,22 +218,6 @@ export async function createInvestmentPortfolioPayService(
                 payment_reference: reference,
                 transaction_hash,
             });
-
-            await discordMessageHelper(
-                req,
-                user,
-                "Paystack payment initiated successfully ✅",
-                DISCORD_INVESTMENT_INITIATED_DEVELOPMENT,
-                DISCORD_INVESTMENT_INITIATED_PRODUCTION,
-                "PAYSTACK INVESTMENT",
-                {
-                    Amount: amount,
-                    Fees: fees,
-                    Investment_Category: investment_category,
-                    Investment_Type: investment_type,
-                    Duration: duration,
-                }
-            );
 
             // Audit
             await auditRepository.create({
@@ -322,14 +284,6 @@ export async function createInvestmentPortfolioPayService(
             }
 
             if (amount > 1000 || amount < 1) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `Please input an amount between $${RATES.MINIMUM_INVESTMENT} to $1000.❌`,
-                    DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                    DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                    "FLUTTERWAVE INVESTMENT"
-                );
 
                 // Audit
                 await auditRepository.create({
@@ -363,11 +317,11 @@ export async function createInvestmentPortfolioPayService(
                 normal_amount: amount,
                 investment_category,
                 investment_type,
-                plan_name,
+                payment_name,
                 intervals,
-                plan_occurrence,
+                payment_occurrence,
                 duration,
-                listing_id: listing._id,
+                // listing_id: listing._id,
                 transaction_to: ITransactionTo.INVESTMENT,
                 dollar_amount: dollarAmount,
                 exchange_rate_value: buy_rate,
@@ -376,22 +330,6 @@ export async function createInvestmentPortfolioPayService(
                 payment_reference: reference,
                 transaction_hash,
             });
-
-            await discordMessageHelper(
-                req,
-                user,
-                "Flutterwave usd payment initiated successfully ✅",
-                DISCORD_INVESTMENT_INITIATED_DEVELOPMENT,
-                DISCORD_INVESTMENT_INITIATED_PRODUCTION,
-                "FLUTTERWAVE USD INVESTMENT",
-                {
-                    Amount: amount,
-                    Fees: fees,
-                    Investment_Category: investment_category,
-                    Investment_Type: investment_type,
-                    Duration: duration,
-                }
-            );
 
             // Audit
             await auditRepository.create({
@@ -471,11 +409,11 @@ export async function createInvestmentPortfolioPayService(
                 normal_amount: amount,
                 investment_category,
                 investment_type,
-                plan_name,
+                payment_name,
                 intervals,
-                plan_occurrence,
+                payment_occurrence,
                 duration,
-                listing_id: listing._id,
+                // listing_id: listing._id,
                 transaction_to: ITransactionTo.INVESTMENT,
                 dollar_amount: dollarAmount,
                 exchange_rate_value: buy_rate,
@@ -484,22 +422,6 @@ export async function createInvestmentPortfolioPayService(
                 payment_reference: reference,
                 transaction_hash,
             });
-
-            await discordMessageHelper(
-                req,
-                user,
-                "Flutterwave ngn payment initiated successfully ✅",
-                DISCORD_INVESTMENT_INITIATED_DEVELOPMENT,
-                DISCORD_INVESTMENT_INITIATED_PRODUCTION,
-                "FLUTTERWAVE NGN INVESTMENT",
-                {
-                    Amount: amount,
-                    Fees: fees,
-                    Investment_Category: investment_category,
-                    Investment_Type: investment_type,
-                    Duration: duration,
-                }
-            );
 
             // Audit
             await auditRepository.create({
@@ -531,13 +453,13 @@ export async function createInvestmentPortfolioPayService(
 /***************************
  *
  *
- *  Top Up Investment Portfolio Pay Service
+ *  Top Up Investment payment Pay Service
  *
  *
  */
 
 // Create Payment Service Investment
-export async function topUpInvestmentPortfolioPayService(
+export async function topUpInvestmentpaymentPayService(
     req: ExpressRequest,
     res: Response
 ): Promise<Response | void> {
@@ -556,14 +478,6 @@ export async function topUpInvestmentPortfolioPayService(
 
         // ! This part handles the investment restrictions for users without complete KYC
         if (!getUser.kyc_completed) {
-            await discordMessageHelper(
-                req,
-                user,
-                "Please complete your KYC to proceed ❌",
-                DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                "INVESTMENT"
-            );
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.BAD_REQUEST,
@@ -576,19 +490,19 @@ export async function topUpInvestmentPortfolioPayService(
 
         const amount = Math.trunc(Number(req.body.amount) * 10) / 10;
 
-        const getPortfolio = await portfolioIsExist(
-            req,
-            new Types.ObjectId(req.params.portfolio_id),
-            user
-        );
+        // const getpayment = await paymentIsExist(
+        //     req,
+        //     new Types.ObjectId(req.params.payment_id),
+        //     user
+        // );
 
-        if (!getPortfolio) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.NOT_FOUND,
-                error: "Plan does not exist",
-            });
-        }
+        // if (!getpayment) {
+        //     return ResponseHandler.sendErrorResponse({
+        //         res,
+        //         code: HTTP_CODES.NOT_FOUND,
+        //         error: "payment does not exist",
+        //     });
+        // }
 
         const rate = await exchangeRateRepository.getOne({ is_default: true });
         const buy_rate: number =
@@ -624,19 +538,19 @@ export async function topUpInvestmentPortfolioPayService(
             paystack_channel = "card";
         }
 
-        const listing = await oldListingIsExist(
-            req,
-            getPortfolio?.duration!,
-            user
-        );
+        // const listing = await oldListingIsExist(
+        //     req,
+        //     getpayment?.duration!,
+        //     user
+        // );
 
-        if (!listing) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: `No listing of ${getPortfolio.duration} months is available`,
-            });
-        }
+        // if (!listing) {
+        //     return ResponseHandler.sendErrorResponse({
+        //         res,
+        //         code: HTTP_CODES.BAD_REQUEST,
+        //         error: `No listing of ${getpayment.duration} months is available`,
+        //     });
+        // }
 
         const reference = UtilFunctions.generateTXRef();
         const transaction_hash = UtilFunctions.generateTXHash();
@@ -691,8 +605,8 @@ export async function topUpInvestmentPortfolioPayService(
                 }?success=${true}`,
                 channels: [String(paystack_channel)],
                 normal_amount: amount,
-                plan: getPortfolio._id,
-                listing_id: listing._id,
+                // payment: getpayment._id,
+                // listing_id: listing._id,
                 transaction_to: ITransactionTo.INVESTMENT_TOPUP,
                 dollar_amount: dollarAmount,
                 exchange_rate_value: buy_rate,
@@ -701,16 +615,6 @@ export async function topUpInvestmentPortfolioPayService(
                 payment_reference: reference,
                 transaction_hash,
             });
-
-            await discordMessageHelper(
-                req,
-                user,
-                "Paystack topup payment initiated successfully ✅",
-                DISCORD_INVESTMENT_INITIATED_DEVELOPMENT,
-                DISCORD_INVESTMENT_INITIATED_PRODUCTION,
-                "PAYSTACK INVESTMENT TOPUP",
-                { Amount: amount, Fees: fees }
-            );
 
             // Audit
             await auditRepository.create({
@@ -809,8 +713,8 @@ export async function topUpInvestmentPortfolioPayService(
                 }?success=${true}`,
                 flutterwave_channel: String(flutterwave_channel),
                 normal_amount: amount,
-                plan: getPortfolio._id,
-                listing_id: listing._id,
+                // payment: getpayment._id,
+                // listing_id: listing._id,
                 transaction_to: ITransactionTo.INVESTMENT_TOPUP,
                 dollar_amount: dollarAmount,
                 exchange_rate_value: buy_rate,
@@ -819,16 +723,6 @@ export async function topUpInvestmentPortfolioPayService(
                 payment_reference: reference,
                 transaction_hash,
             });
-
-            await discordMessageHelper(
-                req,
-                user,
-                "Futterwave ngn topup payment initiated successfully ✅",
-                DISCORD_INVESTMENT_INITIATED_DEVELOPMENT,
-                DISCORD_INVESTMENT_INITIATED_PRODUCTION,
-                "FLUTTERWAVE USD INVESTMENT TOPUP",
-                { Amount: amount, Fees: fees }
-            );
             // Audit
             await auditRepository.create({
                 req,
@@ -905,8 +799,8 @@ export async function topUpInvestmentPortfolioPayService(
                 }?success=${true}`,
                 flutterwave_channel: String(flutterwave_channel),
                 normal_amount: amount,
-                plan: getPortfolio._id,
-                listing_id: listing._id,
+                // payment: getpayment._id,
+                // listing_id: listing._id,
                 transaction_to: ITransactionTo.INVESTMENT_TOPUP,
                 dollar_amount: dollarAmount,
                 exchange_rate_value: buy_rate,
@@ -915,16 +809,6 @@ export async function topUpInvestmentPortfolioPayService(
                 payment_reference: reference,
                 transaction_hash,
             });
-
-            await discordMessageHelper(
-                req,
-                user,
-                "Flutterwave usd topup payment initiated successfully ✅",
-                DISCORD_INVESTMENT_INITIATED_DEVELOPMENT,
-                DISCORD_INVESTMENT_INITIATED_PRODUCTION,
-                "FLUTTERWAVE USD INVESTMENT TOPUP",
-                { Amount: amount, Fees: fees }
-            );
             // Audit
             await auditRepository.create({
                 req,

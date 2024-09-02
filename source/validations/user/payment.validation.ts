@@ -4,14 +4,14 @@ import Joi from "joi";
 import { ExpressRequest } from "../../server";
 import ResponseHandler from "../../util/response-handler";
 import {
-    IPortfolioIntervals,
-    IPortfolioOccurrence,
-} from "../../interfaces/plan.interface";
+    IPaymentIntervals,
+    IPaymentOccurrence,
+} from "../../interfaces/payment.interface";
 import {
     IPaymentGateway,
     ITransactionMedium,
 } from "../../interfaces/transaction.interface";
-import planRepository from "../../repositories/portfolio.repository";
+import paymentRepository from "../../repositories/payment.repository";
 import {
     DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
     DISCORD_INVESTMENT_ERROR_PRODUCTION,
@@ -21,14 +21,11 @@ import {
     IAuditActivityStatus,
     IAuditActivityType,
 } from "../../interfaces/audit.interface";
-import listingRepository from "../../repositories/listing.repository";
-import { IListingStatus } from "../../interfaces/listing.interface";
 import { HTTP_CODES } from "../../constants/app_defaults.constant";
 import { serverErrorNotification, throwIfUndefined } from "../../util";
-import { discordMessageHelper } from "../../helpers/discord.helper";
 import { IUserDocument } from "../../interfaces/user.interface";
 
-export async function validateCreateInvestPortfolioWallet(
+export async function validateCreateInvestpaymentWallet(
     req: ExpressRequest,
     res: Response,
     next: NextFunction
@@ -36,17 +33,17 @@ export async function validateCreateInvestPortfolioWallet(
     const user = throwIfUndefined(req.user, "req.user");
     const schema = Joi.object()
         .keys({
-            plan_name: Joi.string().required(),
+            payment_name: Joi.string().required(),
             intervals: Joi.string()
                 .valid(
-                    IPortfolioIntervals.DAILY,
-                    IPortfolioIntervals.MONTHLY,
-                    IPortfolioIntervals.WEEKLY,
-                    IPortfolioIntervals.NONE
+                    IPaymentIntervals.DAILY,
+                    IPaymentIntervals.MONTHLY,
+                    IPaymentIntervals.WEEKLY,
+                    IPaymentIntervals.NONE
                 )
                 .required(),
-            plan_occurrence: Joi.string()
-                .valid(IPortfolioOccurrence.ONE_TIME_PAYMENT)
+            payment_occurrence: Joi.string()
+                .valid(IPaymentOccurrence.ONE_TIME_PAYMENT)
                 .required(),
             duration: Joi.number().required(),
             amount: Joi.number().required(),
@@ -72,7 +69,7 @@ export async function validateCreateInvestPortfolioWallet(
     return next();
 }
 
-export async function validateTopUpSavingPlanWallet(
+export async function validateTopUpSavingpaymentWallet(
     req: ExpressRequest,
     res: Response,
     next: NextFunction
@@ -103,7 +100,7 @@ export async function validateTopUpSavingPlanWallet(
     return next();
 }
 
-export async function validateTopUpInvestPortfolioWallet(
+export async function validateTopUpInvestpaymentWallet(
     req: ExpressRequest,
     res: Response,
     next: NextFunction
@@ -142,19 +139,19 @@ export async function validatePaymentGatewayInvestment(
     const user = throwIfUndefined(req.user, "req.user");
     const schema = Joi.object()
         .keys({
-            plan_name: Joi.string().required(),
+            payment_name: Joi.string().required(),
             intervals: Joi.string()
                 .valid(
-                    IPortfolioIntervals.DAILY,
-                    IPortfolioIntervals.MONTHLY,
-                    IPortfolioIntervals.WEEKLY,
-                    IPortfolioIntervals.NONE
+                    IPaymentIntervals.DAILY,
+                    IPaymentIntervals.MONTHLY,
+                    IPaymentIntervals.WEEKLY,
+                    IPaymentIntervals.NONE
                 )
                 .required(),
-            plan_occurrence: Joi.string()
+            payment_occurrence: Joi.string()
                 .valid(
-                    IPortfolioOccurrence.ONE_TIME_PAYMENT,
-                    IPortfolioOccurrence.RECURRING
+                    IPaymentOccurrence.ONE_TIME_PAYMENT,
+                    IPaymentOccurrence.RECURRING
                 )
                 .required(),
             duration: Joi.number().required(),
@@ -196,7 +193,7 @@ export async function validatePaymentGatewayInvestment(
     return next();
 }
 
-export async function validateTopUpInvestPortfolio(
+export async function validateTopUpInvestpayment(
     req: ExpressRequest,
     res: Response,
     next: NextFunction
@@ -242,7 +239,7 @@ export async function validateTopUpInvestPortfolio(
     return next();
 }
 
-export async function validateEditPortfolio(
+export async function validateEditpayment(
     req: ExpressRequest,
     res: Response,
     next: NextFunction
@@ -250,7 +247,7 @@ export async function validateEditPortfolio(
     const user = throwIfUndefined(req.user, "req.user");
     const schema = Joi.object()
         .keys({
-            plan_name: Joi.string().required(),
+            payment_name: Joi.string().required(),
         })
         .unknown();
 
@@ -285,9 +282,10 @@ export async function validateCustomSavings(
             goal_target: Joi.number().required(),
             interval: Joi.string()
                 .valid(
-                    IPortfolioIntervals.DAILY,
-                    IPortfolioIntervals.WEEKLY,
-                    IPortfolioIntervals.MONTHLY
+                    IPaymentIntervals.DAILY,
+                    IPaymentIntervals.MONTHLY,
+                    IPaymentIntervals.WEEKLY,
+                    IPaymentIntervals.NONE
                 )
                 .required(),
         })
@@ -312,63 +310,18 @@ export async function validateCustomSavings(
     return next();
 }
 
-export const portfolioIsExist = async (
+export const paymentIsExist = async (
     req: ExpressRequest,
-    portfolio_id: Types.ObjectId,
+    payment_id: Types.ObjectId,
     auth: IUserDocument
 ) => {
-    const portfolio = await planRepository.getOne({ _id: portfolio_id });
+    const payment = await paymentRepository.getOne({ _id: payment_id });
 
-    if (!portfolio) {
+    if (!payment) {
         // Audit
         await auditRepository.create({
             req,
-            title: "Portfolio does not exist",
-            name: `${auth.first_name} ${auth.last_name}`,
-            activity_type: IAuditActivityType.ACCESS,
-            activity_status: IAuditActivityStatus.FAILURE,
-            user: auth._id,
-        });
-
-        await discordMessageHelper(
-            req,
-            auth,
-            "Portfolio does not exist ❌",
-            DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-            DISCORD_INVESTMENT_ERROR_PRODUCTION,
-            "PORTFOLIO"
-        );
-        return false;
-    } else {
-        return portfolio;
-    }
-};
-
-export const listingIsExist = async (
-    req: ExpressRequest,
-    listing_id: {
-        _id: Types.ObjectId;
-        project_name: string;
-        location: string;
-        project_image: string;
-    },
-    auth: IUserDocument
-) => {
-    const listing = await listingRepository.getOne({ _id: listing_id._id });
-
-    if (!listing) {
-        await discordMessageHelper(
-            req,
-            auth,
-            `Listing does not exist ❌`,
-            DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-            DISCORD_INVESTMENT_ERROR_PRODUCTION,
-            "LISTING CHECK"
-        );
-        // Audit
-        await auditRepository.create({
-            req,
-            title: "Listing does not exist",
+            title: "payment does not exist",
             name: `${auth.first_name} ${auth.last_name}`,
             activity_type: IAuditActivityType.ACCESS,
             activity_status: IAuditActivityStatus.FAILURE,
@@ -376,40 +329,76 @@ export const listingIsExist = async (
         });
         return false;
     } else {
-        return listing;
+        return payment;
     }
 };
 
-export const oldListingIsExist = async (
-    req: ExpressRequest,
-    duration: number,
-    auth: IUserDocument
-) => {
-    const listing = await listingRepository.getOneOldestActiveListing({
-        status: IListingStatus.ACTIVE,
-        holding_period: duration,
-    });
+// export const listingIsExist = async (
+//     req: ExpressRequest,
+//     listing_id: {
+//         _id: Types.ObjectId;
+//         project_name: string;
+//         location: string;
+//         project_image: string;
+//     },
+//     auth: IUserDocument
+// ) => {
+//     const listing = await listingRepository.getOne({ _id: listing_id._id });
 
-    if (!listing) {
-        await discordMessageHelper(
-            req,
-            auth,
-            `No listing of ${duration} months is available ❌`,
-            DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-            DISCORD_INVESTMENT_ERROR_PRODUCTION,
-            "LISTING CHECK"
-        );
-        // Audit
-        await auditRepository.create({
-            req,
-            title: `No listing of ${duration} months is available`,
-            name: `${auth.first_name} ${auth.last_name}`,
-            activity_type: IAuditActivityType.ACCESS,
-            activity_status: IAuditActivityStatus.FAILURE,
-            user: auth._id,
-        });
-        return false;
-    } else {
-        return listing;
-    }
-};
+//     if (!listing) {
+//         await discordMessageHelper(
+//             req,
+//             auth,
+//             `Listing does not exist ❌`,
+//             DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
+//             DISCORD_INVESTMENT_ERROR_PRODUCTION,
+//             "LISTING CHECK"
+//         );
+//         // Audit
+//         await auditRepository.create({
+//             req,
+//             title: "Listing does not exist",
+//             name: `${auth.first_name} ${auth.last_name}`,
+//             activity_type: IAuditActivityType.ACCESS,
+//             activity_status: IAuditActivityStatus.FAILURE,
+//             user: auth._id,
+//         });
+//         return false;
+//     } else {
+//         return listing;
+//     }
+// };
+
+// export const oldListingIsExist = async (
+//     req: ExpressRequest,
+//     duration: number,
+//     auth: IUserDocument
+// ) => {
+//     const listing = await listingRepository.getOneOldestActiveListing({
+//         status: IListingStatus.ACTIVE,
+//         holding_period: duration,
+//     });
+
+//     if (!listing) {
+//         await discordMessageHelper(
+//             req,
+//             auth,
+//             `No listing of ${duration} months is available ❌`,
+//             DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
+//             DISCORD_INVESTMENT_ERROR_PRODUCTION,
+//             "LISTING CHECK"
+//         );
+//         // Audit
+//         await auditRepository.create({
+//             req,
+//             title: `No listing of ${duration} months is available`,
+//             name: `${auth.first_name} ${auth.last_name}`,
+//             activity_type: IAuditActivityType.ACCESS,
+//             activity_status: IAuditActivityStatus.FAILURE,
+//             user: auth._id,
+//         });
+//         return false;
+//     } else {
+//         return listing;
+//     }
+// };

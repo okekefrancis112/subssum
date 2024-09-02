@@ -332,32 +332,32 @@ const permissions = [
     hierarchy: 1,
   },
 
-  // User Portfolio
+  // User payment
   {
-    permission_name: 'Create Portfolio',
-    permission_description: 'Can create Portfolio',
-    permission_alias: 'create-portfolio',
+    permission_name: 'Create payment',
+    permission_description: 'Can create payment',
+    permission_alias: 'create-payment',
     hierarchy: 2,
   },
 
   {
-    permission_name: 'View Portfolio',
-    permission_description: 'Can view Portfolio',
-    permission_alias: 'view-portfolio',
+    permission_name: 'View payment',
+    permission_description: 'Can view payment',
+    permission_alias: 'view-payment',
     hierarchy: 3,
   },
 
   {
-    permission_name: 'Export Portfolio',
-    permission_description: 'Can export Portfolio',
-    permission_alias: 'export-portfolio',
+    permission_name: 'Export payment',
+    permission_description: 'Can export payment',
+    permission_alias: 'export-payment',
     hierarchy: 3,
   },
 
   {
-    permission_name: 'Delete Portfolio',
-    permission_description: 'Can delete Portfolio',
-    permission_alias: 'delete-portfolio',
+    permission_name: 'Delete payment',
+    permission_description: 'Can delete payment',
+    permission_alias: 'delete-payment',
     hierarchy: 1,
   },
 
@@ -388,7 +388,7 @@ const superAdmin = [
   // Views
   'view-overview',
   'view-statistics',
-  'view-portfolio',
+  'view-payment',
   'view-track-record',
   'view-referrals',
   'view-wallet',
@@ -404,7 +404,7 @@ const superAdmin = [
   'view-exchange-rates',
 
   // Create
-  'create-portfolio',
+  'create-payment',
   'create-faqs',
   'create-testimonials',
   'create-notifications',
@@ -417,7 +417,7 @@ const superAdmin = [
   'create-exchange-rate',
 
   // Export
-  'export-portfolio',
+  'export-payment',
   'export-faqs',
   'export-testimonials',
   'export-notifications',

@@ -256,7 +256,7 @@ class UserRepository {
         };
 
         // Find documents with filter query
-        const plan = await User.find(filterQuery)
+        const payment = await User.find(filterQuery)
             .limit(perpage)
             .skip(page * perpage - perpage)
             .select(
@@ -269,7 +269,7 @@ class UserRepository {
 
         // Return data and pagination information
         return Promise.resolve({
-            data: plan,
+            data: payment,
             pagination: {
                 hasPrevious: page > 1, // Check if there is a previous page
                 prevPage: page - 1, // Get the previous page number

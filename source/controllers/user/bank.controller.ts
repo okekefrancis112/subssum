@@ -20,7 +20,6 @@ import {
 import userRepository from "../../repositories/user.repository";
 import { IBankType } from "../../interfaces/banks.interface";
 import { env } from "../../config/env.config";
-import { discordMessageHelper } from "../../helpers/discord.helper";
 
 /*****************************************
  * Get Bank List
@@ -84,20 +83,6 @@ export async function resolveAccount(
                 bank_code
             );
 
-            await discordMessageHelper(
-                req,
-                user,
-                "Resolve Account ✅",
-                BANK_CARD_LINK_DISCORD_CHANNEL_DEVELOPMENT,
-                BANK_CARD_LINK_DISCORD_CHANNEL_PRODUCTION,
-                "BANK",
-                {
-                    "Account Number": account_number,
-                    "Bank Code": bank_code,
-                    "Account Name": e.data.account_name,
-                }
-            );
-
             // Create Audit Logs
             await auditRepository.create({
                 req,
@@ -116,18 +101,6 @@ export async function resolveAccount(
                 data: e.data,
             });
         } catch (e) {
-            await discordMessageHelper(
-                req,
-                user,
-                "Could not resolve account number ❌",
-                BANK_CARD_LINK_DISCORD_CHANNEL_DEVELOPMENT,
-                BANK_CARD_LINK_DISCORD_CHANNEL_PRODUCTION,
-                "BANK",
-                {
-                    "Account Number": account_number,
-                    "Bank Code": bank_code,
-                }
-            );
 
             // Create Audit Logs
             await auditRepository.create({

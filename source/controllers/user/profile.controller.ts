@@ -14,13 +14,7 @@ import {
 } from "../../constants/app_defaults.constant";
 import { youVerifyApiClient } from "../../integrations/youVerifyApiClient";
 import { IDType } from "../../interfaces/user.interface";
-import planRepository from "../../repositories/portfolio.repository";
-import { IPortfolioStatus } from "../../interfaces/plan.interface";
-import walletRepository from "../../repositories/wallet.repository";
 import otpRepository from "../../repositories/otp.repository";
-import { env } from "../../config";
-import { DiscordTaskJob } from "../../services/queues/producer.service";
-import { discordMessageHelper } from "../../helpers/discord.helper";
 
 /*****
  *
@@ -276,15 +270,6 @@ export async function verifyIdentity(
         });
 
         if (check) {
-            await discordMessageHelper(
-                req,
-                user,
-                "Sorry, this ID has already been used by another user. ❌",
-                KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                KYC_DISCORD_CHANNEL_PRODUCTION,
-                "Sorry, this ID has already been used by another user"
-            );
-
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.BAD_REQUEST,
@@ -299,14 +284,6 @@ export async function verifyIdentity(
             });
 
             if (!verify_bvn.success) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `BVN => ${verify_bvn.message} | ${process.env.NODE_ENV} environment ❌`,
-                    KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                    KYC_DISCORD_CHANNEL_PRODUCTION,
-                    `BVN => ${verify_bvn.message} | ${process.env.NODE_ENV}`
-                );
 
                 return ResponseHandler.sendErrorResponse({
                     res,
@@ -342,14 +319,6 @@ export async function verifyIdentity(
                     });
 
                     if (saved_id) {
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `BVN => Your id details have been successfully verified. | ${process.env.NODE_ENV} environment ✅`,
-                            KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                            KYC_DISCORD_CHANNEL_PRODUCTION,
-                            "BVN => Your id details have been successfully verified."
-                        );
 
                         return ResponseHandler.sendSuccessResponse({
                             res,
@@ -359,14 +328,6 @@ export async function verifyIdentity(
                         });
                     }
                 } else {
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `BVN => BVN name does not match your name. | ${process.env.NODE_ENV} environment ❌`,
-                        KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                        KYC_DISCORD_CHANNEL_PRODUCTION,
-                        "BVN => BVN name does not match your name."
-                    );
 
                     return ResponseHandler.sendErrorResponse({
                         res,
@@ -383,14 +344,6 @@ export async function verifyIdentity(
                 });
 
             if (!verify_driver_license.success) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `DRIVER LICENSE => ${verify_driver_license.message} | ${process.env.NODE_ENV} environment ❌`,
-                    KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                    KYC_DISCORD_CHANNEL_PRODUCTION,
-                    `DRIVER LICENSE => ${verify_driver_license.message} | ${process.env.NODE_ENV}`
-                );
 
                 return ResponseHandler.sendErrorResponse({
                     res,
@@ -429,14 +382,6 @@ export async function verifyIdentity(
                     });
 
                     if (saved_id) {
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `DRIVER LICENSE => Your id details have been successfully verified. | ${process.env.NODE_ENV} environment ✅`,
-                            KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                            KYC_DISCORD_CHANNEL_PRODUCTION,
-                            "DRIVER LICENSE => Your id details have been successfully verified."
-                        );
 
                         return ResponseHandler.sendSuccessResponse({
                             res,
@@ -446,14 +391,6 @@ export async function verifyIdentity(
                         });
                     }
                 } else {
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `DRIVER LICENSE => Driver license name does not match your name. | ${process.env.NODE_ENV} environment ❌`,
-                        KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                        KYC_DISCORD_CHANNEL_PRODUCTION,
-                        "DRIVER LICENSE => Driver license name does not match your name."
-                    );
 
                     return ResponseHandler.sendErrorResponse({
                         res,
@@ -471,14 +408,6 @@ export async function verifyIdentity(
                 });
 
             if (!verify_passport.success) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `INTERNATIONAL PASSPORT => ${verify_passport.message} | ${process.env.NODE_ENV} environment ❌`,
-                    KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                    KYC_DISCORD_CHANNEL_PRODUCTION,
-                    `INTERNATIONAL PASSPORT => ${verify_passport.message} | ${process.env.NODE_ENV}`
-                );
 
                 return ResponseHandler.sendErrorResponse({
                     res,
@@ -517,14 +446,6 @@ export async function verifyIdentity(
                     });
 
                     if (saved_id) {
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `INTERNATIONAL PASSPORT => Your id details have been successfully verified. | ${process.env.NODE_ENV} environment ✅`,
-                            KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                            KYC_DISCORD_CHANNEL_PRODUCTION,
-                            "INTERNATIONAL PASSPORT => Your id details have been successfully verified."
-                        );
 
                         return ResponseHandler.sendSuccessResponse({
                             res,
@@ -534,14 +455,6 @@ export async function verifyIdentity(
                         });
                     }
                 } else {
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `INTERNATIONAL PASSPORT => International passport name does not match your name. | ${process.env.NODE_ENV} environment ❌`,
-                        KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                        KYC_DISCORD_CHANNEL_PRODUCTION,
-                        "INTERNATIONAL PASSPORT => International passport name does not match your name."
-                    );
 
                     return ResponseHandler.sendErrorResponse({
                         res,
@@ -557,14 +470,6 @@ export async function verifyIdentity(
             });
 
             if (!verify_nin.success) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `NATIONAL ID => ${verify_nin.message} | ${process.env.NODE_ENV} environment ❌`,
-                    KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                    KYC_DISCORD_CHANNEL_PRODUCTION,
-                    `NATIONAL ID => ${verify_nin.message} | ${process.env.NODE_ENV}`
-                );
 
                 return ResponseHandler.sendErrorResponse({
                     res,
@@ -600,14 +505,6 @@ export async function verifyIdentity(
                     });
 
                     if (saved_id) {
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `NATIONAL ID => Your id details have been successfully verified. | ${process.env.NODE_ENV} environment ✅`,
-                            KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                            KYC_DISCORD_CHANNEL_PRODUCTION,
-                            "NATIONAL ID => Your id details have been successfully verified."
-                        );
 
                         return ResponseHandler.sendSuccessResponse({
                             res,
@@ -617,14 +514,6 @@ export async function verifyIdentity(
                         });
                     }
                 } else {
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `NATIONAL ID => National ID name does not match your name. | ${process.env.NODE_ENV} environment ❌`,
-                        KYC_DISCORD_CHANNEL_DEVELOPMENT,
-                        KYC_DISCORD_CHANNEL_PRODUCTION,
-                        "NATIONAL ID => National ID name does not match your name."
-                    );
 
                     return ResponseHandler.sendErrorResponse({
                         res,
@@ -1048,102 +937,6 @@ export async function changeSecretPassword(
     }
 }
 
-/*******************
- *
- *
- * Initiate Delete Account
- *
- *
- */
-
-export async function initiateDeleteAccount(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    try {
-        const user_id = throwIfUndefined(req.user, "req.user")._id;
-
-        const user = await userRepository.getById({ _id: user_id });
-
-        if (!user) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.NOT_FOUND,
-                error: `User not found. Please check your input.`,
-            });
-        }
-
-        const check_portfolio = await planRepository.getAllUserPlans({
-            user_id: user._id,
-            plan_status: { $ne: IPortfolioStatus.COMPLETE },
-        });
-
-        if (check_portfolio.length > 0) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                custom: true,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: `Action not successful, this user still have active investments`,
-                type: "portfolio",
-            });
-        }
-
-        // ! Check only in production
-        if (env.isProd) {
-            const get_wallet = await walletRepository.getByUserId({
-                user_id: user._id,
-            });
-
-            if (!get_wallet) {
-                return ResponseHandler.sendErrorResponse({
-                    res,
-                    code: HTTP_CODES.BAD_REQUEST,
-                    error: `Action not successful, this user has no wallet`,
-                });
-            }
-
-            if (get_wallet.balance > 0) {
-                return ResponseHandler.sendErrorResponse({
-                    res,
-                    custom: true,
-                    code: HTTP_CODES.BAD_REQUEST,
-                    error: `Action not successful, you still have a left over wallet balance`,
-                    type: "wallet",
-                });
-            }
-        }
-
-        // generate a one-time-password for email verification
-        const otp = await UtilFunctions.generateOtp({ user_id });
-
-        // create an instance of current date/time
-        let createdAt = new Date();
-
-        // send a verification email to the user
-        await UtilFunctions.sendEmail2("verify-otp.hbs", {
-            to: user.email,
-            subject: "OTP Verification",
-            props: {
-                email: user.email,
-                otp: otp?.otp,
-                name: user.first_name,
-                createdAt,
-            },
-        });
-
-        return ResponseHandler.sendSuccessResponse({
-            res,
-            code: HTTP_CODES.CREATED,
-            message: `An OTP has been sent to your email address. Please check your email and enter the OTP to continue.`,
-        });
-    } catch (error) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: HTTP_CODES.INTERNAL_SERVER_ERROR,
-            error: `${error}`,
-        });
-    }
-}
 
 /*******************
  *

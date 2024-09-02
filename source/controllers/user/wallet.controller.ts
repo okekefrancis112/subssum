@@ -26,11 +26,8 @@ import {
 import userRepository from "../../repositories/user.repository";
 import { ExpressRequest } from "../../server";
 import UtilFunctions, {
-    checkIfEmpty,
     check_card_expiry,
     formatDecimal,
-    link,
-    switchDate,
     throwIfUndefined,
 } from "../../util";
 import ResponseHandler from "../../util/response-handler";
@@ -45,7 +42,6 @@ import {
 import auditRepository from "../../repositories/audit.repository";
 import {
     DiscordTaskJob,
-    NotificationTaskJob,
 } from "../../services/queues/producer.service";
 import otpRepository from "../../repositories/otp.repository";
 import banksRepository from "../../repositories/banks.repository";
@@ -56,9 +52,7 @@ import {
     paystack_charge,
 } from "../../helpers/charges.helper";
 import { env } from "../../config";
-import { discordMessageHelper } from "../../helpers/discord.helper";
 import { ICurrency } from "../../interfaces/exchange-rate.interface";
-import { ChargeRecurring } from "../../helpers/recurring.helper";
 
 export async function fundWallet(
     req: ExpressRequest,
@@ -191,14 +185,6 @@ export async function fundWallet(
             );
 
             if (default_choice === "yes" && !is_card_valid) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `Your saved card has expired ❌`,
-                    DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                    DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                    "PAYSTACK WALLET FUNDING"
-                );
                 return ResponseHandler.sendErrorResponse({
                     res,
                     code: HTTP_CODES.BAD_REQUEST,
@@ -261,16 +247,6 @@ export async function fundWallet(
                 reference: apiCall.data.reference,
             };
 
-            await discordMessageHelper(
-                req,
-                user,
-                `Paystack payment initiated successfully ✅`,
-                DISCORD_WALLET_INITIATED_FUNDING_DEVELOPMENT,
-                DISCORD_WALLET_INITIATED_FUNDING_PRODUCTION,
-                "PAYSTACK WALLET FUNDING",
-                { Amount: amount, transaction_hash }
-            );
-
             return ResponseHandler.sendSuccessResponse({
                 res,
                 code: HTTP_CODES.OK,
@@ -319,14 +295,6 @@ export async function fundWallet(
             );
 
             if (default_choice === "yes" && !is_card_valid) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `Your saved card has expired ❌`,
-                    DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                    DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                    "FLUTTERWAVE USD WALLET FUNDING"
-                );
                 return ResponseHandler.sendErrorResponse({
                     res,
                     code: HTTP_CODES.BAD_REQUEST,
@@ -401,16 +369,6 @@ export async function fundWallet(
                 url: flutterwaveApiCall.data.link,
                 reference: reference,
             };
-
-            await discordMessageHelper(
-                req,
-                user,
-                `Flutterwave payment initiated successfully ✅`,
-                DISCORD_WALLET_INITIATED_FUNDING_DEVELOPMENT,
-                DISCORD_WALLET_INITIATED_FUNDING_PRODUCTION,
-                "FLUTTERWAVE WALLET FUNDING",
-                { Amount: amount, transaction_hash }
-            );
 
             // Audit
             await auditRepository.create({
@@ -509,14 +467,6 @@ export async function fundWallet(
             );
 
             if (default_choice === "yes" && !is_card_valid) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `Your saved card has expired ❌`,
-                    DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                    DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                    "FLUTTERWAVE NGN WALLET FUNDING"
-                );
                 return ResponseHandler.sendErrorResponse({
                     res,
                     code: HTTP_CODES.BAD_REQUEST,
@@ -590,16 +540,6 @@ export async function fundWallet(
                 url: flutterwaveApiCall.data.link,
                 reference: reference,
             };
-
-            await discordMessageHelper(
-                req,
-                user,
-                `Flutterwave ngn payment initiated successfully ✅`,
-                DISCORD_WALLET_INITIATED_FUNDING_DEVELOPMENT,
-                DISCORD_WALLET_INITIATED_FUNDING_PRODUCTION,
-                "FLUTTERWAVE NGN WALLET FUNDING",
-                { Amount: amount, transaction_hash }
-            );
 
             return ResponseHandler.sendSuccessResponse({
                 res,
@@ -677,16 +617,6 @@ export async function fundWallet(
 
                     await session.commitTransaction();
                     await session.endSession();
-
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Diaspora Bank Transfer initiated successfully ✅`,
-                        DISCORD_WALLET_INITIATED_FUNDING_DEVELOPMENT,
-                        DISCORD_WALLET_INITIATED_FUNDING_PRODUCTION,
-                        "Diapora Bank Transfer WALLET FUNDING",
-                        { Amount: amount, transaction_hash }
-                    );
 
                     return ResponseHandler.sendSuccessResponse({
                         res,

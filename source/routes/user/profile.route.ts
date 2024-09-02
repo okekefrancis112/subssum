@@ -79,8 +79,6 @@ router.put(
 // POST route to verify user identity
 router.post('/verify-identity', auth.auth, profileControllers.verifyIdentity);
 
-router.put('/initiate-delete', auth.auth, profileControllers.initiateDeleteAccount);
-
 router.put('/delete-account', auth.auth, profileControllers.softDeleteAccount);
 
 // Export router

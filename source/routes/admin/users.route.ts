@@ -47,15 +47,6 @@ router.get(
     UsersControllers.getUserNextOfKinInfo
 );
 
-// GET route to get a user plan
-router.get(
-    "/get-user-plans/:user_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("view-users"),
-    UserValidations.validateUserId,
-    UsersControllers.getUserPlans
-);
-
 // GET route to get user wallet information
 router.get(
     "/get-user-wallet/:user_id",
@@ -63,16 +54,6 @@ router.get(
     accessAdminAuth("view-users"),
     UserValidations.validateUserId,
     UsersControllers.getUserWalletDetails
-);
-
-// GET route to get a user plan investment details
-router.get(
-    "/get-user-plan-investments-details/:user_id/:plan_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("view-users"),
-    UserValidations.validateUserId,
-    UserValidations.validatePlanId,
-    UsersControllers.getUserPlanInvestmentsDetails
 );
 
 // DELETE route to delete a user
@@ -101,15 +82,6 @@ router.get(
     UsersControllers.exportUsers
 );
 
-// GET route to export user plan details
-router.get(
-    "/export-user-plans/:user_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("export-users"),
-    UserValidations.validateUserId,
-    UsersControllers.exportUserPlans
-);
-
 // GET route to export a user wallet
 router.get(
     "/export-user-wallet/:user_id",
@@ -117,16 +89,6 @@ router.get(
     accessAdminAuth("export-users"),
     UserValidations.validateUserId,
     UsersControllers.exportUserWalletDetails
-);
-
-// GET route to export a user investment details
-router.get(
-    "/export-user-plan-investments-details/:user_id/:plan_id",
-    auth_admin.authAdmin,
-    accessAdminAuth("export-users"),
-    UserValidations.validateUserId,
-    UserValidations.validatePlanId,
-    UsersControllers.exportUserPlanInvestmentsDetails
 );
 
 router.get(

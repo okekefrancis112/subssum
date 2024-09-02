@@ -1,25 +1,19 @@
-import planRepository from "../repositories/plan.repository";
+import paymentRepository from "../repositories/payment.repository";
 import {
-    IPortfolioIntervals,
-    IPortfolioOccurrence,
-    IPortfolioStatus,
-} from "../interfaces/plan.interface";
+    IPaymentIntervals,
+    IPaymentOccurrence,
+    IPaymentStatus,
+} from "../interfaces/payment.interface";
 import userRepository from "../repositories/user.repository";
-import { discordMessageHelper } from "./discord.helper";
-import {
-    DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-    DISCORD_INVESTMENT_ERROR_PRODUCTION,
-} from "../constants/app_defaults.constant";
 import { ExpressRequest } from "../server";
-import listingRepository from "../repositories/listing.repository";
-import { IListingStatus } from "../interfaces/listing.interface";
+// import listingRepository from "../repositories/listing.repository";
+// import { IListingStatus } from "../interfaces/listing.interface";
 import exchangeRateRepository from "../repositories/exchange-rate.repository";
 import { RATES } from "../constants/rates.constant";
 import { paystack_charge } from "./charges.helper";
 import UtilFunctions, {
     areDatesInSameMonthAndYear,
     check_card_expiry,
-    link,
 } from "../util";
 import cardsRepository from "../repositories/cards.repository";
 import {
@@ -29,43 +23,35 @@ import {
 import { ICardStatus } from "../interfaces/cards.interface";
 import { ICurrency } from "../interfaces/exchange-rate.interface";
 import {
-    NotificationTaskJob,
     RecurringInvestmentTaskJob,
 } from "../services/queues/producer.service";
 import moment from "moment";
 
 export async function ChargeRecurring(req: ExpressRequest) {
     try {
-        const get_plan = await planRepository.getAll({
-            plan_occurrence: IPortfolioOccurrence.RECURRING,
-            plan_status: IPortfolioStatus.RESUME,
+        const get_payment = await paymentRepository.getAll({
+            payment_occurrence: IPaymentOccurrence.RECURRING,
+            payment_status: IPaymentStatus.RESUME,
             investments: { $exists: true, $not: { $size: 0 } },
         });
 
-        for (let i = 0; i < get_plan.length; i++) {
+        for (let i = 0; i < get_payment.length; i++) {
             const {
                 _id,
                 amount,
-                plan_name,
+                payment_name,
                 user_id,
-                plan_occurrence,
+                payment_occurrence,
                 investment_category,
                 duration,
                 next_charge_date,
                 last_charge_date,
-            } = get_plan[i];
+            } = get_payment[i];
 
             const user = await userRepository.getOne({ _id: user_id });
 
             if (!user) {
-                await discordMessageHelper(
-                    req,
-                    null,
-                    "User does not exist (RECURRING PAYMENT) ❌",
-                    DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                    DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                    "USER DOES NOT EXIST (RECURRING PAYMENT | CRON)"
-                );
+
                 continue;
             }
 
@@ -92,14 +78,6 @@ export async function ChargeRecurring(req: ExpressRequest) {
             });
 
             if (!get_card) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    "No card saved for this user recurring investment (RECURRING PAYMENT) ❌",
-                    DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                    DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                    "No card saved for this user recurring investment (RECURRING PAYMENT | CRON)"
-                );
                 continue;
             }
 
@@ -112,15 +90,6 @@ export async function ChargeRecurring(req: ExpressRequest) {
                 await cardsRepository.updateOne(
                     { _id: get_card?._id },
                     { is_default: false, card_status: ICardStatus.EXPIRED }
-                );
-
-                await discordMessageHelper(
-                    req,
-                    user,
-                    "User card is expired (RECURRING PAYMENT) ❌",
-                    DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                    DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                    "USER CARD IS EXPIRED (RECURRING PAYMENT | CRON)"
                 );
                 continue;
             }
@@ -144,23 +113,15 @@ export async function ChargeRecurring(req: ExpressRequest) {
                 new Date(next_charge_date) < current_date &&
                 !isValidNextChargeDate
             ) {
-                const listing = await listingRepository.getOne({
-                    holding_period: duration,
-                    status: IListingStatus.ACTIVE,
-                    investment_category,
-                });
+                // const listing = await listingRepository.getOne({
+                //     holding_period: duration,
+                //     status: IListingStatus.ACTIVE,
+                //     investment_category,
+                // });
 
-                if (!listing) {
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        "No listing fits the investment category (RECURRING PAYMENT) ❌",
-                        DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                        DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                        "NO LISTING FITS THE INVESTMENT CATEGORY (RECURRING PAYMENT | CRON)"
-                    );
-                    continue;
-                }
+                // if (!listing) {
+                //     continue;
+                // }
 
                 const investment_payload = {
                     customerName: `${user?.first_name} ${user?.last_name}`,
@@ -168,12 +129,12 @@ export async function ChargeRecurring(req: ExpressRequest) {
                     amount: paystackAmount,
                     metadata: {
                         normal_amount: format_amount,
-                        plan_name,
-                        plan: _id,
-                        intervals: IPortfolioIntervals.MONTHLY,
-                        plan_occurrence,
+                        payment_name,
+                        payment: _id,
+                        intervals: IPaymentIntervals.MONTHLY,
+                        payment_occurrence,
                         duration,
-                        listing_id: listing?._id,
+                        // listing_id: listing?._id,
                         transaction_to: ITransactionTo.INVESTMENT_TOPUP,
                         user_id: user?._id,
                         dollar_amount: dollarAmount,
@@ -183,7 +144,7 @@ export async function ChargeRecurring(req: ExpressRequest) {
                         payment_reference: reference,
                         transaction_hash,
                         payment_gateway: IPaymentGateway.PAYSTACK,
-                        chargeType: IPortfolioOccurrence.RECURRING,
+                        chargeType: IPaymentOccurrence.RECURRING,
                     },
                     authorization_code: String(get_card?.authorization_code),
                 };

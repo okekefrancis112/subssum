@@ -37,16 +37,16 @@ export async function validateWithdrawalId(
     next();
 }
 
-export async function validatePlanId(
+export async function validatepaymentId(
     req: ExpressRequest,
     res: Response,
     next: NextFunction
 ) {
-    if (!mongoose.Types.ObjectId.isValid(req.params.plan_id))
+    if (!mongoose.Types.ObjectId.isValid(req.params.payment_id))
         return ResponseHandler.sendErrorResponse({
             res,
             code: HTTP_CODES.NOT_FOUND,
-            error: "Invalid Plan ID",
+            error: "Invalid payment ID",
         });
 
     next();

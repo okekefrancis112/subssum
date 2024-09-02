@@ -1,19 +1,19 @@
 import { Types } from "mongoose";
 import {
-    IPlanDocument,
-    IPortfolioIntervals,
-    IPortfolioOccurrence,
-    IPortfolioCategory,
-    IPortfolioStatus,
-} from "../interfaces/plan.interface";
+    IPaymentDocument,
+    IPaymentIntervals,
+    IPaymentOccurrence,
+    IPaymentCategory,
+    IPaymentStatus,
+} from "../interfaces/payment.interface";
 
-export interface CreatePlanDto {
+export interface CreatepaymentDto {
     user_id?: Types.ObjectId;
     goal_name?: string;
     goal_target?: number;
-    intervals?: IPortfolioIntervals;
+    intervals?: IPaymentIntervals;
     amount?: number;
     total_amount?: number;
-    plan_occurrence: IPortfolioOccurrence;
+    payment_occurrence: IPaymentOccurrence;
     duration?: number;
 }

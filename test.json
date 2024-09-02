@@ -7,7 +7,7 @@
     transaction_ref: new ObjectId("63a5a9789da6b921ebf9c3ea"),
     payment_reference: 'subssum_TX_REFBNKVRO2F0CLH',
     payment_gateway: 'paystack',
-    description: 'Build an Aeroplane plan worth 10 USD was successfully created at Rate 740/ USD ',
+    description: 'Build an Aeropaymente payment worth 10 USD was successfully created at Rate 740/ USD ',
     currency: 'USD',
     exchange_rate_value: new Decimal128("740"),
     exchange_rate_currency: 'USD',

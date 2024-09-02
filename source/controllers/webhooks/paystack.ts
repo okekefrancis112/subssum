@@ -19,27 +19,16 @@ import {
 } from "../../interfaces/transaction.interface";
 import { creditWallet } from "../../helpers/wallet.helper";
 import {
-    createInvestPortfolio,
-    topUpInvestPortfolio,
-} from "../../helpers/portfolio.helper";
+    createInvestpayment,
+    topUpInvestpayment,
+} from "../../helpers/payment.helper";
 import {
     HTTP_CODES,
-    DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-    DISCORD_INVESTMENT_ERROR_PRODUCTION,
-    DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-    DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-    DISCORD_SUCCESS_WALLET_FUNDING_DEVELOPMENT,
-    DISCORD_SUCCESS_WALLET_FUNDING_PRODUCTION,
-    DISCORD_INVESTMENT_SUCCESS_DEVELOPMENT,
-    DISCORD_INVESTMENT_SUCCESS_PRODUCTION,
 } from "../../constants/app_defaults.constant";
 import cardsRepository from "../../repositories/cards.repository";
-import UtilFunctions, { formatDecimal, link } from "../../util";
+import UtilFunctions, {  } from "../../util";
 import walletRepository from "../../repositories/wallet.repository";
-import { NotificationTaskJob } from "../../services/queues/producer.service";
-import { portfolioIsExist } from "../../validations/user/portfolio.validation";
-import { discordMessageHelper } from "../../helpers/discord.helper";
-import { IInvestmentForm } from "../../interfaces/investment.interface";
+import { paymentIsExist } from "../../validations/user/payment.validation";
 import { ICurrency } from "../../interfaces/exchange-rate.interface";
 
 export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
@@ -160,15 +149,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
 
                 await transactionRepository.create(failurePayload);
 
-                await discordMessageHelper(
-                    req,
-                    user_object,
-                    `Sorry, payment verification failed. The transaction could not be processed ❌`,
-                    DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                    DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                    "PAYSTACK"
-                );
-
                 return ResponseHandler.sendErrorResponse({
                     res,
                     code: HTTP_CODES.UNAUTHORIZED,
@@ -195,15 +175,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
 
                         if (!walletBalance) {
                             await session.abortTransaction();
-
-                            await discordMessageHelper(
-                                req,
-                                user_object,
-                                `Wallet does not exist. Your transactions have been canceled ❌ AA`,
-                                DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                                DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                                "PAYSTACK WALLET FUNDING"
-                            );
 
                             return ResponseHandler.sendErrorResponse({
                                 res,
@@ -239,16 +210,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
 
                         if (!result.success) {
                             await session.abortTransaction();
-
-                            await discordMessageHelper(
-                                req,
-                                user_object,
-                                `Something happened | Your transactions have been canceled. ❌ BB`,
-                                DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                                DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                                "PAYSTACK WALLET FUNDING",
-                                result
-                            );
 
                             return ResponseHandler.sendErrorResponse({
                                 res,
@@ -289,15 +250,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         await session.commitTransaction();
                         await session.endSession();
 
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `Hooray! Transaction successful ✅`,
-                            DISCORD_SUCCESS_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_SUCCESS_WALLET_FUNDING_PRODUCTION,
-                            "PAYSTACK WALLET FUNDING"
-                        );
-
                         return ResponseHandler.sendSuccessResponse({
                             res,
                             code: HTTP_CODES.OK,
@@ -305,16 +257,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         });
                     } catch (error: any) {
                         await session.abortTransaction();
-
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `Server Error. Your transactions have been canceled ❌CC`,
-                            DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                            "PAYSTACK WALLET FUNDING",
-                            error.message
-                        );
 
                         return ResponseHandler.sendErrorResponse({
                             res,
@@ -339,7 +281,7 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                     data.metadata.transaction_to === ITransactionTo.INVESTMENT
                 ) {
                     try {
-                        const planPayload: any = {
+                        const paymentPayload: any = {
                             investment_category:
                                 data.metadata.investment_category,
                             payment_gateway: data.metadata.payment_gateway,
@@ -347,15 +289,15 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                             listing_id: data.metadata.listing_id,
                             transaction_medium: ITransactionMedium.CARD,
                             entity_reference: IEntityReference.INVESTMENTS,
-                            plan_name: data.metadata.plan_name,
+                            payment_name: data.metadata.payment_name,
                             amount:
                                 data.metadata.normal_amount /
                                 data.metadata.exchange_rate_value,
                             intervals: data.metadata.intervals,
                             total_amount:
                                 amount / data.metadata.exchange_rate_value,
-                            plan_occurrence: data.metadata.plan_occurrence,
-                            investment_form: IInvestmentForm.NEW_INVESTMENT,
+                            payment_occurrence: data.metadata.payment_occurrence,
+                            // investment_form: IInvestmentForm.NEW_INVESTMENT,
                             duration: data.metadata.duration,
                             transaction_hash: data.metadata.transaction_hash,
                             payment_reference: data.metadata.payment_reference,
@@ -368,21 +310,11 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                             session: session,
                         };
 
-                        // Create Plan
-                        const result = await createInvestPortfolio(planPayload);
+                        // Create payment
+                        const result = await createInvestpayment(paymentPayload);
 
                         if (!result.success) {
                             await session.abortTransaction();
-
-                            await discordMessageHelper(
-                                req,
-                                user_object,
-                                `Your transactions have been canceled DD❌`,
-                                DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                                DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                                "PAYSTACK INVESTMENT",
-                                result
-                            );
 
                             return ResponseHandler.sendErrorResponse({
                                 res,
@@ -390,16 +322,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                                 error: "Your transactions have been canceled.",
                             });
                         }
-
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `Hooray! Transaction successful ✅`,
-                            DISCORD_INVESTMENT_SUCCESS_DEVELOPMENT,
-                            DISCORD_INVESTMENT_SUCCESS_PRODUCTION,
-                            "PAYSTACK INVESTMENT",
-                            { ...planPayload }
-                        );
 
                         await session.commitTransaction();
                         await session.endSession();
@@ -412,15 +334,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                     } catch (error: unknown | any) {
                         await session.abortTransaction();
                         await session.endSession();
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `Your transactions have been canceled ❌ EE`,
-                            DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                            DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                            "PAYSTACK INVESTMENT",
-                            error.message
-                        );
 
                         return ResponseHandler.sendErrorResponse({
                             res,
@@ -452,15 +365,15 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
 
                         const topUpPayload = {
                             user_id: data.metadata.user_id,
-                            plan: data.metadata.plan,
+                            payment: data.metadata.payment,
                             amount: formatted_amount,
                             listing_id: data.metadata.listing_id,
                             transaction_medium: ITransactionMedium.CARD,
                             entity_reference: IEntityReference.INVESTMENTS,
                             payment_gateway: data.metadata.payment_gateway,
                             transaction_hash: data.metadata.transaction_hash,
-                            investment_form:
-                                IInvestmentForm.RECURRING_INVESTMENT,
+                            // investment_form:
+                            //     IInvestmentForm.RECURRING_INVESTMENT,
                             payment_reference: data.metadata.payment_reference,
                             exchange_rate_value:
                                 data.metadata.exchange_rate_value,
@@ -472,19 +385,10 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         };
 
                         // Top Up Investment
-                        const result = await topUpInvestPortfolio(topUpPayload);
+                        const result = await topUpInvestpayment(topUpPayload);
 
                         if (!result.success) {
                             await session.abortTransaction();
-
-                            await discordMessageHelper(
-                                req,
-                                user_object,
-                                `Your transactions have been canceled ❌ FF`,
-                                DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                                DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                                "PAYSTACK INVESTMENT TOPUP"
-                            );
 
                             console.log("Top up failed", result);
                             return ResponseHandler.sendErrorResponse({
@@ -494,43 +398,24 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                             });
                         }
 
-                        const getPortfolio = await portfolioIsExist(
+                        const getpayment = await paymentIsExist(
                             req,
-                            data.metadata.plan,
+                            data.metadata.payment,
                             user
                         );
 
-                        if (!getPortfolio) {
+                        if (!getpayment) {
                             await session.abortTransaction();
-
-                            await discordMessageHelper(
-                                req,
-                                user_object,
-                                `This portfolio does not exist ❌`,
-                                DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                                DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                                "PAYSTACK INVESTMENT TOPUP"
-                            );
 
                             return ResponseHandler.sendErrorResponse({
                                 res,
                                 code: HTTP_CODES.NOT_FOUND,
-                                error: "This portfolio does not exist",
+                                error: "This payment does not exist",
                             });
                         }
 
                         await session.commitTransaction();
                         await session.endSession();
-
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `Hooray! Transaction successful ✅`,
-                            DISCORD_INVESTMENT_SUCCESS_DEVELOPMENT,
-                            DISCORD_INVESTMENT_SUCCESS_PRODUCTION,
-                            "PAYSTACK INVESTMENT TOPUP"
-                            // { ...topUpPayload }
-                        );
 
                         return ResponseHandler.sendSuccessResponse({
                             res,
@@ -539,15 +424,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         });
                     } catch (error: any) {
                         await session.abortTransaction();
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `Your transactions have been canceled ❌ GG`,
-                            DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                            DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                            "PAYSTACK INVESTMENT TOPUP",
-                            error.message
-                        );
                         console.log("??????????????????????????", error);
                         return ResponseHandler.sendErrorResponse({
                             res,
@@ -599,15 +475,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         if (!result.success) {
                             await session.abortTransaction();
 
-                            await discordMessageHelper(
-                                req,
-                                user_object,
-                                `Your transactions have been canceled ❌ HH`,
-                                DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                                DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                                "PAYSTACK ADD CARD"
-                            );
-
                             return ResponseHandler.sendErrorResponse({
                                 res,
                                 code: HTTP_CODES.BAD_REQUEST,
@@ -631,15 +498,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         if (!add_card) {
                             await session.abortTransaction();
 
-                            await discordMessageHelper(
-                                req,
-                                user_object,
-                                `Your transactions have been canceled ❌ II`,
-                                DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                                DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                                "PAYSTACK ADD CARD"
-                            );
-
                             return ResponseHandler.sendErrorResponse({
                                 res,
                                 code: HTTP_CODES.BAD_REQUEST,
@@ -650,15 +508,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         await session.commitTransaction();
                         await session.endSession();
 
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `Hooray! Transaction successful, card added successfully ✅`,
-                            DISCORD_SUCCESS_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_SUCCESS_WALLET_FUNDING_PRODUCTION,
-                            "PAYSTACK ADD CARD"
-                        );
-
                         return ResponseHandler.sendSuccessResponse({
                             res,
                             code: HTTP_CODES.OK,
@@ -666,16 +515,6 @@ export const paystackWebhook = async (req: ExpressRequest, res: Response) => {
                         });
                     } catch (error: any) {
                         await session.abortTransaction();
-
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `Your transactions have been canceled ❌ JJ`,
-                            DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                            "PAYSTACK ADD CARD",
-                            error.message
-                        );
 
                         return ResponseHandler.sendErrorResponse({
                             res,

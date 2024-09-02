@@ -4,7 +4,6 @@ import { User } from '../models';
 import { IUserDocument } from '../interfaces/user.interface';
 import { format_query_decimal, repoPagination, repoSearch, repoTime } from '../util';
 import { RATES } from '../constants/rates.constant';
-import { IInvestmentStatus } from '../interfaces/investment.interface';
 
 class ReferRepository {
   // Get all referrals
@@ -427,124 +426,12 @@ class ReferRepository {
           { $match: filter },
 
           {
-            $lookup: {
-              from: 'investments',
-              let: { referredUserId: '$_id' }, // Create a variable to hold the referred user's _id
-              pipeline: [
-                {
-                  $match: {
-                    $expr: { $eq: ['$user_id', '$$referredUserId'] }, // Match investments by user_id
-                  },
-                },
-              ],
-              as: 'investment',
-            },
-          },
-          { $unwind: { path: '$investment', preserveNullAndEmptyArrays: true } },
-
-          {
-            $group: {
-              _id: '$_id',
-              first_name: { $first: '$first_name' },
-              middle_name: { $first: '$middle_name' },
-              last_name: { $first: '$last_name' },
-              email: { $first: '$email' },
-              has_invest: { $first: '$has_invest' },
-              createdAt: { $first: '$createdAt' },
-              investment: { $first: '$investment' },
-            },
-          },
-
-          {
-            $lookup: {
-              from: 'listings',
-              let: { listingId: '$investment.listing_id' },
-              pipeline: [
-                {
-                  $match: {
-                    $expr: { $eq: ['$_id', '$$listingId'] },
-                  },
-                },
-              ],
-              as: 'listing',
-            },
-          },
-          { $unwind: { path: '$listing', preserveNullAndEmptyArrays: true } },
-
-          {
             $project: {
               first_name: 1,
               middle_name: 1,
               last_name: 1,
               email: 1,
               createdAt: 1,
-              has_invest: 1,
-              investment_amount: format_query_decimal('$investment.amount', 100),
-              investment_category: '$investment.investment_category',
-
-              current_returns: {
-                $cond: {
-                    if: {
-                        $and: [
-                            { $eq: ["$listing._id", "$investment.listing_id"] },
-                            {
-                                $eq: [
-                                    "$investment.investment_status",
-                                    IInvestmentStatus.INVESTMENT_MATURED,
-                                ],
-                            },
-                        ],
-                    },
-                    then: format_query_decimal(
-                        {
-                            $multiply: [
-                                "$investment.amount",
-                                { $divide: ["$listing.returns", 100] },
-                            ],
-                        },
-                        1000
-                    ),
-
-                    else: format_query_decimal(
-                        {
-                            $multiply: [
-                                {
-                                    $divide: [
-                                        // Current Date
-                                        {
-                                            $subtract: [
-                                                "$$NOW",
-                                                "$investment.start_date",
-                                            ],
-                                        },
-
-                                        // Completed Date
-                                        {
-                                            $subtract: [
-                                                "$investment.end_date",
-                                                "$investment.start_date",
-                                            ],
-                                        },
-                                    ],
-                                },
-                                {
-                                    $multiply: [
-                                        "$investment.amount",
-                                        {
-                                            $divide: [
-                                                "$listing.returns",
-                                                100,
-                                            ],
-                                        },
-                                    ],
-                                },
-                            ],
-                        },
-                        1000
-                    ),
-                },
-            },
-
             },
           },
 
@@ -598,56 +485,11 @@ class ReferRepository {
     // Add has_invest, referred_by and filterQuery to the filter object
     const filter = { referred_by: refer_id, ...searching, has_invest, ...timeFilter };
 
-    // Get the plan documents from the database
+    // Get the payment documents from the database
     const [refers] = await Promise.all([
       User.aggregate(
         [
           { $match: filter },
-
-          {
-            $lookup: {
-              from: 'investments',
-              let: { referredUserId: '$_id' }, // Create a variable to hold the referred user's _id
-              pipeline: [
-                {
-                  $match: {
-                    $expr: { $eq: ['$user_id', '$$referredUserId'] }, // Match investments by user_id
-                  },
-                },
-              ],
-              as: 'investment',
-            },
-          },
-          { $unwind: { path: '$investment', preserveNullAndEmptyArrays: true } },
-
-          {
-            $group: {
-              _id: '$_id',
-              first_name: { $first: '$first_name' },
-              middle_name: { $first: '$middle_name' },
-              last_name: { $first: '$last_name' },
-              email: { $first: '$email' },
-              has_invest: { $first: '$has_invest' },
-              createdAt: { $first: '$createdAt' },
-              investment: { $first: '$investment' },
-            },
-          },
-
-          {
-            $lookup: {
-              from: 'listings',
-              let: { listingId: '$investment.listing_id' },
-              pipeline: [
-                {
-                  $match: {
-                    $expr: { $eq: ['$_id', '$$listingId'] },
-                  },
-                },
-              ],
-              as: 'listing',
-            },
-          },
-          { $unwind: { path: '$listing', preserveNullAndEmptyArrays: true } },
 
           {
             $project: {
@@ -667,73 +509,6 @@ class ReferRepository {
                   date: "$createdAt" // Replace 'dateField' with your actual field name containing the date
                 }
               },
-              has_invest: 1,
-              investment_amount: format_query_decimal('$investment.amount', 100),
-              investment_category: '$investment.investment_category',
-
-              current_returns: {
-                $cond: {
-                    if: {
-                        $and: [
-                            { $eq: ["$listing._id", "$investment.listing_id"] },
-                            {
-                                $eq: [
-                                    "$investment.investment_status",
-                                    IInvestmentStatus.INVESTMENT_MATURED,
-                                ],
-                            },
-                        ],
-                    },
-                    then: format_query_decimal(
-                        {
-                            $multiply: [
-                                "$investment.amount",
-                                { $divide: ["$listing.returns", 100] },
-                            ],
-                        },
-                        1000
-                    ),
-
-                    else: format_query_decimal(
-                        {
-                            $multiply: [
-                                {
-                                    $divide: [
-                                        // Current Date
-                                        {
-                                            $subtract: [
-                                                "$$NOW",
-                                                "$investment.start_date",
-                                            ],
-                                        },
-
-                                        // Completed Date
-                                        {
-                                            $subtract: [
-                                                "$investment.end_date",
-                                                "$investment.start_date",
-                                            ],
-                                        },
-                                    ],
-                                },
-                                {
-                                    $multiply: [
-                                        "$investment.amount",
-                                        {
-                                            $divide: [
-                                                "$listing.returns",
-                                                100,
-                                            ],
-                                        },
-                                    ],
-                                },
-                            ],
-                        },
-                        1000
-                    ),
-                },
-            },
-
             },
           },
 

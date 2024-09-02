@@ -9,7 +9,7 @@ import {
     DiscordTaskConsumer,
     RecurringInvestmentTaskConsumer,
 } from "../services/queues/consumer.service";
-import { PayoutCronJob, RecurringCronJob } from "../jobs";
+import { RecurringCronJob } from "../jobs";
 
 const logger = new Logger("general", Namespaces.USER_SERVER);
 
@@ -20,7 +20,6 @@ export const init = () => createApp(name, bindUserRoutes);
 (async function starters(req: ExpressRequest) {
     validateEnv();
     initDatabase();
-    await PayoutCronJob(req);
     await RecurringCronJob(req);
     redis;
     DiscordTaskConsumer();

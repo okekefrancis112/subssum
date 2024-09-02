@@ -4,17 +4,11 @@ import { startSession } from "mongoose";
 import { ExpressRequest } from "../../server";
 import ResponseHandler from "../../util/response-handler";
 import UtilFunctions, {
-    formatDecimal,
-    link,
     throwIfUndefined,
 } from "../../util";
 
 import {
     APP_CONSTANTS,
-    DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-    DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-    DISCORD_WALLET_WITHDRAWAL_SUCCESS_DEVELOPMENT,
-    DISCORD_WALLET_WITHDRAWAL_SUCCESS_PRODUCTION,
     HTTP_CODES,
 } from "../../constants/app_defaults.constant";
 import userRepository from "../../repositories/user.repository";
@@ -33,14 +27,12 @@ import {
     IAuditActivityStatus,
     IAuditActivityType,
 } from "../../interfaces/audit.interface";
-import { NotificationTaskJob } from "../../services/queues/producer.service";
 import { paystackApiClient } from "../../integrations/paystackApiClient";
 import otpRepository from "../../repositories/otp.repository";
 import exchangeRateRepository from "../../repositories/exchange-rate.repository";
 import banksRepository from "../../repositories/banks.repository";
 import { IBankType } from "../../interfaces/banks.interface";
 import walletRepository from "../../repositories/wallet.repository";
-import { discordMessageHelper } from "../../helpers/discord.helper";
 import { ICurrency } from "../../interfaces/exchange-rate.interface";
 
 export async function requestWithdrawal(
@@ -61,14 +53,6 @@ export async function requestWithdrawal(
 
         // ! This part handles the withdrawal restrictions for users without complete KYC
         if (!check_user.kyc_completed) {
-            await discordMessageHelper(
-                req,
-                user,
-                `Please complete your KYC to proceed ❌`,
-                DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-                DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-                "WALLET WITHDRAWAL"
-            );
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.BAD_REQUEST,
@@ -176,18 +160,6 @@ export async function requestWithdrawal(
             if (
                 Number(check_names) < APP_CONSTANTS.GENERAL.LIKELINESS_THRESHOLD
             ) {
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `Account name does not match the name on your profile ❌`,
-                    DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-                    DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-                    "WALLET WITHDRAWAL",
-                    {
-                        Account_Details: account_name,
-                        User_Details: user_name,
-                    }
-                );
                 return ResponseHandler.sendErrorResponse({
                     res,
                     code: HTTP_CODES.NOT_FOUND,
@@ -257,15 +229,6 @@ export async function requestWithdrawal(
             message: "OTP sent",
         });
     } catch (error: any) {
-        await discordMessageHelper(
-            req,
-            user,
-            `Server Error during withdrawal request ❌`,
-            DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-            DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-            "WALLET WITHDRAWAL",
-            error.message
-        );
         return ResponseHandler.sendErrorResponse({
             res,
             code: HTTP_CODES.INTERNAL_SERVER_ERROR,
@@ -394,16 +357,6 @@ export async function verifyWithdrawalRequests(
             const errors = failedTxns.map((a) => a.message);
             await session.abortTransaction();
 
-            await discordMessageHelper(
-                req,
-                user,
-                `Error during withdrawal request ❌`,
-                DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-                DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-                "WALLET WITHDRAWAL",
-                errors
-            );
-
             await auditRepository.create({
                 req,
                 title: `Error during withdrawal request`,
@@ -423,20 +376,6 @@ export async function verifyWithdrawalRequests(
         await session.commitTransaction();
         session.endSession();
 
-        await discordMessageHelper(
-            req,
-            user,
-            `Hooray! Withdrawal request successful ✅`,
-            DISCORD_WALLET_WITHDRAWAL_SUCCESS_DEVELOPMENT,
-            DISCORD_WALLET_WITHDRAWAL_SUCCESS_PRODUCTION,
-            "WALLET WITHDRAWAL",
-            {
-                Amount: amount,
-                Account_Details: saved_bank_details,
-                Reason: reason,
-            }
-        );
-
         await auditRepository.create({
             req,
             title: `Withdrawal request successful`,
@@ -454,15 +393,6 @@ export async function verifyWithdrawalRequests(
     } catch (error: any) {
         await session.commitTransaction();
         session.endSession();
-        await discordMessageHelper(
-            req,
-            user,
-            `Server Error during withdrawal request confirmation ❌`,
-            DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-            DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-            "WALLET WITHDRAWAL",
-            error.message
-        );
         return ResponseHandler.sendErrorResponse({
             res,
             code: HTTP_CODES.INTERNAL_SERVER_ERROR,
@@ -489,14 +419,6 @@ export async function requestWithdrawalForeignBank(
 
         // ! This part handles the withdrawal restrictions for users without complete KYC
         if (!check_user.kyc_completed) {
-            await discordMessageHelper(
-                req,
-                user,
-                `Please complete your KYC to proceed ❌`,
-                DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-                DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-                "WALLET WITHDRAWAL (FOREIGN BANK)"
-            );
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.BAD_REQUEST,
@@ -684,15 +606,6 @@ export async function requestWithdrawalForeignBank(
             message: "OTP sent",
         });
     } catch (error: any) {
-        await discordMessageHelper(
-            req,
-            user,
-            `Server Error during withdrawal request ❌`,
-            DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-            DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-            "WALLET WITHDRAWAL (FOREIGN BANK)",
-            error.message
-        );
         return ResponseHandler.sendErrorResponse({
             res,
             code: HTTP_CODES.INTERNAL_SERVER_ERROR,
@@ -815,16 +728,6 @@ export async function verifyWithdrawalRequestsForeignBank(
             const errors = failedTxns.map((a) => a.message);
             await session.abortTransaction();
 
-            await discordMessageHelper(
-                req,
-                user,
-                `Error during withdrawal request ❌`,
-                DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-                DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-                "WALLET WITHDRAWAL (FOREIGN BANK)",
-                errors
-            );
-
             await auditRepository.create({
                 req,
                 title: `Error during withdrawal request`,
@@ -844,20 +747,6 @@ export async function verifyWithdrawalRequestsForeignBank(
         await session.commitTransaction();
         session.endSession();
 
-        await discordMessageHelper(
-            req,
-            user,
-            `Hooray! Withdrawal request successful ✅`,
-            DISCORD_WALLET_WITHDRAWAL_SUCCESS_DEVELOPMENT,
-            DISCORD_WALLET_WITHDRAWAL_SUCCESS_PRODUCTION,
-            "WALLET WITHDRAWAL (FOREIGN BANKS)",
-            {
-                Amount: amount,
-                Account_Details: saved_bank_details,
-                Reason: reason,
-            }
-        );
-
         await auditRepository.create({
             req,
             title: `Withdrawal request successful`,
@@ -875,15 +764,6 @@ export async function verifyWithdrawalRequestsForeignBank(
     } catch (error: any) {
         await session.commitTransaction();
         session.endSession();
-        await discordMessageHelper(
-            req,
-            user,
-            `Server Error during withdrawal request confirmation ❌`,
-            DISCORD_WALLET_WITHDRAWAL_ERROR_DEVELOPMENT,
-            DISCORD_WALLET_WITHDRAWAL_ERROR_PRODUCTION,
-            "WALLET WITHDRAWAL (FOREIGN BANK)",
-            error.message
-        );
         return ResponseHandler.sendErrorResponse({
             res,
             code: HTTP_CODES.INTERNAL_SERVER_ERROR,

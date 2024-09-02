@@ -22,9 +22,9 @@ import {
 } from "../../interfaces/transaction.interface";
 import { creditWallet } from "../../helpers/wallet.helper";
 import {
-    createInvestPortfolio,
-    topUpInvestPortfolio,
-} from "../../helpers/portfolio.helper";
+    createInvestpayment,
+    topUpInvestpayment,
+} from "../../helpers/payment.helper";
 import {
     DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
     DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
@@ -37,14 +37,10 @@ import {
     HTTP_CODES,
 } from "../../constants/app_defaults.constant";
 import cardsRepository from "../../repositories/cards.repository";
-import UtilFunctions, { formatDecimal, link } from "../../util";
+import UtilFunctions, {  } from "../../util";
 import walletRepository from "../../repositories/wallet.repository";
-import { NotificationTaskJob } from "../../services/queues/producer.service";
-import { portfolioIsExist } from "../../validations/user/portfolio.validation";
-import { discordMessageHelper } from "../../helpers/discord.helper";
+import { paymentIsExist } from "../../validations/user/payment.validation";
 import { ICurrency } from "../../interfaces/exchange-rate.interface";
-import { IInvestmentForm } from "../../interfaces/investment.interface";
-import listingRepository from "../../repositories/listing.repository";
 import { RATES } from "../../constants/rates.constant";
 
 export const flutterwaveWebhook = async (
@@ -137,15 +133,6 @@ export const flutterwaveWebhook = async (
 
                 if (txExists) {
                     console.log("Transaction exists already");
-
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Hmm, something's not right... this transaction already exists ❌`,
-                        DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                        DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                        "FLUTTERWAVE"
-                    );
                     return ResponseHandler.sendErrorResponse({
                         res,
                         code: HTTP_CODES.CONFLICT,
@@ -186,15 +173,6 @@ export const flutterwaveWebhook = async (
                         if (!walletBalance) {
                             await session.abortTransaction();
 
-                            await discordMessageHelper(
-                                req,
-                                user,
-                                `Wallet does not exist. Your transactions have been canceled ❌`,
-                                DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                                DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                                "FLUTTERWAVE WALLET FUNDING"
-                            );
-
                             return ResponseHandler.sendErrorResponse({
                                 res,
                                 code: HTTP_CODES.BAD_REQUEST,
@@ -231,16 +209,6 @@ export const flutterwaveWebhook = async (
                         if (!result.success) {
                             await session.abortTransaction();
 
-                            await discordMessageHelper(
-                                req,
-                                user,
-                                `Something happened | Your transactions have been canceled. ❌`,
-                                DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                                DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                                "FLUTTERWAVE WALLET FUNDING",
-                                result
-                            );
-
                             return ResponseHandler.sendErrorResponse({
                                 res,
                                 code: HTTP_CODES.BAD_REQUEST,
@@ -273,15 +241,6 @@ export const flutterwaveWebhook = async (
 
                         await session.commitTransaction();
                         await session.endSession();
-
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `Hooray! Transaction successful ✅`,
-                            DISCORD_SUCCESS_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_SUCCESS_WALLET_FUNDING_PRODUCTION,
-                            "FLUTTERWAVE WALLET FUNDING"
-                        );
                         return ResponseHandler.sendSuccessResponse({
                             res,
                             code: HTTP_CODES.OK,
@@ -289,16 +248,6 @@ export const flutterwaveWebhook = async (
                         });
                     } catch (error: unknown | any) {
                         await session.abortTransaction();
-
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `Server Error. Your transactions have been canceled ❌`,
-                            DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                            "FLUTTERWAVE WALLET FUNDING",
-                            error.message
-                        );
                         return ResponseHandler.sendErrorResponse({
                             res,
                             code: HTTP_CODES.INTERNAL_SERVER_ERROR,
@@ -364,15 +313,6 @@ export const flutterwaveWebhook = async (
 
             if (txExists) {
                 console.log("Transaction exists already");
-
-                await discordMessageHelper(
-                    req,
-                    user,
-                    `Hmm, something's not right... this transaction already exists ❌`,
-                    DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                    DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                    "FLUTTERWAVE"
-                );
                 return ResponseHandler.sendErrorResponse({
                     res,
                     code: HTTP_CODES.CONFLICT,
@@ -412,15 +352,6 @@ export const flutterwaveWebhook = async (
                     if (!walletBalance) {
                         await session.abortTransaction();
 
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `Wallet does not exist. Your transactions have been canceled ❌`,
-                            DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                            "FLUTTERWAVE WALLET FUNDING"
-                        );
-
                         return ResponseHandler.sendErrorResponse({
                             res,
                             code: HTTP_CODES.BAD_REQUEST,
@@ -458,16 +389,6 @@ export const flutterwaveWebhook = async (
                     if (!result.success) {
                         await session.abortTransaction();
 
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `Something happened | Your transactions have been canceled. ❌`,
-                            DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                            "FLUTTERWAVE WALLET FUNDING",
-                            result
-                        );
-
                         return ResponseHandler.sendErrorResponse({
                             res,
                             code: HTTP_CODES.BAD_REQUEST,
@@ -498,15 +419,6 @@ export const flutterwaveWebhook = async (
 
                     await session.commitTransaction();
                     await session.endSession();
-
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Hooray! Transaction successful ✅`,
-                        DISCORD_SUCCESS_WALLET_FUNDING_DEVELOPMENT,
-                        DISCORD_SUCCESS_WALLET_FUNDING_PRODUCTION,
-                        "FLUTTERWAVE WALLET FUNDING"
-                    );
                     return ResponseHandler.sendSuccessResponse({
                         res,
                         code: HTTP_CODES.OK,
@@ -514,16 +426,6 @@ export const flutterwaveWebhook = async (
                     });
                 } catch (error: any) {
                     await session.abortTransaction();
-
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Server Error. Your transactions have been canceled ❌`,
-                        DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                        DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                        "FLUTTERWAVE WALLET FUNDING",
-                        error.message
-                    );
                     return ResponseHandler.sendErrorResponse({
                         res,
                         code: HTTP_CODES.INTERNAL_SERVER_ERROR,
@@ -570,16 +472,6 @@ export const flutterwaveWebhook = async (
                     if (!result.success) {
                         await session.abortTransaction();
 
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `Your transactions have been canceled ❌`,
-                            DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                            "FLUTTERWAVE ADD CARD",
-                            result
-                        );
-
                         return ResponseHandler.sendErrorResponse({
                             res,
                             code: HTTP_CODES.BAD_REQUEST,
@@ -605,15 +497,6 @@ export const flutterwaveWebhook = async (
                     if (!add_card) {
                         await session.abortTransaction();
 
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `Your transactions have been canceled ❌`,
-                            DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                            DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                            "FLUTTERWAVE ADD CARD"
-                        );
-
                         return ResponseHandler.sendErrorResponse({
                             res,
                             code: HTTP_CODES.BAD_REQUEST,
@@ -623,15 +506,6 @@ export const flutterwaveWebhook = async (
 
                     await session.commitTransaction();
                     await session.endSession();
-
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Hooray! Transaction successful, card added successfully ✅`,
-                        DISCORD_SUCCESS_WALLET_FUNDING_DEVELOPMENT,
-                        DISCORD_SUCCESS_WALLET_FUNDING_PRODUCTION,
-                        "FLUTTERWAVE ADD CARD"
-                    );
                     return ResponseHandler.sendSuccessResponse({
                         res,
                         code: HTTP_CODES.OK,
@@ -639,16 +513,6 @@ export const flutterwaveWebhook = async (
                     });
                 } catch (error: unknown | any) {
                     await session.abortTransaction();
-
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Your transactions have been canceled ❌`,
-                        DISCORD_ERROR_WALLET_FUNDING_DEVELOPMENT,
-                        DISCORD_ERROR_WALLET_FUNDING_PRODUCTION,
-                        "FLUTTERWAVE ADD CARD",
-                        error.message
-                    );
                     return ResponseHandler.sendErrorResponse({
                         res,
                         code: HTTP_CODES.INTERNAL_SERVER_ERROR,
@@ -673,10 +537,10 @@ export const flutterwaveWebhook = async (
                 payment_gateway,
                 user_id,
                 listing_id,
-                plan_name,
+                payment_name,
                 normal_amount,
                 intervals,
-                plan_occurrence,
+                payment_occurrence,
                 duration,
                 transaction_hash,
                 payment_reference,
@@ -684,19 +548,18 @@ export const flutterwaveWebhook = async (
 
             if (meta.transaction_to === ITransactionTo.INVESTMENT) {
                 try {
-                    const planPlayload = {
+                    const paymentPlayload = {
                         investment_category: investment_category,
                         payment_gateway: payment_gateway,
                         user_id: user_id,
                         listing_id: listing_id,
                         transaction_medium: ITransactionMedium.CARD,
                         entity_reference: IEntityReference.INVESTMENTS,
-                        plan_name: plan_name,
+                        payment_name: payment_name,
                         amount: normal_amount,
                         intervals: intervals,
                         total_amount: amount,
-                        plan_occurrence: plan_occurrence,
-                        investment_form: IInvestmentForm.NEW_INVESTMENT,
+                        payment_occurrence: payment_occurrence,
                         duration: duration,
                         transaction_hash: transaction_hash,
                         payment_reference: payment_reference,
@@ -707,21 +570,11 @@ export const flutterwaveWebhook = async (
                         session,
                     };
 
-                    // Create Plan
-                    const result = await createInvestPortfolio(planPlayload);
+                    // Create payment
+                    const result = await createInvestpayment(paymentPlayload);
 
                     if (!result.success) {
                         await session.abortTransaction();
-
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `Your transactions have been canceled ❌`,
-                            DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                            DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                            "FLUTTERWAVE INVESTMENT",
-                            result
-                        );
 
                         return ResponseHandler.sendErrorResponse({
                             res,
@@ -733,16 +586,6 @@ export const flutterwaveWebhook = async (
                     await session.commitTransaction();
                     await session.endSession();
 
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Hooray! Transaction successful ✅`,
-                        DISCORD_INVESTMENT_SUCCESS_DEVELOPMENT,
-                        DISCORD_INVESTMENT_SUCCESS_PRODUCTION,
-                        "FLUTTERWAVE INVESTMENT",
-                        { ...planPlayload }
-                    );
-
                     return ResponseHandler.sendSuccessResponse({
                         res,
                         code: HTTP_CODES.OK,
@@ -750,16 +593,6 @@ export const flutterwaveWebhook = async (
                     });
                 } catch (error: unknown | any) {
                     await session.abortTransaction();
-
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Your transactions have been canceled ❌`,
-                        DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                        DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                        "FLUTTERWAVE INVESTMENT",
-                        error.message
-                    );
                 } finally {
                     await session.endSession();
                 }
@@ -778,7 +611,7 @@ export const flutterwaveWebhook = async (
                 try {
                     const topUpPayload = {
                         user_id: meta.user_id,
-                        plan: meta.plan,
+                        payment: meta.payment,
                         amount: meta.normal_amount,
                         listing_id: meta.listing_id,
                         transaction_medium: ITransactionMedium.CARD,
@@ -795,20 +628,10 @@ export const flutterwaveWebhook = async (
                     };
 
                     // Top Up Investment
-                    const result = await topUpInvestPortfolio(topUpPayload);
+                    const result = await topUpInvestpayment(topUpPayload);
 
                     if (!result.success) {
                         await session.abortTransaction();
-
-                        await discordMessageHelper(
-                            req,
-                            user,
-                            `Your transactions have been canceled ❌`,
-                            DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                            DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                            "FLUTTERWAVE INVESTMENT TOPUP",
-                            result
-                        );
 
                         return ResponseHandler.sendErrorResponse({
                             res,
@@ -820,19 +643,19 @@ export const flutterwaveWebhook = async (
                     const rate = RATES.INVESTMENT_TOKEN_VALUE;
                     const tokens = amount / rate;
 
-                    await listingRepository.atomicUpdate(
-                        { _id: meta.listing_id },
-                        {
-                            $inc: {
-                                available_tokens: -Number(tokens),
-                                total_investments_made: 1,
-                                total_investment_amount: Number(amount),
-                                total_tokens_bought: Number(tokens),
-                            },
-                            $addToSet: { investors: user._id },
-                        },
-                        session
-                    );
+                    // await listingRepository.atomicUpdate(
+                    //     { _id: meta.listing_id },
+                    //     {
+                    //         $inc: {
+                    //             available_tokens: -Number(tokens),
+                    //             total_investments_made: 1,
+                    //             total_investment_amount: Number(amount),
+                    //             total_tokens_bought: Number(tokens),
+                    //         },
+                    //         $addToSet: { investors: user._id },
+                    //     },
+                    //     session
+                    // );
 
                     await userRepository.atomicUpdate(
                         user._id,
@@ -840,28 +663,19 @@ export const flutterwaveWebhook = async (
                         session
                     );
 
-                    const getPortfolio = await portfolioIsExist(
+                    const getpayment = await paymentIsExist(
                         req,
-                        meta.plan,
+                        meta.payment,
                         user
                     );
 
-                    if (!getPortfolio) {
+                    if (!getpayment) {
                         await session.abortTransaction();
-
-                        await discordMessageHelper(
-                            req,
-                            user_object,
-                            `This portfolio does not exist ❌`,
-                            DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                            DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                            "FLUTTERWAVE INVESTMENT TOPUP"
-                        );
 
                         return ResponseHandler.sendErrorResponse({
                             res,
                             code: HTTP_CODES.NOT_FOUND,
-                            error: "This portfolio does not exist",
+                            error: "This payment does not exist",
                         });
                     }
 
@@ -873,16 +687,6 @@ export const flutterwaveWebhook = async (
                     await session.commitTransaction();
                     await session.endSession();
 
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Hooray! Transaction successful ✅`,
-                        DISCORD_INVESTMENT_SUCCESS_DEVELOPMENT,
-                        DISCORD_INVESTMENT_SUCCESS_PRODUCTION,
-                        "PAYSTACK INVESTMENT TOPUP",
-                        { ...topUpPayload }
-                    );
-
                     return ResponseHandler.sendSuccessResponse({
                         res,
                         code: HTTP_CODES.OK,
@@ -890,16 +694,6 @@ export const flutterwaveWebhook = async (
                     });
                 } catch (error: unknown | any) {
                     await session.abortTransaction();
-
-                    await discordMessageHelper(
-                        req,
-                        user,
-                        `Your transactions have been canceled ❌`,
-                        DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                        DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                        "FLUTTERWAVE INVESTMENT TOPUP",
-                        error.message
-                    );
                     return ResponseHandler.sendErrorResponse({
                         res,
                         code: HTTP_CODES.INTERNAL_SERVER_ERROR,
@@ -925,16 +719,6 @@ export const flutterwaveWebhook = async (
             };
 
             await transactionRepository.create(failurePayload);
-
-            await discordMessageHelper(
-                req,
-                user_object,
-                `Your transactions have been canceled ❌`,
-                DISCORD_INVESTMENT_ERROR_DEVELOPMENT,
-                DISCORD_INVESTMENT_ERROR_PRODUCTION,
-                "FLUTTERWAVE INVESTMENT TOPUP",
-                failurePayload
-            );
 
             return ResponseHandler.sendErrorResponse({
                 res,

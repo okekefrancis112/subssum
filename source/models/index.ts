@@ -20,9 +20,9 @@ import { IBanksDocument } from "../interfaces/banks.interface";
 import { CardsSchema } from "./cards.model";
 import { ICardsDocument } from "../interfaces/cards.interface";
 
-// Plan
-import { PlanSchema } from "./plan.model";
-import { IPlanDocument } from "../interfaces/plan.interface";
+// payment
+import { PaymentSchema } from "./payment.model";
+import { IPaymentDocument } from "../interfaces/payment.interface";
 
 // Transaction
 import { TransactionSchema } from "./transaction.model";
@@ -35,10 +35,6 @@ import { ITransactionRefDocument } from "../interfaces/transaction_ref.interface
 // Webhook
 import { WebhookSchema } from "./webhook.model";
 import { IWebhookDocument } from "../interfaces/webhook.interface";
-
-// Investment
-import { InvestmentSchema } from "./investment.model";
-import { IInvestmentDocument } from "../interfaces/investment.interface";
 
 // Refer Wallet
 import { ReferWalletSchema } from "./refer-wallet.model";
@@ -71,10 +67,6 @@ import { IRoleDocument } from "../interfaces/role.interface";
 import { AdminUserchema } from "./admin-user.model";
 import { IAdminUserDocument } from "../interfaces/admin-user.interface";
 
-// Listings
-import { ListingSchema } from "./listing.model";
-import { IListingDocument } from "../interfaces/listing.interface";
-
 // Exchange Rate Model
 import { ExchangeRateSchema } from "./exchange-rate.model";
 import { IExchangeRateDocument } from "../interfaces/exchange-rate.interface";
@@ -82,7 +74,7 @@ import { IExchangeRateDocument } from "../interfaces/exchange-rate.interface";
 export const User = model<IUserDocument>("Users", UserSchema);
 export const Wallet = model<IWalletsDocument>("Wallets", WalletSchema);
 export const Otp = model<IOtpDocument>("Otps", OtpSchema);
-export const Plan = model<IPlanDocument>("Plans", PlanSchema);
+export const Payment = model<IPaymentDocument>("Payments", PaymentSchema);
 export const Transaction = model<ITransactionDocument>(
     "Transactions",
     TransactionSchema
@@ -91,12 +83,7 @@ export const TransactionRef = model<ITransactionRefDocument>(
     "TransactionRefs",
     TransactionRefSchema
 );
-export const Listing = model<IListingDocument>("Listings", ListingSchema);
 export const Webhook = model<IWebhookDocument>("Webhook", WebhookSchema);
-export const Investment = model<IInvestmentDocument>(
-    "Investments",
-    InvestmentSchema
-);
 export const Banks = model<IBanksDocument>("Banks", BanksSchema);
 export const Cards = model<ICardsDocument>("Cards", CardsSchema);
 export const Audit = model<IAuditDocument>("Audits", AuditSchema);

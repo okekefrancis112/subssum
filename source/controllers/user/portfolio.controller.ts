@@ -4,9 +4,9 @@
 // import ResponseHandler from "../../util/response-handler";
 // import { link, throwIfUndefined } from "../../util";
 // import userRepository from "../../repositories/user.repository";
-// import { IPortfolioStatus } from "../../interfaces/plan.interface";
+// import { IpaymentStatus } from "../../interfaces/payment.interface";
 // import { RATES } from "../../constants/rates.constant";
-// import planRepository from "../../repositories/portfolio.repository";
+// import paymentRepository from "../../repositories/payment.repository";
 // import { HTTP_CODES } from "../../constants/app_defaults.constant";
 
 // import { NotificationTaskJob } from "../../services/queues/producer.service";
@@ -15,7 +15,7 @@
 //     IAuditActivityStatus,
 //     IAuditActivityType,
 // } from "../../interfaces/audit.interface";
-// import { portfolioIsExist } from "../../validations/user/portfolio.validation";
+// import { paymentIsExist } from "../../validations/user/payment.validation";
 // import investmentRepository from "../../repositories/investment.repository";
 
 // import { IReinvest } from "../../interfaces/investment.interface";
@@ -27,9 +27,9 @@
 //     IExchangeRateDocument,
 // } from "../../interfaces/exchange-rate.interface";
 
-// // Pause Plan
-// // This function pauses a portfolio for a user
-// export async function pausePortfolio(
+// // Pause payment
+// // This function pauses a payment for a user
+// export async function pausepayment(
 //     req: ExpressRequest,
 //     res: Response
 // ): Promise<Response | void> {
@@ -46,28 +46,28 @@
 //             });
 //         }
 
-//         const plan = await portfolioIsExist(
+//         const payment = await paymentIsExist(
 //             req,
-//             new Types.ObjectId(req.params.portfolio_id),
+//             new Types.ObjectId(req.params.payment_id),
 //             user
 //         );
 
-//         if (!plan) {
+//         if (!payment) {
 //             return ResponseHandler.sendErrorResponse({
 //                 res,
 //                 code: HTTP_CODES.NOT_FOUND,
-//                 error: "Sorry, this plan does not exist.",
+//                 error: "Sorry, this payment does not exist.",
 //             });
 //         }
 
-//         const pause = await planRepository.atomicUpdate(plan._id, {
-//             $set: { plan_status: IPortfolioStatus.PAUSE },
+//         const pause = await paymentRepository.atomicUpdate(payment._id, {
+//             $set: { payment_status: IpaymentStatus.PAUSE },
 //         });
 
 //         if (pause) {
 //             await auditRepository.create({
 //                 req,
-//                 title: `Paused plan`,
+//                 title: `Paused payment`,
 //                 name: `${user.first_name} ${user.last_name}`,
 //                 activity_type: IAuditActivityType.ACCESS,
 //                 activity_status: IAuditActivityStatus.SUCCESS,
@@ -78,17 +78,17 @@
 //                 name: "User Notification",
 //                 data: {
 //                     user_id: user._id,
-//                     title: "Paused plan",
+//                     title: "Paused payment",
 //                     notification_category: INotificationCategory.INVESTMENT,
-//                     content: `Your recurring ${plan.plan_name} was paused.`,
-//                     action_link: `${link()}/invest/info/${plan._id}`,
+//                     content: `Your recurring ${payment.payment_name} was paused.`,
+//                     action_link: `${link()}/invest/info/${payment._id}`,
 //                 },
 //             });
 
 //             return ResponseHandler.sendSuccessResponse({
 //                 res,
 //                 code: HTTP_CODES.CREATED,
-//                 message: "Paused portfolio",
+//                 message: "Paused payment",
 //                 data: pause,
 //             });
 //         }
@@ -101,9 +101,9 @@
 //     }
 // }
 
-// // Resume Plan
-// // This function is used to resume a portfolio for a user
-// export async function resumePortfolio(
+// // Resume payment
+// // This function is used to resume a payment for a user
+// export async function resumepayment(
 //     req: ExpressRequest,
 //     res: Response
 // ): Promise<Response | void> {
@@ -120,28 +120,28 @@
 //             });
 //         }
 
-//         const plan = await portfolioIsExist(
+//         const payment = await paymentIsExist(
 //             req,
-//             new Types.ObjectId(req.params.portfolio_id),
+//             new Types.ObjectId(req.params.payment_id),
 //             user
 //         );
 
-//         if (!plan) {
+//         if (!payment) {
 //             return ResponseHandler.sendErrorResponse({
 //                 res,
 //                 code: HTTP_CODES.NOT_FOUND,
-//                 error: "Sorry, this plan does not exist.",
+//                 error: "Sorry, this payment does not exist.",
 //             });
 //         }
 
-//         const resume = await planRepository.atomicUpdate(plan._id, {
-//             $set: { plan_status: IPortfolioStatus.RESUME },
+//         const resume = await paymentRepository.atomicUpdate(payment._id, {
+//             $set: { payment_status: IpaymentStatus.RESUME },
 //         });
 
 //         if (resume) {
 //             await auditRepository.create({
 //                 req,
-//                 title: `Resumed plan`,
+//                 title: `Resumed payment`,
 //                 name: `${user.first_name} ${user.last_name}`,
 //                 activity_type: IAuditActivityType.ACCESS,
 //                 activity_status: IAuditActivityStatus.SUCCESS,
@@ -153,17 +153,17 @@
 //                 name: "User Notification",
 //                 data: {
 //                     user_id: user._id,
-//                     title: "Resumed plan",
+//                     title: "Resumed payment",
 //                     notification_category: INotificationCategory.INVESTMENT,
-//                     content: `You have resumed your recurring ${plan.plan_name} plan.`,
-//                     action_link: `${link()}/invest/info/${plan._id}`,
+//                     content: `You have resumed your recurring ${payment.payment_name} payment.`,
+//                     action_link: `${link()}/invest/info/${payment._id}`,
 //                 },
 //             });
 
 //             return ResponseHandler.sendSuccessResponse({
 //                 res,
 //                 code: HTTP_CODES.CREATED,
-//                 message: "Resumed portfolio",
+//                 message: "Resumed payment",
 //                 data: resume,
 //             });
 //         }
@@ -332,16 +332,16 @@
 //     }
 // }
 
-// // Edit Plan name
-// // This function is used to edit the plan name of a user
-// export async function editPortfolio(
+// // Edit payment name
+// // This function is used to edit the payment name of a user
+// export async function editpayment(
 //     req: ExpressRequest,
 //     res: Response
 // ): Promise<Response | void> {
 //     try {
 //         const auth = throwIfUndefined(req.user, "req.user");
 
-//         const { plan_name } = req.body;
+//         const { payment_name } = req.body;
 
 //         const user = await userRepository.getById({ _id: auth._id });
 
@@ -353,28 +353,28 @@
 //             });
 //         }
 
-//         const plan = await portfolioIsExist(
+//         const payment = await paymentIsExist(
 //             req,
-//             new Types.ObjectId(req.params.portfolio_id),
+//             new Types.ObjectId(req.params.payment_id),
 //             user
 //         );
 
-//         if (!plan) {
+//         if (!payment) {
 //             return ResponseHandler.sendErrorResponse({
 //                 res,
 //                 code: HTTP_CODES.NOT_FOUND,
-//                 error: "Sorry, this plan does not exist.",
+//                 error: "Sorry, this payment does not exist.",
 //             });
 //         }
 
-//         const update = await planRepository.atomicUpdate(plan._id, {
-//             $set: { plan_name: plan_name },
+//         const update = await paymentRepository.atomicUpdate(payment._id, {
+//             $set: { payment_name: payment_name },
 //         });
 
 //         if (update) {
 //             await auditRepository.create({
 //                 req,
-//                 title: `Changed plan name to ${update.plan_name}`,
+//                 title: `Changed payment name to ${update.payment_name}`,
 //                 name: `${user.first_name} ${user.last_name}`,
 //                 activity_type: IAuditActivityType.ACCESS,
 //                 activity_status: IAuditActivityStatus.SUCCESS,
@@ -384,7 +384,7 @@
 //             return ResponseHandler.sendSuccessResponse({
 //                 res,
 //                 code: HTTP_CODES.CREATED,
-//                 message: `Changed plan name to ${update.plan_name}`,
+//                 message: `Changed payment name to ${update.payment_name}`,
 //                 data: update,
 //             });
 //         }

@@ -2,7 +2,7 @@ import { flutterwaveApiClient } from "../integrations/flutterwaveApiClient";
 import { paystackApiClient } from "../integrations/paystackApiClient";
 import { ICardsDocument } from "../interfaces/cards.interface";
 import { ICurrency } from "../interfaces/exchange-rate.interface";
-import { IPortfolioOccurrence } from "../interfaces/plan.interface";
+import { IPaymentOccurrence } from "../interfaces/payment.interface";
 import { IPaymentGateway } from "../interfaces/transaction.interface";
 import { IUserDocument } from "../interfaces/user.interface";
 
@@ -16,12 +16,12 @@ export async function PaystackPayService({
     normal_amount,
     investment_category,
     investment_type,
-    plan_name,
+    payment_name,
     intervals,
-    plan_occurrence,
+    payment_occurrence,
     duration,
     listing_id,
-    plan,
+    payment,
     transaction_to,
     dollar_amount,
     exchange_rate_value,
@@ -39,12 +39,12 @@ export async function PaystackPayService({
     normal_amount: number;
     investment_category?: string;
     investment_type?: string;
-    plan_name?: string;
+    payment_name?: string;
     intervals?: string;
-    plan_occurrence?: string;
+    payment_occurrence?: string;
     duration?: number;
     listing_id?: string;
-    plan?: string;
+    payment?: string;
     transaction_to: string;
     dollar_amount: number;
     exchange_rate_value?: number;
@@ -62,12 +62,12 @@ export async function PaystackPayService({
             normal_amount,
             investment_category,
             investment_type,
-            plan_name,
+            payment_name,
             intervals,
-            plan_occurrence,
+            payment_occurrence,
             duration,
             listing_id,
-            plan,
+            payment,
             transaction_to,
             user_id: user._id,
             dollar_amount: dollar_amount,
@@ -78,9 +78,9 @@ export async function PaystackPayService({
             transaction_hash,
             payment_gateway: IPaymentGateway.PAYSTACK,
             chargeType:
-                plan_occurrence === IPortfolioOccurrence.RECURRING
-                    ? IPortfolioOccurrence.RECURRING
-                    : IPortfolioOccurrence.ONE_TIME_PAYMENT,
+                payment_occurrence === IPaymentOccurrence.RECURRING
+                    ? IPaymentOccurrence.RECURRING
+                    : IPaymentOccurrence.ONE_TIME_PAYMENT,
         },
         customerName: `${user?.first_name} ${user?.last_name}`,
     };
@@ -95,12 +95,12 @@ export async function PaystackPayService({
                       normal_amount,
                       investment_category,
                       investment_type,
-                      plan_name,
+                      payment_name,
                       intervals,
-                      plan_occurrence,
+                      payment_occurrence,
                       duration,
                       listing_id,
-                      plan,
+                      payment,
                       transaction_to,
                       user_id: user._id,
                       dollar_amount,
@@ -111,9 +111,9 @@ export async function PaystackPayService({
                       transaction_hash,
                       payment_gateway: IPaymentGateway.PAYSTACK,
                       chargeType:
-                          plan_occurrence === IPortfolioOccurrence.RECURRING
-                              ? IPortfolioOccurrence.RECURRING
-                              : IPortfolioOccurrence.ONE_TIME_PAYMENT,
+                          payment_occurrence === IPaymentOccurrence.RECURRING
+                              ? IPaymentOccurrence.RECURRING
+                              : IPaymentOccurrence.ONE_TIME_PAYMENT,
                   },
                   authorization_code: String(get_card?.authorization_code),
               })
@@ -141,11 +141,11 @@ export async function FlutterwavePayService({
     normal_amount,
     investment_category,
     investment_type,
-    plan_name,
+    payment_name,
     intervals,
-    plan_occurrence,
+    payment_occurrence,
     duration,
-    plan,
+    payment,
     listing_id,
     transaction_to,
     dollar_amount,
@@ -164,12 +164,12 @@ export async function FlutterwavePayService({
     normal_amount: number;
     investment_category?: string;
     investment_type?: string;
-    plan_name?: string;
+    payment_name?: string;
     intervals?: string;
-    plan_occurrence?: string;
+    payment_occurrence?: string;
     duration?: number;
     listing_id?: string;
-    plan?: string;
+    payment?: string;
     transaction_to: string;
     dollar_amount: number;
     exchange_rate_value?: number;
@@ -189,12 +189,12 @@ export async function FlutterwavePayService({
             normal_amount,
             investment_category,
             investment_type,
-            plan_name,
+            payment_name,
             channels: flutterwave_channel,
             intervals,
-            plan_occurrence,
+            payment_occurrence,
             listing_id,
-            plan,
+            payment,
             duration,
             transaction_to,
             user_id: user._id,
@@ -206,9 +206,9 @@ export async function FlutterwavePayService({
             transaction_hash,
             payment_gateway: IPaymentGateway.FLUTTERWAVE,
             chargeType:
-                plan_occurrence === IPortfolioOccurrence.RECURRING
-                    ? IPortfolioOccurrence.RECURRING
-                    : IPortfolioOccurrence.ONE_TIME_PAYMENT,
+                payment_occurrence === IPaymentOccurrence.RECURRING
+                    ? IPaymentOccurrence.RECURRING
+                    : IPaymentOccurrence.ONE_TIME_PAYMENT,
         },
         customer: {
             email: user?.email!,
@@ -234,12 +234,12 @@ export async function FlutterwavePayService({
                       normal_amount,
                       investment_category,
                       investment_type,
-                      plan_name,
+                      payment_name,
                       channels: flutterwave_channel,
                       intervals,
-                      plan_occurrence,
+                      payment_occurrence,
                       listing_id,
-                      plan,
+                      payment,
                       duration,
                       transaction_to,
                       exchange_rate_value,
@@ -251,9 +251,9 @@ export async function FlutterwavePayService({
                       transaction_hash,
                       payment_gateway: IPaymentGateway.FLUTTERWAVE,
                       chargeType:
-                          plan_occurrence === IPortfolioOccurrence.RECURRING
-                              ? IPortfolioOccurrence.RECURRING
-                              : IPortfolioOccurrence.ONE_TIME_PAYMENT,
+                          payment_occurrence === IPaymentOccurrence.RECURRING
+                              ? IPaymentOccurrence.RECURRING
+                              : IPaymentOccurrence.ONE_TIME_PAYMENT,
                   },
               })
             : await flutterwaveApiClient.initializeTransaction(payload),

@@ -10,11 +10,10 @@ import {
 } from "../../interfaces/audit.interface";
 import userRepository from "../../repositories/user.repository";
 import banksRepository from "../../repositories/banks.repository";
-import planRepository from "../../repositories/portfolio.repository";
-import { IPortfolioStatus } from "../../interfaces/plan.interface";
+import paymentRepository from "../../repositories/payment.repository";
+import { IPaymentStatus } from "../../interfaces/payment.interface";
 import walletRepository from "../../repositories/wallet.repository";
 import { HTTP_CODES } from "../../constants/app_defaults.constant";
-import investmentRepository from "../../repositories/investment.repository";
 import transactionRepository from "../../repositories/transaction.repository";
 
 export async function getUsers(
@@ -247,221 +246,6 @@ export async function getUserNextOfKinInfo(
     }
 }
 
-export async function getUserPlans(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    try {
-        const admin_user = throwIfAdminUserUndefined(
-            req.admin_user,
-            "req.admin_user"
-        );
-        const { user_id } = req.params;
-
-        if (!user_id) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: "User ID is required",
-            });
-        }
-
-        let totalInvestUSD: number = 0;
-        let totalPortfolioValue: number = 0;
-        let totalTokens: number = 0;
-        let totalAssets: number = 0;
-
-        const { data, pagination }: any = await planRepository.findV4(
-            req,
-            new Types.ObjectId(user_id)
-        );
-
-        if (data) {
-            data.forEach((e: any) => {
-                // Check if the plan category is investment
-                totalInvestUSD += Number(e.total_amount);
-                totalTokens += Number(e.no_tokens);
-                totalPortfolioValue += Number(e.current_value);
-                totalAssets += Number(e.assets);
-            });
-
-            // Audit
-            await auditRepository.create({
-                req,
-                title: "User plans info fetched successfully",
-                name: `${admin_user.first_name} ${admin_user.last_name}`,
-                activity_type: IAuditActivityType.ACCESS,
-                activity_status: IAuditActivityStatus.SUCCESS,
-                user: admin_user._id,
-            });
-
-            return ResponseHandler.sendSuccessResponse({
-                res,
-                code: HTTP_CODES.OK,
-                message: "User plans info fetched successfully",
-                data: {
-                    totalInvestUSD,
-                    accumulatedTokens: parseFloat(totalTokens.toFixed(3)),
-                    accumulatedPortfolioValue: parseFloat(
-                        totalPortfolioValue.toFixed(3)
-                    ),
-                    accumulatedPlans: pagination.total,
-                    totalAssets: parseFloat(totalAssets.toFixed(3)),
-                    data,
-                    pagination,
-                },
-            });
-        }
-    } catch (error) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: HTTP_CODES.INTERNAL_SERVER_ERROR,
-            error: `${error}`,
-        });
-    }
-}
-
-export async function exportUserPlans(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    try {
-        const { user_id } = req.params;
-        const users_data = await planRepository.findV4NoPagination(
-            req,
-            new Types.ObjectId(user_id)
-        );
-        const fields = [
-            "created_date",
-            "created_time",
-            "plan_name",
-            "plan_occurrence",
-            "investment_category",
-            "plan_status",
-            "assets",
-            "current_returns",
-            "current_value",
-            "no_tokens",
-            "total_amount",
-            "currency",
-            "holding_period",
-        ];
-
-        export2Csv(res, users_data, "users", fields);
-    } catch (error) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: 500,
-            error: `${error}`,
-        });
-    }
-}
-
-export async function getUserPlanInvestmentsDetails(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    try {
-        const admin_user = throwIfAdminUserUndefined(
-            req.admin_user,
-            "req.admin_user"
-        );
-        const { user_id, plan_id } = req.params;
-        let totalInvestUSD = 0;
-        let totalAssets = new Set();
-
-        if (!user_id) {
-            return ResponseHandler.sendErrorResponse({
-                res,
-                code: HTTP_CODES.BAD_REQUEST,
-                error: "User ID is required",
-            });
-        }
-
-        const plan = await planRepository.getOne(new Types.ObjectId(plan_id));
-        const { data, pagination } = await investmentRepository.findV5(
-            req,
-            new Types.ObjectId(user_id),
-            new Types.ObjectId(plan_id),
-            plan?.investment_category
-        );
-
-        if (data) {
-            data.forEach((e: any) => {
-                // Check if the plan category is investment
-                totalInvestUSD += Number(e.amount_invested);
-                totalAssets.add(e.name_of_asset);
-            });
-
-            // Audit
-            await auditRepository.create({
-                req,
-                title: "User plans info fetched",
-                name: `${admin_user.first_name} ${admin_user.last_name}`,
-                activity_type: IAuditActivityType.ACCESS,
-                activity_status: IAuditActivityStatus.SUCCESS,
-                user: admin_user._id,
-            });
-
-            return ResponseHandler.sendSuccessResponse({
-                res,
-                code: HTTP_CODES.OK,
-                message: "User plans info fetched",
-                data: {
-                    totalInvestUSD,
-                    totalAssets: totalAssets.size,
-                    data,
-                    pagination,
-                },
-            });
-        }
-    } catch (error) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: HTTP_CODES.INTERNAL_SERVER_ERROR,
-            error: `${error}`,
-        });
-    }
-}
-
-export async function exportUserPlanInvestmentsDetails(
-    req: ExpressRequest,
-    res: Response
-): Promise<Response | void> {
-    try {
-        const { user_id, plan_id } = req.params;
-        const plan = await planRepository.getOne(new Types.ObjectId(plan_id));
-        const users_data = await investmentRepository.findV5NoPagination(
-            req,
-            new Types.ObjectId(user_id),
-            new Types.ObjectId(plan_id),
-            plan?.investment_category
-        );
-        const fields = [
-            "plan_name",
-            "start_date",
-            "start_time",
-            "name_of_asset",
-            "amount_invested",
-            "currency",
-            "current_returns",
-            "cash_dividends",
-            "current_value",
-            "expected_payout",
-            "maturity_date",
-            "maturity_time",
-        ];
-
-        export2Csv(res, users_data, "users", fields);
-    } catch (error) {
-        return ResponseHandler.sendErrorResponse({
-            res,
-            code: 500,
-            error: `${error}`,
-        });
-    }
-}
-
 export async function getUserWalletDetails(
     req: ExpressRequest,
     res: Response
@@ -495,7 +279,7 @@ export async function getUserWalletDetails(
             // Audit
             await auditRepository.create({
                 req,
-                title: "User plans info fetched",
+                title: "User payments info fetched",
                 name: `${admin_user.first_name} ${admin_user.last_name}`,
                 activity_type: IAuditActivityType.ACCESS,
                 activity_status: IAuditActivityStatus.SUCCESS,
@@ -505,7 +289,7 @@ export async function getUserWalletDetails(
             return ResponseHandler.sendSuccessResponse({
                 res,
                 code: HTTP_CODES.OK,
-                message: "User plans info fetched",
+                message: "User payments info fetched",
                 data: {
                     totalWalletBalance:
                         Math.floor(wallet_balance?.balance! * 100) / 100 || 0,
@@ -651,12 +435,12 @@ export async function hardDeleteUser(
             });
         }
 
-        const check_portfolio = await planRepository.getAllUserPlans({
+        const check_payment = await paymentRepository.getAllUserpayments({
             user_id: get_user._id,
-            plan_status: { $ne: IPortfolioStatus.COMPLETE },
+            payment_status: { $ne: IPaymentStatus.COMPLETE },
         });
 
-        if (check_portfolio.length > 0) {
+        if (check_payment.length > 0) {
             return ResponseHandler.sendErrorResponse({
                 res,
                 code: HTTP_CODES.BAD_REQUEST,

@@ -89,7 +89,7 @@ export enum IChargeType {
 
 //enum of entity references
 export enum IEntityReference {
-    PLANS = "plans",
+    paymentS = "payments",
     SAVINGS = "savings",
     SAVINGS_CHALLENGE = "savings-challenge",
     INVESTMENTS = "investments",

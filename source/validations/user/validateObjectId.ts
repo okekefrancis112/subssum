@@ -8,7 +8,7 @@ const validateObjectId = function (
     res: Response,
     next: NextFunction
 ) {
-    if (!mongoose.Types.ObjectId.isValid(req.params.plan_id))
+    if (!mongoose.Types.ObjectId.isValid(req.params.payment_id))
         return ResponseHandler.sendErrorResponse({
             res,
             code: HTTP_CODES.NOT_FOUND,
@@ -18,16 +18,16 @@ const validateObjectId = function (
     next();
 };
 
-const validatePortfolioObjectId = function (
+const validatepaymentObjectId = function (
     req: Request,
     res: Response,
     next: NextFunction
 ) {
-    if (!mongoose.Types.ObjectId.isValid(req.params.portfolio_id))
+    if (!mongoose.Types.ObjectId.isValid(req.params.payment_id))
         return ResponseHandler.sendErrorResponse({
             res,
             code: HTTP_CODES.NOT_FOUND,
-            error: "Invalid Portfolio ID",
+            error: "Invalid payment ID",
         });
 
     next();
@@ -51,5 +51,5 @@ const validateInvestObjectId = function (
 export default {
     validateObjectId,
     validateInvestObjectId,
-    validatePortfolioObjectId,
+    validatepaymentObjectId,
 };
